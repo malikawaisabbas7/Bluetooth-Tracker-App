@@ -82,3 +82,12 @@ BLE sightings and their associated phone locations stay on the device. When usin
 GitHub issues are public. Leave out purchase tokens, personal details, Bluetooth addresses, and location history.
 
 To enable in-app email support, build with `-PsupportEmail=YOUR-PUBLIC-SUPPORT-ADDRESS` and update the privacy policy with that contact and the actual retention practice.
+
+## Release checklist
+
+The Android 10 device check confirmed a complete filtered BLE scan with the display off. A separate test on that phone confirmed that simulated sightings triggered a notification, applied the cooldown, excluded out-of-window observations, and handled the **Ignore** action. End-to-end detection with a physical tracker and live Google Play purchases still need testing.
+
+1. **Confirm the Play listing and signing setup.** Match the app ID and version code to the intended Play listing. Generate a signed release Android App Bundle using your upload key and configure [Play App Signing](https://support.google.com/googleplay/android-developer/answer/9842756). Keep signing keys and credentials outside the repository.
+2. **Configure billing if offering subscriptions.** Confirm what premium access provides, then deploy the verifier, configure the active product and base plan in Play Console, and build with the HTTPS verifier URL. Validate purchase, cancellation, and restoration on an internal test track. Builds without a verifier URL leave checkout disabled.
+3. **Complete the store listing and App content declarations.** Choose an [app icon](Assets/Play%20Store/Icons), a [feature graphic](Assets/Play%20Store/Feature%20Graphics), and [screenshots](Assets/Play%20Store/Screenshots). Complete Data safety and any applicable permission and foreground-service declarations. Use a [public, non-editable privacy policy webpage](https://support.google.com/googleplay/android-developer/answer/9859455) in the Play listing and app. The [Markdown policy](docs/privacy-policy.md) is maintained here, with GitHub Pages disabled.
+4. **Test and submit through Play Console.** Install the signed build through an internal test track, check alerts with a supported physical tracker, and complete any account-specific closed testing requirements shown in your dashboard. Then [submit the production release for review](https://support.google.com/googleplay/android-developer/answer/9859348).
