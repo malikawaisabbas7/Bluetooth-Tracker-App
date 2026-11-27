@@ -11,7 +11,7 @@ object Constants {
     const val VERY_NEAR_BELOW_M = 1.5
     const val NEAR_BELOW_M = 5.0
 
-    const val PRIVACY_URL = "https://github.com/malikawaisabbas7/Bluetooth-Tracker-App/blob/main/docs/privacy-policy.html"
+    const val PRIVACY_URL = "https://github.com/malikawaisabbas7/Bluetooth-Tracker-App/blob/main/docs/privacy-policy.md"
     const val TERMS_URL = "https://play.google.com/about/play-terms/"
 
     // These IDs must exactly match your activated Google Play subscription/base plan.
