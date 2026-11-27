@@ -32,7 +32,6 @@ class SettingsRepository @Inject constructor(
         val BACKGROUND = booleanPreferencesKey("background_tracking")
         val UNIT = stringPreferencesKey("unit")
         val SCAN_MS = longPreferencesKey("scan_duration_ms")
-        val PREMIUM = booleanPreferencesKey("is_premium")
         val APP_THEME = stringPreferencesKey("app_theme")
         val LANGUAGE_TAG = stringPreferencesKey("language_tag")
         val LANGUAGE_SELECTED = booleanPreferencesKey("language_selected")
@@ -42,7 +41,6 @@ class SettingsRepository @Inject constructor(
     /**
      * Existing installed users who already have saved Room data or user-configured
      * settings should not be forced back through first-launch language/onboarding setup.
-     * Note: Keys.PREMIUM is excluded because BillingManager.syncPurchases() writes it on launch.
      */
     private fun isExistingInstallation(prefs: Preferences): Boolean {
         val hasLegacySettings = prefs.contains(Keys.BACKGROUND) ||
@@ -65,7 +63,6 @@ class SettingsRepository @Inject constructor(
             scanDurationMs = prefs[Keys.SCAN_MS]
                 ?: Constants.DEFAULT_SCAN_DURATION_MS,
 
-            isPremium = prefs[Keys.PREMIUM] ?: false,
 
             appTheme = prefs[Keys.APP_THEME]
                 ?.let { runCatching { AppTheme.valueOf(it) }.getOrNull() }
@@ -94,12 +91,6 @@ class SettingsRepository @Inject constructor(
     suspend fun setScanDuration(ms: Long) {
         context.dataStore.edit {
             it[Keys.SCAN_MS] = ms
-        }
-    }
-
-    suspend fun setPremium(premium: Boolean) {
-        context.dataStore.edit {
-            it[Keys.PREMIUM] = premium
         }
     }
 

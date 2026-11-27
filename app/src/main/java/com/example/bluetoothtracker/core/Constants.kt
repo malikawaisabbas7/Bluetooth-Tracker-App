@@ -1,8 +1,7 @@
 package com.example.bluetoothtracker.core
 
 object Constants {
-    // Replace these placeholders with your real support email and hosted legal pages before release.
-    const val SUPPORT_EMAIL = "your-support-email@example.com"
+    const val SUPPORT_URL = "https://github.com/malikawaisabbas7/Bluetooth-Tracker-App/issues/new"
     const val DEFAULT_SCAN_DURATION_MS = 25_000L
     const val DETAIL_SCAN_DURATION_MS = 5 * 60_000L
     const val SPLASH_DURATION_MS = 3_600L
@@ -12,8 +11,8 @@ object Constants {
     const val VERY_NEAR_BELOW_M = 1.5
     const val NEAR_BELOW_M = 5.0
 
-    const val PRIVACY_URL = "https://example.com/privacy"
-    const val TERMS_URL = "https://example.com/terms"
+    const val PRIVACY_URL = "https://malikawaisabbas7.github.io/Bluetooth-Tracker-App/privacy-policy.html"
+    const val TERMS_URL = "https://play.google.com/about/play-terms/"
 
     // These IDs must exactly match your activated Google Play subscription/base plan.
     const val PRODUCT_ID_PREMIUM = "premium_weekly"

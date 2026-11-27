@@ -209,6 +209,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
+        (application as? App)?.refreshBillingOnResume()
         ThemeTransitionDebug.log(this, "MainActivity#${System.identityHashCode(this)} onResume")
     }
 

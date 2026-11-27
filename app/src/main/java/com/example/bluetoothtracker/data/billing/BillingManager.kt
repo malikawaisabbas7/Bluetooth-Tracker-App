@@ -4,7 +4,6 @@ import android.app.Activity
 import android.content.Context
 import android.content.pm.ApplicationInfo
 import android.util.Log
-import com.android.billingclient.api.AcknowledgePurchaseParams
 import com.android.billingclient.api.BillingClient
 import com.android.billingclient.api.BillingClientStateListener
 import com.android.billingclient.api.BillingFlowParams
@@ -15,13 +14,13 @@ import com.android.billingclient.api.Purchase
 import com.android.billingclient.api.PurchasesUpdatedListener
 import com.android.billingclient.api.QueryProductDetailsParams
 import com.android.billingclient.api.QueryPurchasesParams
-import com.android.billingclient.api.acknowledgePurchase
 import com.android.billingclient.api.queryProductDetails
 import com.android.billingclient.api.queryPurchasesAsync
 import com.example.bluetoothtracker.R
 import com.example.bluetoothtracker.core.Constants
-import com.example.bluetoothtracker.data.settings.SettingsRepository
 import dagger.hilt.android.qualifiers.ApplicationContext
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -32,7 +31,6 @@ import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
@@ -42,23 +40,17 @@ import javax.inject.Inject
 import javax.inject.Singleton
 import kotlin.coroutines.resume
 
-/**
- * Google Play subscription integration.
- * IMPORTANT: This is a CLIENT-SIDE TEST IMPLEMENTATION, not a secure production
- * entitlement verifier. Before release, verify purchase tokens on your backend
- * using Google Play Developer API and derive premium access from that backend.
- */
+/** Google Play checkout and server-verified subscription access. */
 @Singleton
 class BillingManager @Inject constructor(
-    @ApplicationContext context: Context,
-    private val settings: SettingsRepository
+    @ApplicationContext context: Context
 ) : PurchasesUpdatedListener {
 
     private val appContext = context.applicationContext
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
     private val connectionMutex = Mutex()
     private val refreshMutex = Mutex()
-    private val purchaseMutex = Mutex()
+    private var expiryJob: Job? = null
     private var refreshJob: Job? = null
 
     private val client = BillingClient.newBuilder(context)
@@ -93,12 +85,12 @@ class BillingManager @Inject constructor(
         refreshJob = scope.launch {
             refreshMutex.withLock {
                 val showLoading = force || _offer.value == null
-                if (showLoading) {
-                    _isLoading.value = true
+                _isLoading.value = true
+                if (showLoading && _uiState.value !is PremiumUiState.Active) {
                     updateUiState(PremiumUiState.Loading)
                 }
                 try {
-                    val connected = connect()
+                    val connected = BillingVerifier.isConfigured && connect()
                     if (!connected) {
                         clearOffer()
                         updateUiState(PremiumUiState.Error(R.string.billing_unavailable))
@@ -107,6 +99,8 @@ class BillingManager @Inject constructor(
                     }
                     loadProduct()
                     syncPurchases()
+                } catch (e: CancellationException) {
+                    throw e
                 } catch (e: Exception) {
                     logDebug("refreshAsync exception=${e::class.simpleName}")
                     clearOffer()
@@ -230,10 +224,10 @@ class BillingManager @Inject constructor(
     }
 
     fun launchPurchase(activity: Activity) {
-        if (purchaseFlowLaunching) return
+        if (purchaseFlowLaunching || _uiState.value !is PremiumUiState.ProductAvailable) return
         val details = productDetails
         val token = offerToken
-        if (!client.isReady || details == null || token == null || _isLoading.value) {
+        if (!BillingVerifier.isConfigured || !client.isReady || details == null || token == null || _isLoading.value) {
             _messages.tryEmit(R.string.billing_unavailable)
             refreshAsync()
             return
@@ -260,7 +254,11 @@ class BillingManager @Inject constructor(
         }
         if (result.responseCode != BillingClient.BillingResponseCode.OK) {
             purchaseFlowLaunching = false
-            _messages.tryEmit(R.string.billing_unavailable)
+            if (result.responseCode == BillingClient.BillingResponseCode.ITEM_ALREADY_OWNED) {
+                refreshAsync()
+            } else {
+                _messages.tryEmit(R.string.billing_unavailable)
+            }
         }
     }
 
@@ -268,50 +266,29 @@ class BillingManager @Inject constructor(
         purchaseFlowLaunching = false
         when (result.responseCode) {
             BillingClient.BillingResponseCode.OK -> scope.launch {
-                val successful = purchases.orEmpty().any { handle(it) }
-                if (successful) _messages.tryEmit(R.string.purchase_success)
-                // Refresh to reconcile the currently owned subscriptions.
-                refreshAsync()
+                refreshMutex.withLock {
+                    try {
+                        val candidates = purchases.orEmpty()
+                        if (candidates.isEmpty()) {
+                            syncPurchases()
+                        } else {
+                            reconcile(candidates)
+                        }
+                        if (_uiState.value is PremiumUiState.Active) {
+                            _messages.tryEmit(R.string.purchase_success)
+                        }
+                    } catch (e: CancellationException) {
+                        throw e
+                    } catch (_: Exception) {
+                        updateUiState(PremiumUiState.Error(R.string.billing_unavailable))
+                        _messages.tryEmit(R.string.billing_unavailable)
+                    }
+                }
             }
             BillingClient.BillingResponseCode.USER_CANCELED -> Unit
+            BillingClient.BillingResponseCode.ITEM_ALREADY_OWNED -> refreshAsync()
             else -> _messages.tryEmit(R.string.purchase_failed)
         }
-    }
-
-    /**
-     * Returns true only when a matching PURCHASED subscription was processed.
-     * Local entitlement is for internal testing only; replace with backend verification.
-     */
-    private suspend fun handle(purchase: Purchase): Boolean = purchaseMutex.withLock {
-        if (Constants.PRODUCT_ID_PREMIUM !in purchase.products) return@withLock false
-        if (purchase.purchaseState == Purchase.PurchaseState.PENDING) {
-            logDebug("handle: purchase pending")
-            updateUiState(PremiumUiState.PurchasePending)
-            return@withLock false
-        }
-        if (purchase.purchaseState != Purchase.PurchaseState.PURCHASED) {
-            return@withLock false
-        }
-
-        // PRODUCTION TODO: Send purchase.purchaseToken to a trusted backend, verify
-        // package/product/subscription state, and grant entitlement server-side.
-        // Do not put a Google Play Developer API service-account key in the APK.
-        if (!purchase.isAcknowledged) {
-            val result = client.acknowledgePurchase(
-                AcknowledgePurchaseParams.newBuilder()
-                    .setPurchaseToken(purchase.purchaseToken)
-                    .build()
-            )
-            if (result.responseCode != BillingClient.BillingResponseCode.OK) {
-                logDebug("acknowledgePurchase failed code=${result.responseCode}")
-                _messages.tryEmit(R.string.purchase_failed)
-                return@withLock false
-            }
-        }
-        // Temporary client-side entitlement for development / license testing only.
-        settings.setPremium(true)
-        updateUiState(PremiumUiState.Active(_offer.value))
-        true
     }
 
     private suspend fun syncPurchases() {
@@ -322,30 +299,50 @@ class BillingManager @Inject constructor(
                     .build()
             )
         }
-        if (response == null || response.billingResult.responseCode != BillingClient.BillingResponseCode.OK) {
-            logDebug("syncPurchases skipped code=${response?.billingResult?.responseCode}")
-            // Never revoke on a network/service error.
-            return
+        check(response?.billingResult?.responseCode == BillingClient.BillingResponseCode.OK) {
+            "Could not query Play purchases"
         }
-        val matching = response.purchasesList.filter {
-            Constants.PRODUCT_ID_PREMIUM in it.products
-        }
-        logDebug("syncPurchases matchingCount=${matching.size}")
-        if (matching.any { it.purchaseState == Purchase.PurchaseState.PENDING }) {
-            updateUiState(PremiumUiState.PurchasePending)
-            return
-        }
-        val purchased = matching.filter { it.purchaseState == Purchase.PurchaseState.PURCHASED }
-        if (purchased.isEmpty()) {
-            if (settings.settings.first().isPremium) {
-                settings.setPremium(false)
+        reconcile(checkNotNull(response).purchasesList)
+    }
+
+    private suspend fun reconcile(purchases: List<Purchase>) {
+        val matching = purchases.filter { Constants.PRODUCT_ID_PREMIUM in it.products }
+        var validUntil: Long? = null
+        var verificationUnavailable = false
+        for (purchase in matching.filter { it.purchaseState == Purchase.PurchaseState.PURCHASED }) {
+            val verifiedUntil = try {
+                BillingVerifier.verify(purchase.purchaseToken)
+            } catch (e: CancellationException) {
+                throw e
+            } catch (_: Exception) {
+                verificationUnavailable = true
+                null
             }
-            return
+            if (verifiedUntil != null) {
+                validUntil = maxOf(validUntil ?: 0L, verifiedUntil)
+            }
         }
-        val processed = purchased.map { handle(it) }
-        if (processed.none { it }) {
-            // Acknowledgment/verification failed; do not grant entitlement.
-            settings.setPremium(false)
+        expiryJob?.cancel()
+        val expiry = validUntil?.takeIf { it > System.currentTimeMillis() }
+        when {
+            expiry != null -> {
+                updateUiState(PremiumUiState.Active(_offer.value))
+                expiryJob = scope.launch {
+                    delay((expiry - System.currentTimeMillis()).coerceAtLeast(0L))
+                    if (_uiState.value is PremiumUiState.Active) {
+                        updateUiState(PremiumUiState.Loading)
+                        refreshAsync(force = true)
+                    }
+                }
+            }
+            verificationUnavailable || matching.any {
+                it.purchaseState == Purchase.PurchaseState.PURCHASED
+            } -> updateUiState(PremiumUiState.Error(R.string.billing_unavailable))
+            matching.any { it.purchaseState == Purchase.PurchaseState.PENDING } ->
+                updateUiState(PremiumUiState.PurchasePending)
+            _offer.value != null -> updateUiState(PremiumUiState.ProductAvailable(checkNotNull(_offer.value)))
+            _uiState.value is PremiumUiState.Active || _uiState.value is PremiumUiState.PurchasePending ->
+                updateUiState(PremiumUiState.ProductUnavailable)
         }
     }
 

@@ -3,7 +3,6 @@ package com.example.bluetoothtracker.ui.support
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
-import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
@@ -12,7 +11,7 @@ import androidx.core.widget.doAfterTextChanged
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.bluetoothtracker.R
-import com.example.bluetoothtracker.core.Constants
+import com.example.bluetoothtracker.BuildConfig
 import com.example.bluetoothtracker.databinding.FragmentSupportBinding
 import com.google.android.material.color.MaterialColors
 
@@ -94,10 +93,8 @@ class SupportFragment : Fragment(R.layout.fragment_support) {
             return
         }
 
-        val body =
-            "$message\n\n---\nDevice: " +
-                    "${Build.MANUFACTURER} ${Build.MODEL}, " +
-                    "Android ${Build.VERSION.RELEASE}"
+        val mailbox = BuildConfig.SUPPORT_EMAIL
+        if (mailbox.isEmpty()) return
 
         val intent = Intent(Intent.ACTION_SENDTO).apply {
 
@@ -105,7 +102,7 @@ class SupportFragment : Fragment(R.layout.fragment_support) {
 
             putExtra(
                 Intent.EXTRA_EMAIL,
-                arrayOf(Constants.SUPPORT_EMAIL)
+                arrayOf(mailbox)
             )
 
             putExtra(
@@ -115,7 +112,7 @@ class SupportFragment : Fragment(R.layout.fragment_support) {
 
             putExtra(
                 Intent.EXTRA_TEXT,
-                body
+                message
             )
         }
 

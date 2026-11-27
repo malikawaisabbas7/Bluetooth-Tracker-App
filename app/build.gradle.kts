@@ -6,6 +6,16 @@ plugins {
     id("androidx.navigation.safeargs.kotlin")
 }
 
+val billingVerificationUrl = providers.gradleProperty("billingVerificationUrl").orElse("").get()
+val supportEmail = providers.gradleProperty("supportEmail").orElse("").get()
+require(billingVerificationUrl.isEmpty() ||
+    Regex("https://[A-Za-z0-9.-]+(?::[0-9]+)?/verify").matches(billingVerificationUrl)) {
+    "billingVerificationUrl must be an HTTPS endpoint ending in /verify"
+}
+require(supportEmail.isEmpty() || Regex("[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}").matches(supportEmail)) {
+    "supportEmail must be a public support mailbox"
+}
+
 android {
     namespace = "com.example.bluetoothtracker"
     compileSdk = 36
@@ -18,6 +28,8 @@ android {
         versionName = "1.0"
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "BILLING_VERIFICATION_URL", "\"$billingVerificationUrl\"")
+        buildConfigField("String", "SUPPORT_EMAIL", "\"$supportEmail\"")
     }
 
     sourceSets {
@@ -47,6 +59,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 
     compileOptions {

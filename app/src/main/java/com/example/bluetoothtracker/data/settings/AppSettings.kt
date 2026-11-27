@@ -10,7 +10,6 @@ data class AppSettings(
     val backgroundTracking: Boolean = false,
     val unit: DistanceUnit = DistanceUnit.METER,
     val scanDurationMs: Long = Constants.DEFAULT_SCAN_DURATION_MS,
-    val isPremium: Boolean = false,
     val appTheme: AppTheme = AppTheme.BLUE,
     val languageTag: String = AppLanguage.DEFAULT.tag,
     val languageSelected: Boolean = false,

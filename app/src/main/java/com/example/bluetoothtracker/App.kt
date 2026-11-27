@@ -64,6 +64,12 @@ class App : Application() {
         }
     }
 
+    fun refreshBillingOnResume() {
+        if (billingRefreshed.get()) {
+            billingManager.get().refreshAsync()
+        }
+    }
+
     companion object {
         @Volatile
         var processAttachElapsedMs: Long = 0L

@@ -4,6 +4,7 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.bluetoothtracker.data.settings.AppSettings
+import com.example.bluetoothtracker.data.billing.BillingManager
 import com.example.bluetoothtracker.data.settings.SettingsRepository
 import com.example.bluetoothtracker.domain.model.AppTheme
 import com.example.bluetoothtracker.domain.model.DistanceUnit
@@ -28,8 +29,11 @@ enum class TrackingActivationState {
 @HiltViewModel
 class SettingsViewModel @Inject constructor(
     private val savedStateHandle: SavedStateHandle,
-    private val repository: SettingsRepository
+    private val repository: SettingsRepository,
+    billing: BillingManager
 ) : ViewModel() {
+
+    val billingState = billing.uiState
 
     val settings: StateFlow<AppSettings> = repository.settings
         .stateIn(

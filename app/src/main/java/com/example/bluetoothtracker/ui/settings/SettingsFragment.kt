@@ -35,6 +35,8 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
 import com.example.bluetoothtracker.R
 import com.example.bluetoothtracker.core.Constants
+import com.example.bluetoothtracker.BuildConfig
+import com.example.bluetoothtracker.data.billing.PremiumUiState
 import com.example.bluetoothtracker.core.LocaleHelper
 import com.example.bluetoothtracker.core.PermissionHelper
 import com.example.bluetoothtracker.core.ThemeTransitionDebug
@@ -186,6 +188,16 @@ class SettingsFragment : Fragment(R.layout.fragment_settings) {
                     }
                 }
                 launch {
+                    viewModel.billingState.collect { state ->
+                        binding.rowRemoveAds.visibility =
+                            if (state is PremiumUiState.Active) {
+                                View.GONE
+                            } else {
+                                View.VISIBLE
+                            }
+                    }
+                }
+                launch {
                     TrackingService.isRunning.collect { running ->
                         if (running && activationState == TrackingActivationState.STARTING) {
                             activationState = TrackingActivationState.ON
@@ -248,9 +260,18 @@ class SettingsFragment : Fragment(R.layout.fragment_settings) {
         }
 
         rowSupport.setOnClickListener {
-            findNavController().navigate(
-                R.id.action_settings_to_support
-            )
+            if (BuildConfig.SUPPORT_EMAIL.isNotEmpty()) {
+                findNavController().navigate(R.id.action_settings_to_support)
+            } else {
+                AlertDialog.Builder(requireContext())
+                    .setTitle(R.string.customer_support)
+                    .setMessage(R.string.support_public_issue_notice)
+                    .setPositiveButton(R.string.support_open_issue) { _, _ ->
+                        context?.openLink(Constants.SUPPORT_URL)
+                    }
+                    .setNegativeButton(android.R.string.cancel, null)
+                    .show()
+            }
         }
 
         rowRate.setOnClickListener {
@@ -265,6 +286,7 @@ class SettingsFragment : Fragment(R.layout.fragment_settings) {
             requireContext().openLink(Constants.PRIVACY_URL)
         }
 
+        rowTerms.contentDescription = getString(R.string.google_play_terms)
         rowTerms.setOnClickListener {
             requireContext().openLink(Constants.TERMS_URL)
         }
@@ -434,8 +456,6 @@ class SettingsFragment : Fragment(R.layout.fragment_settings) {
         }
 
         settingsLoaded = true
-
-        rowRemoveAds.visibility = if (settings.isPremium) View.GONE else View.VISIBLE
 
         renderTrackingToggle(settings.backgroundTracking, TrackingService.isRunning.value)
 

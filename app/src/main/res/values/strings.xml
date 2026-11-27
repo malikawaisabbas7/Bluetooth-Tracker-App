@@ -55,6 +55,9 @@
     <string name="rate_us">Rate Us</string>
     <string name="share">Share</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="google_play_terms">Google Play Terms</string>
+    <string name="support_public_issue_notice">GitHub issues are public. Leave out private information, device addresses, location history, and purchase details.</string>
+    <string name="support_open_issue">Open GitHub</string>
     <string name="terms_of_service">Terms Of Service</string>
     <string name="instructions_dialog_title">Instruction</string>
     <string name="tracking_permission_needed">Bluetooth, location and notification permissions are needed for background tracking.</string>
