@@ -21,6 +21,9 @@ import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
 
 private const val BOND_BONDED = 12 // BluetoothDevice.BOND_BONDED
@@ -44,10 +47,7 @@ class DeviceDetailViewModel @Inject constructor(
 
     private val smoother = RssiSmoother(size = 5)
     private var lastSampleAt = 0L
-    private var startedScan = false
-
-    /** Ticks every second so "Out of range" appears even when no new advertisements arrive. */
-
+    private var ownedScan: Job? = null
 
     private var lastAverageRssi = 0.0
 
@@ -67,17 +67,25 @@ class DeviceDetailViewModel @Inject constructor(
 
     val scanErrors = scanManager.errors
 
+    private val clock = flow {
+        while (true) {
+            emit(System.currentTimeMillis())
+            delay(1_000)
+        }
+    }
+
     val state: StateFlow<DeviceDetailUiState?> = combine(
         deviceWithAverage,
         repository.observeSightings(mac),
-        unitFlow
-    ) { pair, sightings, unit ->
+        unitFlow,
+        clock
+    ) { pair, sightings, unit, now ->
         val (device, avgRssi) = pair
         val meters = DistanceCalculator.estimateMeters(avgRssi)
         val level = DistanceCalculator.levelFor(meters)
         val category = runCatching { DeviceCategory.valueOf(device.category) }
             .getOrDefault(DeviceCategory.BLUETOOTH_DEVICE)
-        val encounterSummary = EncounterAnalyzer.analyze(device, sightings)
+        val encounterSummary = EncounterAnalyzer.analyze(device, sightings, now)
         DeviceDetailUiState(
             name = device.name,
             mac = device.mac,
@@ -89,6 +97,7 @@ class DeviceDetailViewModel @Inject constructor(
             category = category,
             isIgnored = device.isIgnored,
             distanceMeters = meters,
+            hasFreshSignal = now - device.lastSeenAt <= Constants.STALE_AFTER_MS,
             level = level,
             unit = unit,
             encounterSummary = encounterSummary,
@@ -104,17 +113,15 @@ class DeviceDetailViewModel @Inject constructor(
 
     /** Keep advertisements flowing while this screen is visible. */
     fun acquireScan() {
-        if (!startedScan && scanManager.start(Constants.DETAIL_SCAN_DURATION_MS, newSession = false)) {
-            startedScan = true
+        if (ownedScan?.isActive != true) {
+            ownedScan = scanManager.start(Constants.DETAIL_SCAN_DURATION_MS, newSession = false)
         }
     }
 
     /** Stop only a scan this screen started itself. */
     fun releaseScan() {
-        if (startedScan) {
-            scanManager.stop()
-            startedScan = false
-        }
+        ownedScan?.cancel()
+        ownedScan = null
     }
 
     override fun onCleared() {

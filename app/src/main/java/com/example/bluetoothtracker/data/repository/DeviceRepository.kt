@@ -86,10 +86,11 @@ class DeviceRepository @Inject constructor(
     suspend fun setIgnored(mac: String, ignored: Boolean) = deviceDao.setIgnored(mac, ignored)
 
     /** Trackers that have been around you for a long time (see Constants.FOLLOW_*). */
-    suspend fun findFollowingTrackers(now: Long): List<DeviceEntity> = deviceDao.findFollowing(
+    private suspend fun findFollowingTrackers(now: Long): List<DeviceEntity> = deviceDao.findFollowing(
         since = now - Constants.FOLLOW_WINDOW_MS,
         minSpan = Constants.FOLLOW_MIN_SPAN_MS,
-        recent = now - Constants.FOLLOW_RECENT_MS
+        recent = now - Constants.FOLLOW_RECENT_MS,
+        now = now
     )
 
     /**
@@ -98,8 +99,9 @@ class DeviceRepository @Inject constructor(
      */
     suspend fun findSuspiciousTrackers(now: Long): List<Pair<DeviceEntity, EncounterSummary>> =
         findFollowingTrackers(now).mapNotNull { device ->
-            val sightings = sightingDao.getForDeviceOnce(device.mac)
-            val summary = EncounterAnalyzer.analyze(device, sightings, now)
+            val sightings = sightingDao.getInWindow(device.mac, now - Constants.FOLLOW_WINDOW_MS, now)
+            val firstSeen = sightings.minOfOrNull { it.timestamp } ?: return@mapNotNull null
+            val summary = EncounterAnalyzer.analyze(device.copy(firstSeenAt = firstSeen), sightings, now)
             if (summary.warningLevel == TrackingWarningLevel.POTENTIAL_UNWANTED_TRACKING) {
                 device to summary
             } else {

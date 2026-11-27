@@ -166,6 +166,7 @@ class DeviceDetailFragment : Fragment(R.layout.fragment_device_detail) {
         // Color the inner circle and outer border by distance: Far = Green, Near = Orange, Very Near = Red.
 
         val (mainColorRes, lightColorRes) = when {
+            !state.hasFreshSignal -> R.color.grey to R.color.grey_light
             state.distanceMeters < 3.5 ->
                 R.color.red to R.color.red_light
 
@@ -188,10 +189,11 @@ class DeviceDetailFragment : Fragment(R.layout.fragment_device_detail) {
 
         tvDistance.setTextColor(ContextCompat.getColor(requireContext(), R.color.white))
 
-        tvDistance.text = DistanceFormatter.format(
-            state.distanceMeters,
-            state.unit
-        ).replaceFirst(Regex("\\s+"), "\n")
+        tvDistance.text = if (state.hasFreshSignal) {
+            DistanceFormatter.format(state.distanceMeters, state.unit).replaceFirst(Regex("\\s+"), "\n")
+        } else {
+            "—"
+        }
 
         val summary = state.encounterSummary
         when (summary.warningLevel) {
@@ -227,7 +229,7 @@ class DeviceDetailFragment : Fragment(R.layout.fragment_device_detail) {
         }
         tvMac.text = state.mac
         tvFirstSeen.text = dateFormat.format(Date(state.firstSeenAt))
-        tvRssi.text = getString(R.string.rssi_value, state.rssi)
+        tvRssi.text = if (state.hasFreshSignal) getString(R.string.rssi_value, state.rssi) else "—"
         tvBonding.setText(if (state.isBonded) R.string.bonded else R.string.unbonded)
         tvCompany.text = state.company ?: getString(R.string.unknown_company)
 

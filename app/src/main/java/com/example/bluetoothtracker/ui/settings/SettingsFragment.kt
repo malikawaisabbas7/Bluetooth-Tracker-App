@@ -52,6 +52,9 @@ import com.example.bluetoothtracker.databinding.ItemThemeOptionBinding
 import com.google.android.material.color.MaterialColors
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.NonCancellable
+import kotlinx.coroutines.withContext
 @AndroidEntryPoint
 class SettingsFragment : Fragment(R.layout.fragment_settings) {
 
@@ -629,17 +632,31 @@ class SettingsFragment : Fragment(R.layout.fragment_settings) {
         val ctx = context ?: return
         activationState = TrackingActivationState.STARTING
         viewModel.setPendingTrackingActivation(false)
-        viewModel.setBackgroundTracking(true)
-        try {
-            TrackingService.start(ctx)
-            if (TrackingService.isRunning.value) {
-                activationState = TrackingActivationState.ON
+        viewLifecycleOwner.lifecycleScope.launch {
+            var requestedStart = false
+            try {
+                viewModel.persistBackgroundTracking(true)
+                if (!viewLifecycleOwner.lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) {
+                    viewModel.persistBackgroundTracking(false)
+                    activationState = TrackingActivationState.OFF
+                    return@launch
+                }
+                TrackingService.start(ctx)
+                requestedStart = true
+                if (TrackingService.isRunning.value) {
+                    activationState = TrackingActivationState.ON
+                }
+            } catch (e: CancellationException) {
+                if (!requestedStart) {
+                    withContext(NonCancellable) { viewModel.persistBackgroundTracking(false) }
+                }
+                throw e
+            } catch (e: Exception) {
+                Log.e("SettingsFragment", "Failed to start TrackingService", e)
+                activationState = TrackingActivationState.ERROR
+                viewModel.setBackgroundTracking(false)
+                Toast.makeText(ctx, R.string.tracking_permission_needed, Toast.LENGTH_LONG).show()
             }
-        } catch (e: Exception) {
-            Log.e("SettingsFragment", "Failed to start TrackingService", e)
-            activationState = TrackingActivationState.ERROR
-            viewModel.setBackgroundTracking(false)
-            Toast.makeText(ctx, R.string.tracking_permission_needed, Toast.LENGTH_LONG).show()
         }
     }
 

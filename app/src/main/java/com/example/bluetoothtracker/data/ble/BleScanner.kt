@@ -82,7 +82,9 @@ class BleScanner @Inject constructor(
             )
             .build()
         DeviceClassifier.TAG_SERVICE_UUIDS.forEach { uuid ->
-            filters += ScanFilter.Builder().setServiceUuid(ParcelUuid.fromString(uuid)).build()
+            val serviceUuid = ParcelUuid.fromString(uuid)
+            filters += ScanFilter.Builder().setServiceUuid(serviceUuid).build()
+            filters += ScanFilter.Builder().setServiceData(serviceUuid, byteArrayOf()).build()
         }
         return filters
     }

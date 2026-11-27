@@ -73,10 +73,10 @@ class SettingsViewModel @Inject constructor(
         }
     }
 
+    suspend fun persistBackgroundTracking(enabled: Boolean) = repository.setBackgroundTracking(enabled)
+
     fun setBackgroundTracking(enabled: Boolean) {
-        viewModelScope.launch {
-            repository.setBackgroundTracking(enabled)
-        }
+        viewModelScope.launch { persistBackgroundTracking(enabled) }
     }
 
     companion object {

@@ -13,6 +13,9 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.CoroutineStart
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withTimeoutOrNull
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -27,6 +30,7 @@ class ScanManager @Inject constructor(
     private val locationProvider: LocationProvider
 ) {
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
+    private val scanMutex = Mutex()
     private var job: Job? = null
     private var isBackgroundScan = false
 
@@ -40,28 +44,27 @@ class ScanManager @Inject constructor(
     private val _errors = MutableSharedFlow<String>(extraBufferCapacity = 1)
     val errors: SharedFlow<String> = _errors.asSharedFlow()
 
-    /** @param background tracker-only filtered scan (works with the screen off).
-     *  @return true if a new scan was started, false if one was already running. */
+    /** Returns the scan job to its owner, or null if an existing scan takes priority. */
     @Synchronized
-    fun start(durationMs: Long, newSession: Boolean, background: Boolean = false): Boolean {
-        if (job?.isActive == true) {
-            if (!background && isBackgroundScan) {
-                // Foreground user-initiated scans preempt active background scans.
-                job?.cancel()
-                job = null
-            } else {
-                return false
-            }
-        }
+    fun start(durationMs: Long, newSession: Boolean, background: Boolean = false): Job? {
+        val previousJob = job
+        if (previousJob?.isActive == true && (background || !isBackgroundScan)) return null
+        previousJob?.cancel()
         if (newSession) _sessionStart.value = System.currentTimeMillis()
 
         isBackgroundScan = background
-        _isScanning.value = true
-        locationProvider.start()
+        _isScanning.value = !background
 
-        val newJob = scope.launch {
+        val newJob = scope.launch(start = CoroutineStart.LAZY) {
             try {
-                withTimeoutOrNull(durationMs) { repository.scan(background).collect {} }
+                scanMutex.withLock {
+                    try {
+                        locationProvider.start()
+                        withTimeoutOrNull(durationMs) { repository.scan(background).collect {} }
+                    } finally {
+                        locationProvider.stop()
+                    }
+                }
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
@@ -70,7 +73,8 @@ class ScanManager @Inject constructor(
         }
         job = newJob
         newJob.invokeOnCompletion { onScanFinished(newJob) }
-        return true
+        newJob.start()
+        return newJob
     }
 
     @Synchronized
@@ -80,12 +84,11 @@ class ScanManager @Inject constructor(
             job = null
             isBackgroundScan = false
             _isScanning.value = false
-            locationProvider.stop()
         }
     }
 
     @Synchronized
     fun stop() {
-        job?.cancel()
+        if (!isBackgroundScan) job?.cancel()
     }
 }

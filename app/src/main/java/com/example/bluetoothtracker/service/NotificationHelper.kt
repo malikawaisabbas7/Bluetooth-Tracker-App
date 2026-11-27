@@ -67,9 +67,14 @@ object NotificationHelper {
         mac: String,
         name: String?,
         distinctLocations: Int = 2
-    ) {
+    ): Boolean {
         val manager = NotificationManagerCompat.from(context)
-        if (!manager.areNotificationsEnabled()) return
+        val channel = manager.getNotificationChannel(CHANNEL_ALERTS)
+        if (!manager.areNotificationsEnabled() || channel == null ||
+            channel.importance == NotificationManager.IMPORTANCE_NONE
+        ) {
+            return false
+        }
         val label = name?.takeIf { it.isNotBlank() } ?: mac
         val reason = context.getString(R.string.notif_alert_reason, label, distinctLocations.coerceAtLeast(1))
         val ignoreIntent = Intent(context, TrackerAlertReceiver::class.java).apply {
@@ -93,6 +98,11 @@ object NotificationHelper {
             .addAction(0, context.getString(R.string.ignore_device_action), ignorePendingIntent)
             .setAutoCancel(true)
             .build()
-        manager.notify(mac.hashCode(), notification)
+        return try {
+            manager.notify(mac.hashCode(), notification)
+            true
+        } catch (_: SecurityException) {
+            false
+        }
     }
 }

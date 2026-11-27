@@ -26,6 +26,9 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.currentCoroutineContext
+import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -110,17 +113,31 @@ class TrackingService : Service() {
     }
 
     private suspend fun runLoop() {
-        while (scope.isActive) {
-            if (!settingsRepository.settings.first().backgroundTracking) {
-                stopSelf()
-                return
-            }
-            if (PermissionHelper.isBluetoothEnabled(this) &&
-                PermissionHelper.hasBleScanPermissions(this)
-            ) {
-                scanManager.start(Constants.BACKGROUND_SCAN_MS, newSession = false, background = true)
-                delay(Constants.BACKGROUND_SCAN_MS + 2_000)
-                checkForFollowers()
+        while (currentCoroutineContext().isActive) {
+            try {
+                if (!settingsRepository.settings.first().backgroundTracking) {
+                    stopSelf()
+                    return
+                }
+                if (PermissionHelper.hasBleScanPermissions(this) &&
+                    PermissionHelper.isBluetoothEnabled(this)
+                ) {
+                    val scan = scanManager.start(
+                        Constants.BACKGROUND_SCAN_MS, newSession = false, background = true
+                    )
+                    if (scan != null) {
+                        try {
+                            scan.join()
+                        } finally {
+                            scan.cancel()
+                        }
+                        if (settingsRepository.settings.first().backgroundTracking) checkForFollowers()
+                    }
+                }
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                Log.w(TAG, "Background scan cycle failed", e)
             }
             delay(Constants.BACKGROUND_INTERVAL_MS)
         }
@@ -130,14 +147,16 @@ class TrackingService : Service() {
         val now = System.currentTimeMillis()
         val prefs = getSharedPreferences("alerts", Context.MODE_PRIVATE)
         repository.findSuspiciousTrackers(now).forEach { (device, summary) ->
+            currentCoroutineContext().ensureActive()
             val lastAlert = prefs.getLong(device.mac, 0L)
-            if (now - lastAlert >= Constants.ALERT_COOLDOWN_MS) {
+            if (now - lastAlert >= Constants.ALERT_COOLDOWN_MS &&
                 NotificationHelper.notifyTrackerFollowing(
                     this,
                     device.mac,
                     device.name,
                     summary.distinctLocationCount
                 )
+            ) {
                 prefs.edit().putLong(device.mac, now).apply()
             }
         }

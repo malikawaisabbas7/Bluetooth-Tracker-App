@@ -13,6 +13,6 @@ interface SightingDao {
     @Query("SELECT * FROM sightings WHERE mac = :mac ORDER BY timestamp DESC LIMIT 200")
     fun observeForDevice(mac: String): Flow<List<SightingEntity>>
 
-    @Query("SELECT * FROM sightings WHERE mac = :mac ORDER BY timestamp DESC LIMIT 200")
-    suspend fun getForDeviceOnce(mac: String): List<SightingEntity>
+    @Query("SELECT * FROM sightings WHERE mac = :mac AND timestamp BETWEEN :since AND :now")
+    suspend fun getInWindow(mac: String, since: Long, now: Long): List<SightingEntity>
 }

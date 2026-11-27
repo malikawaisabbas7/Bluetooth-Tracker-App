@@ -17,6 +17,7 @@ data class DeviceDetailUiState(
     val category: DeviceCategory,
     val isIgnored: Boolean,
     val distanceMeters: Double,
+    val hasFreshSignal: Boolean,
     val level: DistanceLevel,
     val unit: DistanceUnit,
     val encounterSummary: EncounterSummary,

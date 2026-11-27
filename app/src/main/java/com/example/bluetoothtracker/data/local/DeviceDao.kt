@@ -78,11 +78,11 @@ abstract class DeviceDao {
         """SELECT * FROM devices
         WHERE isIgnored = 0
           AND category IN ('AIR_TAG', 'OTHER_TAG')
-          AND lastSeenAt >= :recent
+          AND lastSeenAt BETWEEN :recent AND :now
           AND mac IN (
-              SELECT mac FROM sightings WHERE timestamp >= :since
+              SELECT mac FROM sightings WHERE timestamp BETWEEN :since AND :now
               GROUP BY mac HAVING MAX(timestamp) - MIN(timestamp) >= :minSpan
           )"""
     )
-    abstract suspend fun findFollowing(since: Long, minSpan: Long, recent: Long): List<DeviceEntity>
+    abstract suspend fun findFollowing(since: Long, minSpan: Long, recent: Long, now: Long): List<DeviceEntity>
 }
