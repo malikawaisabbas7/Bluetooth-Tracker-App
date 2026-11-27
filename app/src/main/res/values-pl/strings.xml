@@ -218,4 +218,7 @@
     <string name="retry">Spróbuj ponownie</string>
     <string name="purchase_pending">Zakup oczekuje na potwierdzenie. Premium zostanie odblokowane po zakończeniu płatności.</string>
     <string name="purchase_pending_button">Zakup oczekujący</string>
+    <string name="google_play_terms">Warunki Google Play</string>
+    <string name="support_public_issue_notice">Zgłoszenia na GitHubie są publiczne. Nie podawaj danych osobowych, adresów urządzeń, historii lokalizacji ani szczegółów zakupów.</string>
+    <string name="support_open_issue">Otwórz GitHub</string>
 </resources>

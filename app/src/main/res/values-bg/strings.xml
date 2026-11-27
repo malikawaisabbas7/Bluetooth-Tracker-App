@@ -218,4 +218,7 @@
     <string name="retry">Опитай отново</string>
     <string name="purchase_pending">Покупката очаква потвърждение. Premium ще се отключи след завършване на плащането.</string>
     <string name="purchase_pending_button">Очаква потвърждение</string>
+    <string name="google_play_terms">Условия на Google Play</string>
+    <string name="support_public_issue_notice">Сигналите в GitHub са публични. Не включвайте лични данни, адреси на устройства, история на местоположенията или данни за покупки.</string>
+    <string name="support_open_issue">Отваряне на GitHub</string>
 </resources>

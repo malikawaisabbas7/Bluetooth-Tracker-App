@@ -218,4 +218,7 @@
     <string name="retry">Повторить</string>
     <string name="purchase_pending">Покупка ожидает подтверждения. Premium откроется после завершения оплаты.</string>
     <string name="purchase_pending_button">Покупка в обработке</string>
+    <string name="google_play_terms">Условия Google Play</string>
+    <string name="support_public_issue_notice">Обсуждения на GitHub общедоступны. Не указывайте личные данные, адреса устройств, историю местоположений и сведения о покупках.</string>
+    <string name="support_open_issue">Открыть GitHub</string>
 </resources>

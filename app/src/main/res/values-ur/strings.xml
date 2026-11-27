@@ -218,4 +218,7 @@
     <string name="retry">دوبارہ کوشش کریں</string>
     <string name="purchase_pending">خریداری کی تصدیق زیر التوا ہے۔ ادائیگی مکمل ہونے پر Premium فعال ہو جائے گا۔</string>
     <string name="purchase_pending_button">خریداری زیر التوا</string>
+    <string name="google_play_terms">Google Play کی شرائط</string>
+    <string name="support_public_issue_notice">GitHub پر درج مسائل عوامی ہوتے ہیں۔ ذاتی معلومات، ڈیوائس کے پتے، مقام کی سرگزشت یا خریداری کی تفصیلات شامل نہ کریں۔</string>
+    <string name="support_open_issue">GitHub کھولیں</string>
 </resources>

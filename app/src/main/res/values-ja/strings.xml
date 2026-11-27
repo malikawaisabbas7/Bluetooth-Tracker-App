@@ -218,4 +218,7 @@
     <string name="retry">再試行</string>
     <string name="purchase_pending">購入の確認待ちです。支払いが完了するとPremiumが有効になります。</string>
     <string name="purchase_pending_button">保留中の購入</string>
+    <string name="google_play_terms">Google Play 利用規約</string>
+    <string name="support_public_issue_notice">GitHub の報告は公開されます。個人情報、デバイスのアドレス、位置情報の履歴、購入情報は記載しないでください。</string>
+    <string name="support_open_issue">GitHub を開く</string>
 </resources>

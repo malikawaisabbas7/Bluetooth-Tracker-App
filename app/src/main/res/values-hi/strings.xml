@@ -218,4 +218,7 @@
     <string name="retry">पुनः प्रयास करें</string>
     <string name="purchase_pending">खरीदारी की पुष्टि लंबित है। भुगतान पूरा होने पर Premium अनलॉक हो जाएगा।</string>
     <string name="purchase_pending_button">खरीदारी लंबित</string>
+    <string name="google_play_terms">Google Play की शर्तें</string>
+    <string name="support_public_issue_notice">GitHub पर दर्ज समस्याएँ सार्वजनिक होती हैं। निजी जानकारी, डिवाइस के पते, स्थान का इतिहास या खरीदारी की जानकारी साझा न करें।</string>
+    <string name="support_open_issue">GitHub खोलें</string>
 </resources>

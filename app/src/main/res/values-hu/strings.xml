@@ -218,4 +218,7 @@
     <string name="retry">Újra</string>
     <string name="purchase_pending">A vásárlás megerősítésre vár. A Premium a fizetés befejezése után aktiválódik.</string>
     <string name="purchase_pending_button">Függőben lévő vásárlás</string>
+    <string name="google_play_terms">A Google Play feltételei</string>
+    <string name="support_public_issue_notice">A GitHub-hibajegyek nyilvánosak. Ne adjon meg személyes adatokat, eszközcímeket, helyelőzményeket vagy vásárlási adatokat.</string>
+    <string name="support_open_issue">GitHub megnyitása</string>
 </resources>

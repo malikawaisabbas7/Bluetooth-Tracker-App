@@ -218,4 +218,7 @@
     <string name="retry">Thử lại</string>
     <string name="purchase_pending">Giao dịch đang chờ xác nhận. Premium sẽ mở khóa sau khi thanh toán hoàn tất.</string>
     <string name="purchase_pending_button">Đang chờ xác nhận</string>
+    <string name="google_play_terms">Điều khoản của Google Play</string>
+    <string name="support_public_issue_notice">Các báo cáo trên GitHub được công khai. Không đưa vào thông tin cá nhân, địa chỉ thiết bị, lịch sử vị trí hoặc chi tiết mua hàng.</string>
+    <string name="support_open_issue">Mở GitHub</string>
 </resources>

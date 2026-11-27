@@ -218,4 +218,7 @@
     <string name="retry">Coba lagi</string>
     <string name="purchase_pending">Pembelian menunggu konfirmasi. Premium akan terbuka setelah pembayaran selesai.</string>
     <string name="purchase_pending_button">Pembelian tertunda</string>
+    <string name="google_play_terms">Persyaratan Google Play</string>
+    <string name="support_public_issue_notice">Laporan masalah di GitHub bersifat publik. Jangan sertakan informasi pribadi, alamat perangkat, riwayat lokasi, atau informasi pembelian.</string>
+    <string name="support_open_issue">Buka GitHub</string>
 </resources>

@@ -218,4 +218,7 @@
     <string name="retry">ลองอีกครั้ง</string>
     <string name="purchase_pending">การซื้อกำลังรอการยืนยัน ระบบจะปลดล็อก Premium เมื่อชำระเงินเสร็จสิ้น</string>
     <string name="purchase_pending_button">รอการยืนยัน</string>
+    <string name="google_play_terms">ข้อกำหนดของ Google Play</string>
+    <string name="support_public_issue_notice">รายงานปัญหาบน GitHub เป็นแบบสาธารณะ อย่าใส่ข้อมูลส่วนตัว ที่อยู่อุปกรณ์ ประวัติตำแหน่ง หรือรายละเอียดการซื้อ</string>
+    <string name="support_open_issue">เปิด GitHub</string>
 </resources>

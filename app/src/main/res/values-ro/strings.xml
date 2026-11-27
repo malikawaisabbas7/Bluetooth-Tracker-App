@@ -218,4 +218,7 @@
     <string name="retry">Reîncearcă</string>
     <string name="purchase_pending">Achiziția așteaptă confirmarea. Premium se va debloca după finalizarea plății.</string>
     <string name="purchase_pending_button">Achiziție în așteptare</string>
+    <string name="google_play_terms">Termenii Google Play</string>
+    <string name="support_public_issue_notice">Sesizările de pe GitHub sunt publice. Nu include date personale, adrese de dispozitive, istoricul locațiilor sau detalii despre achiziții.</string>
+    <string name="support_open_issue">Deschide GitHub</string>
 </resources>

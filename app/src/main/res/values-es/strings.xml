@@ -218,4 +218,7 @@
     <string name="retry">Reintentar</string>
     <string name="purchase_pending">La compra está pendiente de confirmación. Premium se desbloqueará al completar el pago.</string>
     <string name="purchase_pending_button">Compra pendiente</string>
+    <string name="google_play_terms">Condiciones de Google Play</string>
+    <string name="support_public_issue_notice">Las incidencias de GitHub son públicas. No incluyas datos personales, direcciones de dispositivos, historial de ubicaciones ni datos de compras.</string>
+    <string name="support_open_issue">Abrir GitHub</string>
 </resources>

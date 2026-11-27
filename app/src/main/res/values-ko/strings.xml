@@ -218,4 +218,7 @@
     <string name="retry">다시 시도</string>
     <string name="purchase_pending">구매 확인 대기 중입니다. 결제가 완료되면 Premium이 잠금 해제됩니다.</string>
     <string name="purchase_pending_button">구매 대기 중</string>
+    <string name="google_play_terms">Google Play 이용약관</string>
+    <string name="support_public_issue_notice">GitHub 이슈는 공개됩니다. 개인정보, 기기 주소, 위치 기록, 구매 정보를 올리지 마세요.</string>
+    <string name="support_open_issue">GitHub 열기</string>
 </resources>

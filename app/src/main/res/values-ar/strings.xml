@@ -218,4 +218,7 @@
     <string name="retry">إعادة المحاولة</string>
     <string name="purchase_pending">الشراء بانتظار التأكيد. سيتم فتح Premium عند إتمام الدفع.</string>
     <string name="purchase_pending_button">الشراء معلق</string>
+    <string name="google_play_terms">بنود Google Play</string>
+    <string name="support_public_issue_notice">البلاغات على GitHub علنية. لا تُدرج معلومات شخصية أو عناوين الأجهزة أو سجل المواقع أو تفاصيل الشراء.</string>
+    <string name="support_open_issue">فتح GitHub</string>
 </resources>

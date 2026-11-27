@@ -218,4 +218,7 @@
     <string name="retry">Yritä uudelleen</string>
     <string name="purchase_pending">Ostos odottaa vahvistusta. Premium avautuu, kun maksu on valmis.</string>
     <string name="purchase_pending_button">Odottaa vahvistusta</string>
+    <string name="google_play_terms">Google Playn käyttöehdot</string>
+    <string name="support_public_issue_notice">GitHub-ongelmat ovat julkisia. Älä lisää henkilötietoja, laiteosoitteita, sijaintihistoriaa tai ostotietoja.</string>
+    <string name="support_open_issue">Avaa GitHub</string>
 </resources>

@@ -218,4 +218,7 @@
     <string name="retry">تلاش مجدد</string>
     <string name="purchase_pending">خرید در انتظار تایید است. پس از تکمیل پرداخت، نسخه ویژه فعال می‌شود.</string>
     <string name="purchase_pending_button">در انتظار تایید</string>
+    <string name="google_play_terms">شرایط Google Play</string>
+    <string name="support_public_issue_notice">گزارش‌های GitHub عمومی هستند. اطلاعات شخصی، نشانی دستگاه‌ها، سابقه مکان یا جزئیات خرید را وارد نکنید.</string>
+    <string name="support_open_issue">باز کردن GitHub</string>
 </resources>

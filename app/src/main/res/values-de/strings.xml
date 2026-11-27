@@ -218,4 +218,7 @@
     <string name="retry">Erneut versuchen</string>
     <string name="purchase_pending">Der Kauf wartet auf Bestätigung. Premium wird nach Zahlungsabschluss freigeschaltet.</string>
     <string name="purchase_pending_button">Kauf ausstehend</string>
+    <string name="google_play_terms">Google Play-Nutzungsbedingungen</string>
+    <string name="support_public_issue_notice">GitHub-Issues sind öffentlich. Gib keine persönlichen Daten, Geräteadressen, Standortverläufe oder Kaufdaten an.</string>
+    <string name="support_open_issue">GitHub öffnen</string>
 </resources>

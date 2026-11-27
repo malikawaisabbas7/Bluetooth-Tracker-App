@@ -218,4 +218,7 @@
     <string name="retry">Skúsiť znova</string>
     <string name="purchase_pending">Nákup čaká na potvrdenie. Premium sa odomkne po dokončení platby.</string>
     <string name="purchase_pending_button">Čakajúci nákup</string>
+    <string name="google_play_terms">Podmienky služby Google Play</string>
+    <string name="support_public_issue_notice">Hlásenia na GitHube sú verejné. Neuvádzajte osobné údaje, adresy zariadení, históriu polohy ani údaje o nákupoch.</string>
+    <string name="support_open_issue">Otvoriť GitHub</string>
 </resources>

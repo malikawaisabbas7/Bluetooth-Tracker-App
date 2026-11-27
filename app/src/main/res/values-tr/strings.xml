@@ -218,4 +218,7 @@
     <string name="retry">Tekrar Dene</string>
     <string name="purchase_pending">Satın alma onay bekliyor. Ödeme tamamlandığında Premium açılacaktır.</string>
     <string name="purchase_pending_button">Satın Alma Beklemede</string>
+    <string name="google_play_terms">Google Play Şartları</string>
+    <string name="support_public_issue_notice">GitHub sorun bildirimleri herkese açıktır. Kişisel bilgileri, cihaz adreslerini, konum geçmişini veya satın alma ayrıntılarını paylaşmayın.</string>
+    <string name="support_open_issue">GitHub’ı aç</string>
 </resources>
