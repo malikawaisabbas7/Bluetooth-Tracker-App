@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- BASE LIGHT THEME -->
+    <style name="Theme.BluetoothTracker"
+        parent="Theme.Material3.Light.NoActionBar">
+
+        <item name="android:windowBackground">@color/theme_blue_light</item>
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="android:statusBarColor">?attr/themeLightColor</item>
+        <item name="android:navigationBarColor">@color/white</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="colorPrimary">@color/theme_blue_primary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <item name="themePrimaryColor">@color/theme_blue_primary</item>
+        <item name="themeLightColor">@color/theme_blue_light</item>
+        <item name="themeTextColor">@color/theme_text_dark</item>
+
+    </style>
+
+    <!-- Lightweight opaque launch theme matching Splash background without a partial radar -->
+    <style name="Theme.BluetoothTracker.Launch"
+        parent="Theme.BluetoothTracker">
+        <item name="android:windowBackground">@color/theme_blue_light</item>
+        <item name="android:statusBarColor">@color/theme_blue_light</item>
+    </style>
+
+    <!-- BLUE THEME -->
+    <style name="Theme.BluetoothTracker.Blue"
+        parent="Theme.BluetoothTracker">
+
+        <item name="android:windowBackground">@color/theme_blue_light</item>
+        <item name="colorPrimary">@color/theme_blue_primary</item>
+        <item name="themePrimaryColor">@color/theme_blue_primary</item>
+        <item name="themeLightColor">@color/theme_blue_light</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+    </style>
+
+    <!-- ORANGE THEME -->
+    <style name="Theme.BluetoothTracker.Orange"
+        parent="Theme.BluetoothTracker">
+
+        <item name="android:windowBackground">@color/theme_orange_light</item>
+        <item name="colorPrimary">@color/theme_orange_primary</item>
+        <item name="themePrimaryColor">@color/theme_orange_primary</item>
+        <item name="themeLightColor">@color/theme_orange_light</item>
+        <item name="colorOnPrimary">@android:color/black</item>
+
+    </style>
+
+    <!-- BLACK THEME -->
+    <style name="Theme.BluetoothTracker.Black"
+        parent="Theme.BluetoothTracker">
+
+        <item name="android:windowBackground">@color/theme_black_light</item>
+        <item name="colorPrimary">@color/theme_black_primary</item>
+        <item name="themePrimaryColor">@color/theme_black_primary</item>
+        <item name="themeLightColor">@color/theme_black_light</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+    </style>
+
+    <!-- GREEN THEME -->
+    <style name="Theme.BluetoothTracker.Green"
+        parent="Theme.BluetoothTracker">
+
+        <item name="android:windowBackground">@color/theme_green_light</item>
+        <item name="colorPrimary">@color/theme_green_primary</item>
+        <item name="themePrimaryColor">@color/theme_green_primary</item>
+        <item name="themeLightColor">@color/theme_green_light</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+    </style>
+
+    <!-- DEVICE DETAILS -->
+
+    <style name="DetailLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/theme_text_secondary</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="DetailCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">?attr/themeTextColor</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+
+    <!-- TOOLBAR -->
+
+    <style name="ToolbarTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/themeTextColor</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- SETTINGS -->
+
+    <style name="SettingsRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+        <item name="android:textColor">?attr/themeTextColor</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <!-- PREMIUM FEATURES -->
+
+    <style name="FeatureText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:textColor">?attr/themeTextColor</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <!-- HOME ROW -->
+
+    <style name="HomeRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="HomeRowLabel">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">?attr/themeTextColor</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="HomeRowCount">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?attr/themeTextColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="HomeRowArrow">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:background">@drawable/bg_arrow_circle</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <!-- RATING STARS -->
+
+    <style name="RateStar">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:src">@drawable/ic_star</item>
+        <item name="android:contentDescription">Rate</item>
+    </style>
+
+    <!-- INSTRUCTIONS -->
+
+    <style name="InstrCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/bg_pill</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">18dp</item>
+    </style>
+
+    <style name="InstrTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/themeTextColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- ILLUSTRATIONS -->
+
+    <style name="IllustrationItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="IllustrationDisc">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:background">@drawable/bg_gray_disc</item>
+    </style>
+
+    <style name="CircleShapeOverlay" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

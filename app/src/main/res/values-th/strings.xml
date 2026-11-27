@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ตัวติดตามบลูทูธ</string>
+    <string name="start_scan">เริ่มสแกน</string>
+    <string name="stop_scan">หยุดสแกน</string>
+    <string name="devices_found">พบ %1$d อุปกรณ์</string>
+    <string name="devices_found_count">พบ %1$d อุปกรณ์</string>
+    <string name="searching_devices_hint">กำลังค้นหาสัญญาณบลูทูธในระยะ…</string>
+    <string name="air_tag">แท็ก</string>
+    <string name="other_tags">แท็กอื่นๆ</string>
+    <string name="bluetooth_devices">อุปกรณ์บลูทูธ</string>
+    <string name="no_device_found">ไม่พบอุปกรณ์</string>
+    <string name="unknown_device">ไม่ทราบชื่อ</string>
+    <string name="permission_needed">ต้องได้รับสิทธิ์บลูทูธและตำแหน่งเพื่อสแกน</string>
+    <string name="scan_failed">สแกนล้มเหลว: %1$s</string>
+    <string name="close">ปิด</string>
+    <string name="choose_app_theme">เลือกธีมแอป</string>
+
+    <string name="device_info">ข้อมูลอุปกรณ์</string>
+    <string name="label_name">ชื่อ</string>
+    <string name="label_mac">ที่อยู่ MAC</string>
+    <string name="label_first_seen">พบครั้งแรก</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">สถานะการจับคู่</string>
+    <string name="label_company">บริษัท</string>
+    <string name="label_ignore">ละเว้นอุปกรณ์</string>
+    <string name="label_scan_record">บันทึกการสแกน</string>
+    <string name="bonded">จับคู่แล้ว</string>
+    <string name="unbonded">ไม่ได้จับคู่</string>
+    <string name="unknown_company">ไม่ทราบบริษัท</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nเมตร</string>
+    <string name="level_far">ไกล</string>
+    <string name="level_near">ใกล้</string>
+    <string name="level_very_near">ใกล้มาก</string>
+    <string name="see_more"><u>ดูเพิ่มเติม</u></string>
+    <string name="see_less">ดูน้อยลง</string>
+    <string name="no_location">ยังไม่มีการบันทึกตำแหน่ง เปิดตำแหน่งและสแกนต่อ</string>
+    <string name="distance_helper">ระยะทางเป็นค่าประมาณ แผนที่แสดงตำแหน่งของโทรศัพท์ขณะตรวจพบอุปกรณ์นี้</string>
+    <string name="open_map_failed">ไม่พบแอปแผนที่</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">การตั้งค่า</string>
+    <string name="background_tracking">ติดตามในพื้นหลัง</string>
+    <string name="background_tracking_desc">อนุญาตให้แอปทำงานในพื้นหลังเพื่อตรวจจับตัวติดตาม</string>
+    <string name="toggle_on">เปิด</string>
+    <string name="toggle_off">ปิด</string>
+    <string name="use_metric_units">ใช้หน่วยเมตริก</string>
+    <string name="unit_desc">หน่วยวัดระยะทาง</string>
+    <string name="scan_duration">ระยะเวลาสแกน</string>
+    <string name="scan_duration_desc">ตั้งเวลาหยุดค้นหาอัตโนมัติหลังเริ่มสแกน</string>
+    <string name="remove_ads">ลบโฆษณา</string>
+    <string name="customer_support">ฝ่ายสนับสนุน</string>
+    <string name="rate_us">ให้คะแนนเรา</string>
+    <string name="share">แชร์</string>
+    <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="terms_of_service">ข้อกำหนดการให้บริการ</string>
+    <string name="instructions_dialog_title">คำแนะนำ</string>
+    <string name="tracking_permission_needed">ต้องมีสิทธิ์บลูทูธ ตำแหน่ง และการแจ้งเตือน</string>
+    <string name="share_text">ค้นหาตัวติดตามบลูทูธที่ซ่อนอยู่ด้วย ตัวติดตามบลูทูธ: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">แชร์ผ่าน</string>
+    <string name="link_failed">ไม่สามารถเปิดลิงก์ได้</string>
+
+    <string-array name="unit_labels">
+        <item>เมตร</item>
+        <item>ฟุต (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 วินาที</item>
+        <item>45 วินาที</item>
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+    </string-array>
+
+    <string name="rate_title">คุณชอบ\nตัวติดตามบลูทูธไหม?</string>
+    <string name="rate_body">เรากำลังพัฒนาเพื่อประสบการณ์ที่ดีขึ้น\nขอบคุณสำหรับการให้คะแนน</string>
+    <string name="rate_best">ดีที่สุด</string>
+    <string name="rate_button">ให้คะแนน</string>
+    <string name="send_feedback">ส่งความคิดเห็น</string>
+
+    <string name="support_hint">อธิบายปัญหา (อย่างน้อย 20 ตัวอักษร)</string>
+    <string name="support_subject">ฝ่ายสนับสนุน ตัวติดตามบลูทูธ</string>
+    <string name="support_no_email_app">ไม่พบแอปอีเมล</string>
+    <string name="send">ส่ง</string>
+    <string name="back">กลับ</string>
+
+    <string name="start_like_a_pro">เริ่มต้นแบบโปร</string>
+    <string name="unlock_all_features">ปลดล็อกทุกฟีเจอร์</string>
+    <string name="col_premium">พรีเมียม</string>
+    <string name="col_basic">พื้นฐาน</string>
+    <string name="feature_find_air_tags">ค้นหาแท็ก</string>
+    <string name="feature_detect_bluetooth">ตรวจจับอุปกรณ์บลูทูธ</string>
+    <string name="feature_info_distance">ข้อมูลและระยะทาง</string>
+    <string name="feature_vip_support">ซัพพอร์ต VIP</string>
+    <string name="feature_remove_ads">ลบโฆษณา</string>
+    <string name="price_line_trial">%1$s/%2$s หลังทดลองฟรี %3$d วัน</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">กำลังโหลดราคา…</string>
+    <string name="start_free_trial">เริ่มทดลองใช้ฟรี</string>
+    <string name="premium_active">คุณเป็นสมาชิกพรีเมียม</string>
+    <string name="billing_disclaimer">การสมัครสมาชิกจะต่ออายุอัตโนมัติหลังหมดช่วงทดลอง ยกเลิกได้ทุกเมื่อก่อนหมดช่วงทดลอง</string>
+    <string name="billing_unavailable">ไม่สามารถสมัครสมาชิกได้ในขณะนี้</string>
+    <string name="purchase_failed">การซื้อไม่สำเร็จ</string>
+    <string name="purchase_success">ยินดีต้อนรับสู่พรีเมียม!</string>
+    <string name="period_week">สัปดาห์</string>
+    <string name="period_month">เดือน</string>
+    <string name="period_year">ปี</string>
+    <string name="period_day">วัน</string>
+    <string name="subscribe_now">สมัครตอนนี้</string>
+
+    <string name="instruction">คำแนะนำ</string>
+    <string name="instr_title_how">แอปทำงานอย่างไร?</string>
+    <string name="instr_title_notification">ได้รับการแจ้งเตือน ควรทำอย่างไร?</string>
+    <string name="instr_title_disable">จะปิดการใช้งานแท็กได้อย่างไร?</string>
+    <string name="instr_title_background">การติดตามในพื้นหลัง</string>
+    <string name="tag_label">แท็ก</string>
+    <string name="battery_label">แบตเตอรี่</string>
+    <string name="cover_label">ฝาปิด</string>
+    <string-array name="instr_how">
+        <item>แอปใช้บลูทูธเพื่อสแกนหาอุปกรณ์ที่อาจกำลังติดตามคุณ</item>
+        <item>แอปใช้ข้อมูลตำแหน่งเพื่อตรวจสอบว่ามีตัวติดตามตามคุณไปหลายสถานที่หรือไม่</item>
+        <item>คุณจะได้รับการแจ้งเตือนเมื่อพบตัวติดตามที่น่าสงสัย</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>ปิดการใช้งานตัวติดตามโดยถอดแบตเตอรี่ออก</item>
+        <item>นำตัวติดตามไปแจ้งตำรวจ</item>
+        <item>ตรวจสอบให้แน่ใจว่าได้ปิดตัวติดตามก่อนไปยังที่ปลอดภัย</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>กดและหมุนฝาหลังทวนเข็มนาฬิกา เปิดฝาออกแล้วถอดแบตเตอรี่</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>การสแกนอัตโนมัติในพื้นหลังจะแจ้งเตือนหากมีอุปกรณ์อยู่ใกล้คุณเกิน 20 นาที</item>
+    </string-array>
+
+    <string name="channel_tracking">การติดตามในพื้นหลัง</string>
+    <string name="channel_alerts">แจ้งเตือนตัวติดตาม</string>
+    <string name="notif_tracking_title">ตัวติดตามบลูทูธกำลังทำงาน</string>
+    <string name="notif_tracking_text">กำลังค้นหาตัวติดตามรอบตัวคุณ</string>
+    <string name="notif_alert_title">อาจมีตัวติดตามกำลังตามคุณ</string>
+    <string name="notif_alert_text">%1$s อยู่ใกล้คุณมาสักพักแล้ว เปิดแอปเพื่อตรวจสอบ</string>
+
+    <string name="perm_dialog_title">ต้องได้รับสิทธิ์</string>
+    <string name="perm_dialog_body">ตัวติดตามบลูทูธต้องใช้สิทธิ์บลูทูธและตำแหน่งเพื่อสแกนและแสดงตำแหน่งบนแผนที่</string>
+    <string name="perm_allow">อนุญาต</string>
+    <string name="perm_deny">ปฏิเสธ</string>
+    <string name="exit_dialog_title">ออกจากแอป</string>
+    <string name="exit_dialog_message">คุณยืนยันที่จะออกหรือไม่?</string>
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่</string>
+    <string name="loading_percent">กำลังโหลด… %1$d%%</string>
+    <string name="tap_to_continue">แตะเพื่อดำเนินการต่อ</string>
+    <string name="splash_tagline">ค้นหาอุปกรณ์ใกล้เคียงได้อย่างง่ายดาย</string>
+    <string name="splash_footer">สมาร์ท • เรียบง่าย • เชื่อมต่อ</string>
+
+    <string name="choose_language">เลือกภาษา</string>
+    <string name="choose_language_subtitle">เลือกภาษาที่คุณต้องการเพื่อดำเนินการต่อ</string>
+    <string name="continue_label">ดำเนินการต่อ</string>
+    <string name="language">ภาษา</string>
+    <string name="language_desc">เปลี่ยนภาษาของแอป</string>
+    <string name="app_theme_title">ธีมแอป</string>
+    <string name="app_theme_desc">ปรับแต่งรูปลักษณ์ของแอป</string>
+
+    <string name="skip">ข้าม</string>
+    <string name="next">ถัดไป</string>
+    <string name="get_started">เริ่มต้นใช้งาน</string>
+    <string name="onboarding_title_1">ค้นพบอุปกรณ์ใกล้เคียง</string>
+    <string name="onboarding_desc_1">สแกนอุปกรณ์บลูทูธใกล้เคียงและดูข้อมูลที่มีอยู่</string>
+    <string name="onboarding_title_2">สำรวจรายละเอียดอุปกรณ์</string>
+    <string name="onboarding_desc_2">ดูข้อมูลอุปกรณ์ ความแรงสัญญาณ และระยะทางโดยประมาณ</string>
+    <string name="onboarding_title_3">ติดตามประวัติการสแกน</string>
+    <string name="onboarding_desc_3">ตรวจสอบประวัติการตรวจพบและตำแหน่งโทรศัพท์ที่บันทึกไว้บนแผนที่เมื่อเปิดสิทธิ์ตำแหน่ง</string>
+    <string name="onboarding_sample_device">ตัวติดตามไร้สาย</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">สิทธิ์ที่จำเป็น</string>
+    <string name="perm_screen_subtitle">เพื่อสแกนอุปกรณ์บลูทูธและบันทึกตำแหน่งที่ตรวจพบ แอปใช้สิทธิ์ดังต่อไปนี้:</string>
+    <string name="perm_bt_title">บลูทูธและอุปกรณ์ใกล้เคียง</string>
+    <string name="perm_bt_desc">จำเป็นสำหรับการสแกนอุปกรณ์และแท็กบลูทูธใกล้เคียง</string>
+    <string name="perm_loc_title">การเข้าถึงตำแหน่ง</string>
+    <string name="perm_loc_desc">ระบบ Android กำหนดให้ใช้สำหรับการสแกนบลูทูธ</string>
+    <string name="perm_history_title">ตำแหน่งในประวัติการสแกน</string>
+    <string name="perm_history_desc">บันทึกตำแหน่งโทรศัพท์เมื่อตรวจพบอุปกรณ์เพื่อแสดงบนแผนที่</string>
+    <string name="allow_permissions">อนุญาตสิทธิ์</string>
+    <string name="not_now">ไม่ใช่ตอนนี้</string>
+    <string name="open_settings">เปิดการตั้งค่า</string>
+    <string name="record_title">บันทึก</string>
+    <string name="no_history_records">ยังไม่มีตำแหน่งที่บันทึกไว้\nสแกนอุปกรณ์ใกล้เคียงเพื่อสร้างประวัติ</string>
+    <string name="location_not_recorded">ไม่ได้บันทึกตำแหน่ง</string>
+    <string name="detected_date">ตรวจพบ %1$s</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="label_last_seen">ตรวจพบล่าสุด</string>
+    <string name="label_classification">การจัดประเภท</string>
+    <string name="label_encounters">การพบและรูปแบบ</string>
+    <string name="class_supported_tag">Find My / แท็กติดตามที่รองรับ</string>
+    <string name="class_bluetooth_device">อุปกรณ์บลูทูธ</string>
+    <string name="rssi_disclaimer">ระยะทางเป็นการประมาณจากความแรงสัญญาณบลูทูธ (RSSI) ไม่แม่นยำเท่า GPS</string>
+    <string name="map_phone_location_disclaimer">แผนที่แสดงตำแหน่งที่โทรศัพท์ของคุณตรวจพบสัญญาณ ไม่ใช่ตำแหน่งจริงที่แน่นอนของอุปกรณ์</string>
+    <string name="encounter_summary_format">พบ %1$d ครั้ง • %2$d ตำแหน่ง</string>
+    <string name="warning_nearby">พบอุปกรณ์ใกล้เคียง</string>
+    <string name="warning_repeated">พบการตรวจจับซ้ำ</string>
+    <string name="warning_suspicious">รูปแบบที่อาจเป็นการติดตามโดยไม่พึงประสงค์</string>
+    <string name="ignore_device_action">ละเว้นอุปกรณ์</string>
+    <string name="notif_alert_reason">ตรวจพบ %1$s ซ้ำใน %2$d ตำแหน่ง ทั้งนี้ไม่ได้ยืนยันเจตนาร้าย</string>
+    <string name="open_in_maps">เปิดในแผนที่</string>
+    <string name="theme_blue">น้ำเงิน</string>
+    <string name="company_device_format">อุปกรณ์ %1$s</string>
+    <string name="recorded_scan_location">ตำแหน่งการสแกนที่บันทึกไว้</string>
+    <string name="onboarding_estimated_proximity">ระยะใกล้เคียงโดยประมาณ</string>
+    <string name="theme_green">เขียว</string>
+    <string name="theme_orange">ส้ม</string>
+    <string name="phone_location">ตำแหน่งโทรศัพท์</string>
+    <string name="onboarding_sample_location">ตัวอย่างตำแหน่งโทรศัพท์</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">ดำ</string>
+    <string name="onboarding_scan_recorded">บันทึกการสแกนแล้ว</string>
+    <string name="ignore_device_state">ละเว้นอุปกรณ์, %1$s</string>
+    <string name="retry">ลองอีกครั้ง</string>
+    <string name="purchase_pending">การซื้อกำลังรอการยืนยัน ระบบจะปลดล็อก Premium เมื่อชำระเงินเสร็จสิ้น</string>
+    <string name="purchase_pending_button">รอการยืนยัน</string>
+</resources>

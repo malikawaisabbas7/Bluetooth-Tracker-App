@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rastreador Bluetooth</string>
+    <string name="start_scan">Iniciar busca</string>
+    <string name="stop_scan">Parar busca</string>
+    <string name="devices_found">%1$d dispositivos encontrados</string>
+    <string name="devices_found_count">%1$d dispositivos encontrados</string>
+    <string name="searching_devices_hint">Procurando sinais Bluetooth próximos…</string>
+    <string name="air_tag">Tags</string>
+    <string name="other_tags">Outras Tags</string>
+    <string name="bluetooth_devices">Dispositivos Bluetooth</string>
+    <string name="no_device_found">Nenhum dispositivo encontrado</string>
+    <string name="unknown_device">Desconhecido</string>
+    <string name="permission_needed">Permissões de Bluetooth e localização são necessárias.</string>
+    <string name="scan_failed">Falha na busca: %1$s</string>
+    <string name="close">Fechar</string>
+    <string name="choose_app_theme">Escolher tema do app</string>
+
+    <string name="device_info">Info do dispositivo</string>
+    <string name="label_name">Nome</string>
+    <string name="label_mac">Endereço MAC</string>
+    <string name="label_first_seen">Visto primeiro em</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">Estado de pareamento</string>
+    <string name="label_company">Empresa</string>
+    <string name="label_ignore">Ignorar dispositivo</string>
+    <string name="label_scan_record">Registro de busca</string>
+    <string name="bonded">Pareado</string>
+    <string name="unbonded">Não pareado</string>
+    <string name="unknown_company">Empresa desconhecida</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nmetro</string>
+    <string name="level_far">Longe</string>
+    <string name="level_near">Perto</string>
+    <string name="level_very_near">Muito perto</string>
+    <string name="see_more"><u>Ver mais</u></string>
+    <string name="see_less">Ver menos</string>
+    <string name="no_location">Nenhuma localização registrada. Ative a localização e continue buscando.</string>
+    <string name="distance_helper">A distância é aproximada. O mapa mostra onde seu telefone estava ao detectar este dispositivo.</string>
+    <string name="open_map_failed">Nenhum app de mapas encontrado.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">Configurações</string>
+    <string name="background_tracking">Rastreamento em segundo plano</string>
+    <string name="background_tracking_desc">Permite ao app buscar rastreadores em segundo plano.</string>
+    <string name="toggle_on">Lig.</string>
+    <string name="toggle_off">Desl.</string>
+    <string name="use_metric_units">Unidades métricas</string>
+    <string name="unit_desc">Unidade de medida de distância.</string>
+    <string name="scan_duration">Duração da busca</string>
+    <string name="scan_duration_desc">Define o tempo para encerrar automaticamente a busca</string>
+    <string name="remove_ads">Remover anúncios</string>
+    <string name="customer_support">Suporte</string>
+    <string name="rate_us">Avalie-nos</string>
+    <string name="share">Compartilhar</string>
+    <string name="privacy_policy">Privacidade</string>
+    <string name="terms_of_service">Termos de uso</string>
+    <string name="instructions_dialog_title">Instruções</string>
+    <string name="tracking_permission_needed">Permissões de Bluetooth, localização e notificação são necessárias.</string>
+    <string name="share_text">Encontre rastreadores Bluetooth ocultos com Rastreador Bluetooth: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">Compartilhar via</string>
+    <string name="link_failed">Não foi possível abrir o link.</string>
+
+    <string-array name="unit_labels">
+        <item>Metro</item>
+        <item>Pé (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 segundos</item>
+        <item>45 segundos</item>
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+    </string-array>
+
+    <string name="rate_title">Gostou do\nRastreador Bluetooth?</string>
+    <string name="rate_body">Trabalhamos para melhorar sua experiência.\nAgradecemos sua avaliação</string>
+    <string name="rate_best">Melhor avaliação</string>
+    <string name="rate_button">Avaliar</string>
+    <string name="send_feedback">Enviar feedback</string>
+
+    <string name="support_hint">Descreva o problema (mínimo 20 caracteres)</string>
+    <string name="support_subject">Suporte Rastreador Bluetooth</string>
+    <string name="support_no_email_app">Nenhum app de e-mail encontrado.</string>
+    <string name="send">Enviar</string>
+    <string name="back">Voltar</string>
+
+    <string name="start_like_a_pro">COMECE COMO PRO</string>
+    <string name="unlock_all_features">Desbloquear tudo</string>
+    <string name="col_premium">PREMIUM</string>
+    <string name="col_basic">BÁSICO</string>
+    <string name="feature_find_air_tags">Encontrar Tags</string>
+    <string name="feature_detect_bluetooth">Detectar dispositivos</string>
+    <string name="feature_info_distance">Ver info e distância</string>
+    <string name="feature_vip_support">Suporte VIP</string>
+    <string name="feature_remove_ads">Sem anúncios</string>
+    <string name="price_line_trial">%1$s/%2$s após %3$d dias grátis</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">Carregando preço…</string>
+    <string name="start_free_trial">TESTE GRÁTIS</string>
+    <string name="premium_active">VOCÊ É PREMIUM</string>
+    <string name="billing_disclaimer">A assinatura é renovada automaticamente após o período de teste. Cancele antes para evitar cobranças.</string>
+    <string name="billing_unavailable">Assinaturas indisponíveis no momento.</string>
+    <string name="purchase_failed">Falha na compra.</string>
+    <string name="purchase_success">Bem-vindo ao Premium!</string>
+    <string name="period_week">semana</string>
+    <string name="period_month">mês</string>
+    <string name="period_year">ano</string>
+    <string name="period_day">dia</string>
+    <string name="subscribe_now">Assinar agora</string>
+
+    <string name="instruction">Instruções</string>
+    <string name="instr_title_how">Como o app funciona?</string>
+    <string name="instr_title_notification">Recebi um alerta, o que fazer?</string>
+    <string name="instr_title_disable">Como desativar uma Tag?</string>
+    <string name="instr_title_background">Rastreamento em segundo plano</string>
+    <string name="tag_label">Tag</string>
+    <string name="battery_label">Bateria</string>
+    <string name="cover_label">Tampa</string>
+    <string-array name="instr_how">
+        <item>O app usa Bluetooth para procurar dispositivos que possam estar seguindo você.</item>
+        <item>A localização detecta se um rastreador acompanha você em vários locais.</item>
+        <item>Você recebe um alerta quando um possível rastreador é detectado.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>Desative o rastreador removendo a bateria.</item>
+        <item>Leve o rastreador à polícia.</item>
+        <item>Desative-o antes de ir para um local seguro.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>Pressione e gire a tampa traseira no sentido anti-horário para remover a bateria.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>A busca em segundo plano avisa se um dispositivo permanecer perto de você por mais de 20 minutos.</item>
+    </string-array>
+
+    <string name="channel_tracking">Rastreamento em segundo plano</string>
+    <string name="channel_alerts">Alertas de rastreador</string>
+    <string name="notif_tracking_title">Rastreador Bluetooth ativo</string>
+    <string name="notif_tracking_text">Procurando rastreadores por perto</string>
+    <string name="notif_alert_title">Um rastreador pode estar seguindo você</string>
+    <string name="notif_alert_text">%1$s está perto de você há algum tempo. Abra o app para verificar.</string>
+
+    <string name="perm_dialog_title">Permissões necessárias</string>
+    <string name="perm_dialog_body">O Rastreador Bluetooth precisa de Bluetooth e localização para buscar rastreadores e exibi-los no mapa.</string>
+    <string name="perm_allow">Permitir</string>
+    <string name="perm_deny">Negar</string>
+    <string name="exit_dialog_title">Sair do app</string>
+    <string name="exit_dialog_message">Deseja realmente sair?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="loading_percent">Carregando… %1$d%%</string>
+    <string name="tap_to_continue">Toque para continuar</string>
+    <string name="splash_tagline">Encontre dispositivos próximos facilmente</string>
+    <string name="splash_footer">INTELIGENTE • SIMPLES • CONECTADO</string>
+
+    <string name="choose_language">Escolher idioma</string>
+    <string name="choose_language_subtitle">Selecione seu idioma preferido para continuar</string>
+    <string name="continue_label">Continuar</string>
+    <string name="language">Idioma</string>
+    <string name="language_desc">Alterar o idioma do aplicativo.</string>
+    <string name="app_theme_title">Tema do app</string>
+    <string name="app_theme_desc">Personalize a aparência</string>
+
+    <string name="skip">Pular</string>
+    <string name="next">Próximo</string>
+    <string name="get_started">Começar</string>
+    <string name="onboarding_title_1">Descubra dispositivos próximos</string>
+    <string name="onboarding_desc_1">Busque dispositivos Bluetooth próximos e veja as informações disponíveis.</string>
+    <string name="onboarding_title_2">Explore os detalhes</string>
+    <string name="onboarding_desc_2">Veja informações do dispositivo, força do sinal e distância estimada.</string>
+    <string name="onboarding_title_3">Acompanhe o histórico</string>
+    <string name="onboarding_desc_3">Veja o histórico salvo e as localizações do telefone no mapa quando a permissão estiver ativa.</string>
+    <string name="onboarding_sample_device">Rastreador sem fio</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">Permissões necessárias</string>
+    <string name="perm_screen_subtitle">Para buscar dispositivos Bluetooth e registrar locais de detecção, o app precisa de:</string>
+    <string name="perm_bt_title">Bluetooth e dispositivos próximos</string>
+    <string name="perm_bt_desc">Necessário para buscar dispositivos e tags Bluetooth próximos.</string>
+    <string name="perm_loc_title">Acesso à localização</string>
+    <string name="perm_loc_desc">Exigido pelo Android para busca Bluetooth.</string>
+    <string name="perm_history_title">Locais do histórico</string>
+    <string name="perm_history_desc">Registra a localização do telefone ao detectar um dispositivo para exibir no mapa.</string>
+    <string name="allow_permissions">Permitir</string>
+    <string name="not_now">Agora não</string>
+    <string name="open_settings">Abrir configurações</string>
+    <string name="record_title">Registro</string>
+    <string name="no_history_records">Nenhum local registrado ainda.\nBusque um dispositivo próximo para criar histórico.</string>
+    <string name="location_not_recorded">Local não registrado</string>
+    <string name="detected_date">Detectado %1$s</string>
+    <string name="cancel">Cancelar</string>
+    <string name="label_last_seen">Última deteção</string>
+    <string name="label_classification">Classificação</string>
+    <string name="label_encounters">Ocorrências e padrão</string>
+    <string name="class_supported_tag">Find My / Rastreador compatível</string>
+    <string name="class_bluetooth_device">Dispositivo Bluetooth</string>
+    <string name="rssi_disclaimer">A distância é estimada pela força do sinal Bluetooth (RSSI) e não tem precisão de GPS.</string>
+    <string name="map_phone_location_disclaimer">O mapa mostra onde o telefone detetou este sinal, não a localização física exata do dispositivo.</string>
+    <string name="encounter_summary_format">%1$d observações • %2$d locais</string>
+    <string name="warning_nearby">Dispositivo próximo detetado</string>
+    <string name="warning_repeated">Ocorrência repetida observada</string>
+    <string name="warning_suspicious">Possível padrão de rastreio indesejado</string>
+    <string name="ignore_device_action">Ignorar dispositivo</string>
+    <string name="notif_alert_reason">%1$s detetado repetidamente em %2$d locais. Isto não confirma intenção maliciosa.</string>
+    <string name="open_in_maps">Abrir nos mapas</string>
+    <string name="theme_blue">Azul</string>
+    <string name="company_device_format">Dispositivo %1$s</string>
+    <string name="recorded_scan_location">Localização da análise registada</string>
+    <string name="onboarding_estimated_proximity">PROXIMIDADE ESTIMADA</string>
+    <string name="theme_green">Verde</string>
+    <string name="theme_orange">Laranja</string>
+    <string name="phone_location">Localização do telemóvel</string>
+    <string name="onboarding_sample_location">Exemplo de localização do telemóvel</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">Preto</string>
+    <string name="onboarding_scan_recorded">Análise registada</string>
+    <string name="ignore_device_state">Ignorar dispositivo, %1$s</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="purchase_pending">A compra aguarda confirmação. O Premium será desbloqueado após a conclusão do pagamento.</string>
+    <string name="purchase_pending_button">Compra pendente</string>
+</resources>

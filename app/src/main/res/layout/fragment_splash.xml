@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/splashRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/themeLightColor"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="24dp">
+
+        <LinearLayout
+            android:id="@+id/splashContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.12"
+                android:text="@string/app_name"
+                android:textAllCaps="true"
+                android:textColor="?attr/themePrimaryColor"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+            <FrameLayout
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="20dp">
+
+                <!-- Radar rings -->
+                <View
+                    android:id="@+id/radarRingOuter"
+                    android:layout_width="234dp"
+                    android:layout_height="234dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.20"
+                    android:background="@drawable/bg_splash_orbit_ring" />
+
+                <View
+                    android:id="@+id/radarRingMiddle"
+                    android:layout_width="198dp"
+                    android:layout_height="198dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.30"
+                    android:background="@drawable/bg_splash_orbit_ring" />
+
+                <View
+                    android:id="@+id/radarRingInner"
+                    android:layout_width="162dp"
+                    android:layout_height="162dp"
+                    android:layout_gravity="center"
+                    android:alpha="0.40"
+                    android:background="@drawable/bg_splash_orbit_ring" />
+
+
+                <com.example.bluetoothtracker.ui.splash.BluetoothRadarView
+                    android:id="@+id/radarSweep"
+                    android:layout_width="234dp"
+                    android:layout_height="234dp"
+                    android:layout_gravity="center" />
+
+
+                <!-- Nearby device dots -->
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_splash_bluetooth_center" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="12dp"
+                    android:background="@drawable/bg_splash_bluetooth_center" />
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginBottom="48dp"
+                    android:layout_marginStart="34dp"
+                    android:alpha="0.65"
+                    android:background="@drawable/bg_splash_bluetooth_center" />
+
+                <!-- Main Bluetooth circle -->
+                <FrameLayout
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_splash_bluetooth_center">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_splash_bluetooth"
+                        android:contentDescription="@null" />
+
+                </FrameLayout>
+
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="@string/app_name"
+                android:textColor="?attr/themeTextColor"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTagline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="@string/splash_tagline"
+                android:textColor="@color/theme_text_secondary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvLoading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="?attr/themePrimaryColor"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:id="@+id/progressContainer"
+                android:layout_width="250dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_splash_orbit_progress_border"
+                android:padding="4dp">
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_gravity="center_vertical"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/bg_splash_orbit_progress_fill" />
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:letterSpacing="0.08"
+                android:text="@string/splash_footer"
+                android:textColor="@color/theme_text_secondary"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

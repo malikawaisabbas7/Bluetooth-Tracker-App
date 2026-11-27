@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.bluetoothtracker.ui.splash.SplashFragment"
+        android:label="Splash">
+        <action
+            android:id="@+id/action_splash_to_language"
+            app:destination="@id/languageFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splash_to_onboarding"
+            app:destination="@id/onboardingFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splash_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.example.bluetoothtracker.ui.language.LanguageFragment"
+        android:label="Language">
+        <argument
+            android:name="isFromSettings"
+            android:defaultValue="false"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_language_to_onboarding"
+            app:destination="@id/onboardingFragment"
+            app:popUpTo="@id/languageFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.example.bluetoothtracker.ui.onboarding.OnboardingFragment"
+        android:label="Onboarding">
+        <action
+            android:id="@+id/action_onboarding_to_permission"
+            app:destination="@id/permissionFragment"
+            app:popUpTo="@id/onboardingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.example.bluetoothtracker.ui.permission.PermissionFragment"
+        android:label="Permissions">
+        <argument
+            android:name="mode"
+            android:defaultValue="FIRST_LAUNCH"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_permission_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/permissionFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.bluetoothtracker.ui.home.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_home_to_device_list"
+            app:destination="@id/deviceListFragment" />
+        <action
+            android:id="@+id/action_home_to_premium"
+            app:destination="@id/premiumFragment" />
+        <action
+            android:id="@+id/action_home_to_instruction"
+            app:destination="@id/instructionFragment" />
+        <action
+            android:id="@+id/action_home_to_settings"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_home_to_permission"
+            app:destination="@id/permissionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/deviceListFragment"
+        android:name="com.example.bluetoothtracker.ui.devices.DeviceListFragment"
+        android:label="Devices">
+        <argument
+            android:name="category"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_device_list_to_device_detail"
+            app:destination="@id/deviceDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/deviceDetailFragment"
+        android:name="com.example.bluetoothtracker.ui.detail.DeviceDetailFragment"
+        android:label="Device Info">
+        <argument
+            android:name="mac"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_deviceDetail_to_scanHistory"
+            app:destination="@id/scanHistoryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/premiumFragment"
+        android:name="com.example.bluetoothtracker.ui.premium.PremiumFragment"
+        android:label="Premium" />
+
+    <fragment
+        android:id="@+id/instructionFragment"
+        android:name="com.example.bluetoothtracker.ui.instruction.InstructionFragment"
+        android:label="Instruction" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.bluetoothtracker.ui.settings.SettingsFragment"
+        android:label="Settings">
+        <action
+            android:id="@+id/action_settings_to_premium"
+            app:destination="@id/premiumFragment" />
+        <action
+            android:id="@+id/action_settings_to_support"
+            app:destination="@id/supportFragment" />
+        <action
+            android:id="@+id/action_settings_to_language"
+            app:destination="@id/languageFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="com.example.bluetoothtracker.ui.support.SupportFragment"
+        android:label="Customer Support" />
+
+    <fragment
+        android:id="@+id/scanHistoryFragment"
+        android:name="com.example.bluetoothtracker.ui.history.ScanHistoryFragment"
+        android:label="Record">
+
+        <argument
+            android:name="mac"
+            app:argType="string" />
+
+    </fragment>
+</navigation>

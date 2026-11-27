@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth トラッカー</string>
+    <string name="start_scan">スキャン開始</string>
+    <string name="stop_scan">スキャン停止</string>
+    <string name="devices_found">%1$d 台のデバイス</string>
+    <string name="devices_found_count">%1$d 台のデバイス</string>
+    <string name="searching_devices_hint">周辺の Bluetooth 信号を検索中…</string>
+    <string name="air_tag">タグ</string>
+    <string name="other_tags">その他のタグ</string>
+    <string name="bluetooth_devices">Bluetooth デバイス</string>
+    <string name="no_device_found">デバイスが見つかりません</string>
+    <string name="unknown_device">不明</string>
+    <string name="permission_needed">スキャンするには Bluetooth と位置情報の許可が必要です。</string>
+    <string name="scan_failed">スキャン失敗: %1$s</string>
+    <string name="close">閉じる</string>
+    <string name="choose_app_theme">テーマを選択</string>
+
+    <string name="device_info">デバイス情報</string>
+    <string name="label_name">名前</string>
+    <string name="label_mac">MAC アドレス</string>
+    <string name="label_first_seen">初回検出</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">ペアリング状態</string>
+    <string name="label_company">メーカー</string>
+    <string name="label_ignore">デバイスを無視</string>
+    <string name="label_scan_record">スキャン記録</string>
+    <string name="bonded">ペアリング済み</string>
+    <string name="unbonded">未ペアリング</string>
+    <string name="unknown_company">不明なメーカー</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nm</string>
+    <string name="level_far">遠い</string>
+    <string name="level_near">近い</string>
+    <string name="level_very_near">非常に近い</string>
+    <string name="see_more"><u>もっと見る</u></string>
+    <string name="see_less">閉じる</string>
+    <string name="no_location">位置情報が未記録です。位置情報をオンにしてスキャンを続けてください。</string>
+    <string name="distance_helper">距離は推定値です。地図は検出時のスマートフォンの位置を示します。</string>
+    <string name="open_map_failed">地図アプリが見つかりません。</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">設定</string>
+    <string name="background_tracking">バックグラウンド追跡</string>
+    <string name="background_tracking_desc">バックグラウンドでトラッカーの検出を許可します。</string>
+    <string name="toggle_on">オン</string>
+    <string name="toggle_off">オフ</string>
+    <string name="use_metric_units">メートル法を使用</string>
+    <string name="unit_desc">距離の表示単位。</string>
+    <string name="scan_duration">スキャン時間</string>
+    <string name="scan_duration_desc">自動停止するまでの時間を設定します</string>
+    <string name="remove_ads">広告を削除</string>
+    <string name="customer_support">サポート</string>
+    <string name="rate_us">評価する</string>
+    <string name="share">共有</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="terms_of_service">利用規約</string>
+    <string name="instructions_dialog_title">説明</string>
+    <string name="tracking_permission_needed">バックグラウンド追跡には Bluetooth・位置情報・通知の許可が必要です。</string>
+    <string name="share_text">Bluetooth トラッカーで周辺のトラッカーを検出: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">共有</string>
+    <string name="link_failed">リンクを開けませんでした。</string>
+
+    <string-array name="unit_labels">
+        <item>メートル</item>
+        <item>フィート (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 秒</item>
+        <item>45 秒</item>
+        <item>2 分</item>
+        <item>5 分</item>
+    </string-array>
+
+    <string name="rate_title">Bluetooth トラッカーは\nいかがですか？</string>
+    <string name="rate_body">より良い体験のため改善を続けています。\n評価をお寄せください</string>
+    <string name="rate_best">最高評価</string>
+    <string name="rate_button">評価する</string>
+    <string name="send_feedback">フィードバック送信</string>
+
+    <string name="support_hint">問題の内容を入力（20文字以上）</string>
+    <string name="support_subject">Bluetooth トラッカー サポート</string>
+    <string name="support_no_email_app">メールアプリが見つかりません。</string>
+    <string name="send">送信</string>
+    <string name="back">戻る</string>
+
+    <string name="start_like_a_pro">プロ仕様で開始</string>
+    <string name="unlock_all_features">すべての機能を解除</string>
+    <string name="col_premium">プレミアム</string>
+    <string name="col_basic">ベーシック</string>
+    <string name="feature_find_air_tags">タグを検出</string>
+    <string name="feature_detect_bluetooth">Bluetooth デバイス検出</string>
+    <string name="feature_info_distance">情報と距離</string>
+    <string name="feature_vip_support">VIP サポート</string>
+    <string name="feature_remove_ads">広告なし</string>
+    <string name="price_line_trial">%3$d 日間無料トライアル後 %1$s/%2$s</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">価格を読み込み中…</string>
+    <string name="start_free_trial">無料トライアルを開始</string>
+    <string name="premium_active">プレミアム有効</string>
+    <string name="billing_disclaimer">トライアル終了後に課金され自動更新されます。課金前にいつでも解約できます。</string>
+    <string name="billing_unavailable">現在サブスクリプションを利用できません。</string>
+    <string name="purchase_failed">購入を完了できませんでした。</string>
+    <string name="purchase_success">プレミアムへようこそ！</string>
+    <string name="period_week">週</string>
+    <string name="period_month">月</string>
+    <string name="period_year">年</string>
+    <string name="period_day">日</string>
+    <string name="subscribe_now">今すぐ登録</string>
+
+    <string name="instruction">使い方</string>
+    <string name="instr_title_how">アプリの仕組み</string>
+    <string name="instr_title_notification">通知が届いたら</string>
+    <string name="instr_title_disable">タグを無効にする方法</string>
+    <string name="instr_title_background">バックグラウンド追跡</string>
+    <string name="tag_label">タグ</string>
+    <string name="battery_label">電池</string>
+    <string name="cover_label">カバー</string>
+    <string-array name="instr_how">
+        <item>Bluetooth で周囲の追跡デバイスをスキャンします。</item>
+        <item>位置情報を使用して、同じトラッカーが複数の場所で移動していないか確認します。</item>
+        <item>不審なトラッカーが見つかると通知でお知らせします。</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>電池を取り外してトラッカーを無効にしてください。</item>
+        <item>必要に応じて警察に相談してください。</item>
+        <item>安全な場所へ移動する前に無効化してください。</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>背面カバーを押し下げて反時計回りに回し、電池を取り外します。</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>バックグラウンドで自動スキャンし、20分以上近くにあるデバイスを通知します。</item>
+    </string-array>
+
+    <string name="channel_tracking">バックグラウンド追跡</string>
+    <string name="channel_alerts">トラッカー警告</string>
+    <string name="notif_tracking_title">Bluetooth トラッカー稼働中</string>
+    <string name="notif_tracking_text">周囲のトラッカーを検索中</string>
+    <string name="notif_alert_title">トラッカーが近くにある可能性があります</string>
+    <string name="notif_alert_text">%1$s がしばらく近くにあります。アプリで確認してください。</string>
+
+    <string name="perm_dialog_title">許可が必要です</string>
+    <string name="perm_dialog_body">周辺デバイスのスキャンと地図への位置表示のため、Bluetooth と位置情報の許可が必要です。</string>
+    <string name="perm_allow">許可する</string>
+    <string name="perm_deny">拒否</string>
+    <string name="exit_dialog_title">アプリを終了</string>
+    <string name="exit_dialog_message">本当に終了しますか？</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="loading_percent">読み込み中… %1$d%%</string>
+    <string name="tap_to_continue">タップして続行</string>
+    <string name="splash_tagline">周辺のデバイスを簡単に見つける</string>
+    <string name="splash_footer">スマート • シンプル • コネクテッド</string>
+
+    <string name="choose_language">言語を選択</string>
+    <string name="choose_language_subtitle">使用する言語を選択してください</string>
+    <string name="continue_label">続行</string>
+    <string name="language">言語</string>
+    <string name="language_desc">アプリの表示言語を変更します。</string>
+    <string name="app_theme_title">アプリテーマ</string>
+    <string name="app_theme_desc">外観をカスタマイズ</string>
+
+    <string name="skip">スキップ</string>
+    <string name="next">次へ</string>
+    <string name="get_started">はじめる</string>
+    <string name="onboarding_title_1">近くのデバイスを発見</string>
+    <string name="onboarding_desc_1">周辺の Bluetooth デバイスをスキャンし、利用可能な情報を確認できます。</string>
+    <string name="onboarding_title_2">デバイス詳細を確認</string>
+    <string name="onboarding_desc_2">デバイス情報、信号強度、推定距離を確認できます。</string>
+    <string name="onboarding_title_3">スキャン履歴を確認</string>
+    <string name="onboarding_desc_3">位置情報が許可されている場合、保存された検出履歴と記録された位置を地図で確認できます。</string>
+    <string name="onboarding_sample_device">ワイヤレストラッカー</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">必要な許可</string>
+    <string name="perm_screen_subtitle">Bluetooth デバイスのスキャンと検出位置の記録のため、以下の許可を使用します：</string>
+    <string name="perm_bt_title">Bluetooth と近くのデバイス</string>
+    <string name="perm_bt_desc">近くの Bluetooth デバイスやタグをスキャンするために必要です。</string>
+    <string name="perm_loc_title">位置情報へのアクセス</string>
+    <string name="perm_loc_desc">Android で Bluetooth スキャンを行うために必要です。</string>
+    <string name="perm_history_title">スキャン履歴の位置情報</string>
+    <string name="perm_history_desc">検出時のスマートフォンの位置を記録し、地図に表示します。</string>
+    <string name="allow_permissions">許可する</string>
+    <string name="not_now">今はしない</string>
+    <string name="open_settings">設定を開く</string>
+    <string name="record_title">履歴</string>
+    <string name="no_history_records">記録された位置がまだありません。\n近くのデバイスをスキャンして履歴を作成してください。</string>
+    <string name="location_not_recorded">位置未記録</string>
+    <string name="detected_date">検出: %1$s</string>
+    <string name="cancel">キャンセル</string>
+    <string name="label_last_seen">最終検出日時</string>
+    <string name="label_classification">分類</string>
+    <string name="label_encounters">検出回数とパターン</string>
+    <string name="class_supported_tag">Find My / 対応トラッカータグ</string>
+    <string name="class_bluetooth_device">Bluetoothデバイス</string>
+    <string name="rssi_disclaimer">距離はBluetooth信号強度(RSSI)からの推定値であり、GPSのような精度はありません。</string>
+    <string name="map_phone_location_disclaimer">地図はスマートフォンが信号を検出した場所を示しており、デバイスの正確な物理的位置ではありません。</string>
+    <string name="encounter_summary_format">%1$d 回検出 • %2$d か所</string>
+    <string name="warning_nearby">近くのデバイスを検出</string>
+    <string name="warning_repeated">繰り返しの検出を確認</string>
+    <string name="warning_suspicious">望ましくない追跡の可能性があるパターン</string>
+    <string name="ignore_device_action">デバイスを無視</string>
+    <string name="notif_alert_reason">%1$s が %2$d か所で繰り返し検出されました。悪意を断定するものではありません。</string>
+    <string name="open_in_maps">マップで開く</string>
+    <string name="theme_blue">ブルー</string>
+    <string name="company_device_format">%1$s デバイス</string>
+    <string name="recorded_scan_location">記録されたスキャン位置</string>
+    <string name="onboarding_estimated_proximity">推定距離</string>
+    <string name="theme_green">グリーン</string>
+    <string name="theme_orange">オレンジ</string>
+    <string name="phone_location">端末の位置</string>
+    <string name="onboarding_sample_location">端末の位置サンプル</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">ブラック</string>
+    <string name="onboarding_scan_recorded">スキャンを記録しました</string>
+    <string name="ignore_device_state">デバイスを無視、%1$s</string>
+    <string name="retry">再試行</string>
+    <string name="purchase_pending">購入の確認待ちです。支払いが完了するとPremiumが有効になります。</string>
+    <string name="purchase_pending_button">保留中の購入</string>
+</resources>

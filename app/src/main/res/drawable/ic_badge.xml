@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Connected ribbon tails underneath the medal -->
+    <path
+        android:fillColor="?attr/themePrimaryColor"
+        android:pathData="
+            M8.0,16.7
+            Q12.0,18.0 16.0,16.7
+            L18.0,21.0
+            Q18.3,21.8 17.5,21.6
+            L13.1,20.1
+            Q12.0,19.7 10.9,20.1
+            L6.5,21.6
+            Q5.7,21.8 6.0,21.0
+            Z" />
+
+    <!-- Main circular medal -->
+    <path
+        android:fillColor="?attr/themePrimaryColor"
+        android:pathData="
+            M12,2.5
+            A7,7 0,1 1,12 16.5
+            A7,7 0,1 1,12 2.5
+            Z" />
+
+    <!-- Five-point star -->
+    <path
+        android:fillColor="?attr/themeLightColor"
+        android:strokeColor="?attr/themeLightColor"
+        android:strokeWidth="1.25"
+        android:strokeLineJoin="round"
+        android:pathData="
+            M12,5.6
+            L13.15,7.95
+            L15.75,8.33
+            L13.87,10.17
+            L14.31,12.76
+            L12,11.54
+            L9.69,12.76
+            L10.13,10.17
+            L8.25,8.33
+            L10.85,7.95
+            Z" />
+
+</vector>

@@ -1,0 +1,49 @@
+<resources>
+    <color name="bg">#131B1C</color>
+    <color name="bg_bottom">#283032</color>
+    <color name="surface">#2B3234</color>
+    <color name="surface_dark">#1B1F21</color>
+    <color name="lime_green">#00FF00</color>
+    <color name="green">#CCFF00</color>
+    <color name="green_dark">#6B8E23</color>
+    <color name="olive">#6B8228</color>
+    <color name="orange">#FFC41E</color>
+    <color name="golden_yellow">#FFE824</color>
+    <color name="red">#FF3B30</color>
+    <color name="red_light">#FFEBEE</color>
+    <color name="grey">#6E6E73</color>
+    <color name="grey_light">#BDBDBD</color>
+    <color name="theme_text_dark">#212121</color>
+    <color name="theme_text_secondary">#616161</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="bar_off">#3F4749</color>
+    <color name="dialog_bg">#3A3A3C</color>
+    <color name="support_bg">#111111</color>
+
+
+
+    <!-- Global app themes -->
+
+    <color name="theme_blue_primary">#1976D2</color>
+    <color name="theme_blue_light_primary">#7EAAD5</color>
+    <color name="theme_blue_light">#E3F2FD</color>
+
+    <color name="theme_orange_primary">#F57C00</color>
+    <color name="theme_orange_light">#FFF3E0</color>
+
+    <color name="theme_black_primary">#212121</color>
+    <color name="theme_black_light">#EEEEEE</color>
+
+    <color name="theme_green_primary">#2E7D32</color>
+    <color name="theme_green_light">#E8F5E9</color>
+
+
+
+    <!-- Instruction Dialog -->
+    <color name="rate_dialog_header">#3A3A3C</color>
+    <color name="dialog_header">#252D30</color>
+    <color name="dialog_body">#1F262A</color>
+    <color name="dialog_text">#BFC3C4</color>
+
+</resources>

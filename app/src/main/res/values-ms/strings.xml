@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Penjejak Bluetooth</string>
+    <string name="start_scan">Mula Imbas</string>
+    <string name="stop_scan">Henti Imbas</string>
+    <string name="devices_found">%1$d Peranti Ditemui</string>
+    <string name="devices_found_count">%1$d Peranti Ditemui</string>
+    <string name="searching_devices_hint">Mencari isyarat Bluetooth berdekatan…</string>
+    <string name="air_tag">Tag</string>
+    <string name="other_tags">Tag Lain</string>
+    <string name="bluetooth_devices">Peranti Bluetooth</string>
+    <string name="no_device_found">Tiada peranti ditemui</string>
+    <string name="unknown_device">Tidak diketahui</string>
+    <string name="permission_needed">Kebenaran Bluetooth dan lokasi diperlukan untuk mengimbas.</string>
+    <string name="scan_failed">Imbasan gagal: %1$s</string>
+    <string name="close">Tutup</string>
+    <string name="choose_app_theme">Pilih Tema Aplikasi</string>
+
+    <string name="device_info">Maklumat Peranti</string>
+    <string name="label_name">Nama</string>
+    <string name="label_mac">Alamat MAC</string>
+    <string name="label_first_seen">Mula Dilihat</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">Status Gandingan</string>
+    <string name="label_company">Syarikat</string>
+    <string name="label_ignore">Abaikan Peranti</string>
+    <string name="label_scan_record">Rekod Imbasan</string>
+    <string name="bonded">Digandingkan</string>
+    <string name="unbonded">Tidak Digandingkan</string>
+    <string name="unknown_company">Syarikat Tidak Diketahui</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nmeter</string>
+    <string name="level_far">Jauh</string>
+    <string name="level_near">Dekat</string>
+    <string name="level_very_near">Sangat dekat</string>
+    <string name="see_more"><u>Lihat Lagi</u></string>
+    <string name="see_less">Lihat Kurang</string>
+    <string name="no_location">Tiada lokasi direkodkan lagi. Hidupkan Lokasi dan teruskan mengimbas.</string>
+    <string name="distance_helper">Jarak adalah anggaran. Peta menunjukkan lokasi telefon anda semasa mengesan peranti ini.</string>
+    <string name="open_map_failed">Tiada aplikasi peta ditemui.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">Tetapan</string>
+    <string name="background_tracking">Penjejakan Latar Belakang</string>
+    <string name="background_tracking_desc">Benarkan aplikasi beroperasi di latar belakang untuk mengesan penjejak.</string>
+    <string name="toggle_on">Hidup</string>
+    <string name="toggle_off">Mati</string>
+    <string name="use_metric_units">Gunakan Unit Metrik</string>
+    <string name="unit_desc">Unit ukuran jarak.</string>
+    <string name="scan_duration">Tempoh Imbasan</string>
+    <string name="scan_duration_desc">Tetapkan tempoh berhenti automatik selepas mula mengimbas</string>
+    <string name="remove_ads">Buang Iklan</string>
+    <string name="customer_support">Sokongan Pelanggan</string>
+    <string name="rate_us">Nilai Kami</string>
+    <string name="share">Kongsi</string>
+    <string name="privacy_policy">Dasar Privasi</string>
+    <string name="terms_of_service">Terma Perkhidmatan</string>
+    <string name="instructions_dialog_title">Arahan</string>
+    <string name="tracking_permission_needed">Kebenaran Bluetooth, lokasi dan pemberitahuan diperlukan.</string>
+    <string name="share_text">Cari penjejak Bluetooth tersembunyi dengan Penjejak Bluetooth: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">Kongsi melalui</string>
+    <string name="link_failed">Tidak dapat membuka pautan.</string>
+
+    <string-array name="unit_labels">
+        <item>Meter</item>
+        <item>Kaki (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 Saat</item>
+        <item>45 Saat</item>
+        <item>2 Minit</item>
+        <item>5 Minit</item>
+    </string-array>
+
+    <string name="rate_title">Suka\nPenjejak Bluetooth?</string>
+    <string name="rate_body">Kami berusaha untuk pengalaman yang lebih baik.\nKami amat menghargai penilaian anda</string>
+    <string name="rate_best">Penilaian terbaik</string>
+    <string name="rate_button">Nilai</string>
+    <string name="send_feedback">Hantar maklum balas</string>
+
+    <string name="support_hint">Terangkan masalah (sekurang-kurangnya 20 aksara)</string>
+    <string name="support_subject">Sokongan Penjejak Bluetooth</string>
+    <string name="support_no_email_app">Tiada aplikasi e-mel ditemui.</string>
+    <string name="send">Hantar</string>
+    <string name="back">Kembali</string>
+
+    <string name="start_like_a_pro">MULA SEPERTI PRO</string>
+    <string name="unlock_all_features">Buka Semua Ciri</string>
+    <string name="col_premium">PREMIUM</string>
+    <string name="col_basic">ASAS</string>
+    <string name="feature_find_air_tags">Cari Tag</string>
+    <string name="feature_detect_bluetooth">Kesan Peranti Bluetooth</string>
+    <string name="feature_info_distance">Info &amp; Jarak</string>
+    <string name="feature_vip_support">Sokongan VIP</string>
+    <string name="feature_remove_ads">Buang Iklan</string>
+    <string name="price_line_trial">%1$s/%2$s selepas percubaan percuma %3$d hari</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">Memuatkan harga…</string>
+    <string name="start_free_trial">MULA PERCUBAAN PERCUMA</string>
+    <string name="premium_active">ANDA ADALAH PREMIUM</string>
+    <string name="billing_disclaimer">Langganan diperbaharui secara automatik selepas percubaan tamat. Batalkan sebelum tamat.</string>
+    <string name="billing_unavailable">Langganan tidak tersedia buat masa ini.</string>
+    <string name="purchase_failed">Pembelian tidak dapat diselesaikan.</string>
+    <string name="purchase_success">Selamat datang ke Premium!</string>
+    <string name="period_week">minggu</string>
+    <string name="period_month">bulan</string>
+    <string name="period_year">tahun</string>
+    <string name="period_day">hari</string>
+    <string name="subscribe_now">Langgan Sekarang</string>
+
+    <string name="instruction">Arahan</string>
+    <string name="instr_title_how">Bagaimana aplikasi berfungsi?</string>
+    <string name="instr_title_notification">Saya terima pemberitahuan, apa perlu buat?</string>
+    <string name="instr_title_disable">Cara menyahaktifkan Tag?</string>
+    <string name="instr_title_background">Penjejakan Latar Belakang</string>
+    <string name="tag_label">Tag</string>
+    <string name="battery_label">Bateri</string>
+    <string name="cover_label">Penutup</string>
+    <string-array name="instr_how">
+        <item>Aplikasi menggunakan Bluetooth untuk mengimbas peranti yang mungkin menjejaki anda.</item>
+        <item>Lokasi digunakan untuk mengesan sama ada penjejak mengikuti anda ke beberapa tempat.</item>
+        <item>Anda akan menerima pemberitahuan apabila penjejak berpotensi dikesan.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>Nyahaktifkan penjejak dengan mengeluarkan bateri.</item>
+        <item>Serahkan penjejak kepada polis.</item>
+        <item>Pastikan ia dinyahaktifkan sebelum ke tempat selamat.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>Tekan dan pusing penutup belakang mengikut arah lawan jam, kemudian keluarkan bateri.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>Imbasan latar belakang akan memberi amaran jika peranti kekal berdekatan lebih 20 minit.</item>
+    </string-array>
+
+    <string name="channel_tracking">Penjejakan latar belakang</string>
+    <string name="channel_alerts">Amaran penjejak</string>
+    <string name="notif_tracking_title">Penjejak Bluetooth aktif</string>
+    <string name="notif_tracking_text">Mencari penjejak di sekitar anda</string>
+    <string name="notif_alert_title">Penjejak mungkin menjejaki anda</string>
+    <string name="notif_alert_text">%1$s berada berdekatan anda agak lama. Buka aplikasi untuk semak.</string>
+
+    <string name="perm_dialog_title">Kebenaran Diperlukan</string>
+    <string name="perm_dialog_body">Aplikasi memerlukan kebenaran Bluetooth dan Lokasi untuk mengimbas dan memaparkan peta.</string>
+    <string name="perm_allow">Benarkan</string>
+    <string name="perm_deny">Tolak</string>
+    <string name="exit_dialog_title">Keluar Aplikasi</string>
+    <string name="exit_dialog_message">Adakah anda pasti mahu keluar?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="loading_percent">Memuatkan… %1$d%%</string>
+    <string name="tap_to_continue">Ketik untuk meneruskan</string>
+    <string name="splash_tagline">Cari peranti berdekatan dengan mudah</string>
+    <string name="splash_footer">PINTAR • MUDAH • BERHUBUNG</string>
+
+    <string name="choose_language">Pilih Bahasa</string>
+    <string name="choose_language_subtitle">Pilih bahasa pilihan anda untuk meneruskan</string>
+    <string name="continue_label">Teruskan</string>
+    <string name="language">Bahasa</string>
+    <string name="language_desc">Tukar bahasa aplikasi.</string>
+    <string name="app_theme_title">Tema Aplikasi</string>
+    <string name="app_theme_desc">Sesuaikan rupa aplikasi</string>
+
+    <string name="skip">Langkau</string>
+    <string name="next">Seterusnya</string>
+    <string name="get_started">Mula</string>
+    <string name="onboarding_title_1">Temui Peranti Berdekatan</string>
+    <string name="onboarding_desc_1">Imbas peranti Bluetooth berdekatan dan terokai maklumat yang tersedia.</string>
+    <string name="onboarding_title_2">Terokai Butiran Peranti</string>
+    <string name="onboarding_desc_2">Lihat maklumat peranti, kekuatan isyarat dan anggaran jarak.</string>
+    <string name="onboarding_title_3">Jejak Sejarah Imbasan</string>
+    <string name="onboarding_desc_3">Semak sejarah pengesanan dan lokasi telefon pada peta apabila akses lokasi dibenarkan.</string>
+    <string name="onboarding_sample_device">Penjejak Wayarles</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">Kebenaran Diperlukan</string>
+    <string name="perm_screen_subtitle">Untuk mengimbas peranti Bluetooth dan merekod lokasi, aplikasi memerlukan kebenaran berikut:</string>
+    <string name="perm_bt_title">Bluetooth &amp; Peranti Berdekatan</string>
+    <string name="perm_bt_desc">Diperlukan untuk mengimbas peranti dan tag Bluetooth berdekatan.</string>
+    <string name="perm_loc_title">Akses Lokasi</string>
+    <string name="perm_loc_desc">Diperlukan oleh Android untuk imbasan Bluetooth.</string>
+    <string name="perm_history_title">Lokasi Sejarah Imbasan</string>
+    <string name="perm_history_desc">Merekod lokasi telefon semasa pengesanan untuk dipaparkan di peta.</string>
+    <string name="allow_permissions">Benarkan</string>
+    <string name="not_now">Bukan Sekarang</string>
+    <string name="open_settings">Buka Tetapan</string>
+    <string name="record_title">Rekod</string>
+    <string name="no_history_records">Tiada lokasi direkodkan lagi.\nImbas peranti berdekatan untuk membina sejarah.</string>
+    <string name="location_not_recorded">Lokasi tidak direkodkan</string>
+    <string name="detected_date">Dikesan %1$s</string>
+    <string name="cancel">Batal</string>
+    <string name="label_last_seen">Terakhir Dikesan</string>
+    <string name="label_classification">Pengelasan</string>
+    <string name="label_encounters">Pertemuan &amp; Corak</string>
+    <string name="class_supported_tag">Find My / Tag Penjejak Disokong</string>
+    <string name="class_bluetooth_device">Peranti Bluetooth</string>
+    <string name="rssi_disclaimer">Jarak dianggarkan daripada kekuatan isyarat Bluetooth (RSSI) dan bukan ketepatan GPS.</string>
+    <string name="map_phone_location_disclaimer">Peta menunjukkan tempat telefon anda mengesan isyarat ini, bukan lokasi fizikal sebenar peranti.</string>
+    <string name="encounter_summary_format">%1$d pemerhatian • %2$d lokasi</string>
+    <string name="warning_nearby">Peranti berdekatan dikesan</string>
+    <string name="warning_repeated">Pertemuan berulang diperhatikan</string>
+    <string name="warning_suspicious">Corak penjejakan tidak diingini berpotensi</string>
+    <string name="ignore_device_action">Abaikan Peranti</string>
+    <string name="notif_alert_reason">%1$s dikesan berulang kali di %2$d lokasi. Ini tidak mengesahkan niat jahat.</string>
+    <string name="open_in_maps">Buka dalam peta</string>
+    <string name="theme_blue">Biru</string>
+    <string name="company_device_format">Peranti %1$s</string>
+    <string name="recorded_scan_location">Lokasi imbasan direkodkan</string>
+    <string name="onboarding_estimated_proximity">ANGGARAN JARAK</string>
+    <string name="theme_green">Hijau</string>
+    <string name="theme_orange">Jingga</string>
+    <string name="phone_location">Lokasi telefon</string>
+    <string name="onboarding_sample_location">Contoh lokasi telefon</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">Hitam</string>
+    <string name="onboarding_scan_recorded">Imbasan direkodkan</string>
+    <string name="ignore_device_state">Abaikan peranti, %1$s</string>
+    <string name="retry">Cuba lagi</string>
+    <string name="purchase_pending">Pembelian menunggu pengesahan. Premium akan dibuka selepas pembayaran selesai.</string>
+    <string name="purchase_pending_button">Pembelian tertunda</string>
+</resources>

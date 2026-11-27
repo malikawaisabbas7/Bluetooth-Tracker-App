@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ब्लूटूथ ट्रैकर</string>
+    <string name="start_scan">स्कैन शुरू करें</string>
+    <string name="stop_scan">स्कैन रोकें</string>
+    <string name="devices_found">%1$d डिवाइस मिले</string>
+    <string name="devices_found_count">%1$d डिवाइस मिले</string>
+    <string name="searching_devices_hint">आसपास के ब्लूटूथ सिग्नल खोजे जा रहे हैं…</string>
+    <string name="air_tag">टैग्स</string>
+    <string name="other_tags">अन्य टैग्स</string>
+    <string name="bluetooth_devices">ब्लूटूथ डिवाइस</string>
+    <string name="no_device_found">कोई डिवाइस नहीं मिला</string>
+    <string name="unknown_device">अज्ञात</string>
+    <string name="permission_needed">स्कैन करने के लिए ब्लूटूथ और लोकेशन अनुमति आवश्यक है।</string>
+    <string name="scan_failed">स्कैन विफल: %1$s</string>
+    <string name="close">बंद करें</string>
+    <string name="choose_app_theme">ऐप थीम चुनें</string>
+
+    <string name="device_info">डिवाइस जानकारी</string>
+    <string name="label_name">नाम</string>
+    <string name="label_mac">MAC पता</string>
+    <string name="label_first_seen">पहली बार देखा गया</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">पेयरिंग स्थिति</string>
+    <string name="label_company">कंपनी</string>
+    <string name="label_ignore">डिवाइस अनदेखा करें</string>
+    <string name="label_scan_record">स्कैन रिकॉर्ड</string>
+    <string name="bonded">पेयर्ड</string>
+    <string name="unbonded">अनपेयर्ड</string>
+    <string name="unknown_company">अज्ञात कंपनी</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nमीटर</string>
+    <string name="level_far">दूर</string>
+    <string name="level_near">पास</string>
+    <string name="level_very_near">बहुत पास</string>
+    <string name="see_more"><u>और देखें</u></string>
+    <string name="see_less">कम देखें</string>
+    <string name="no_location">अभी तक कोई लोकेशन दर्ज नहीं हुई। लोकेशन चालू करें और स्कैन जारी रखें।</string>
+    <string name="distance_helper">दूरी अनुमानित है। नक्शा डिवाइस मिलने के समय आपके फ़ोन की लोकेशन दिखाता है।</string>
+    <string name="open_map_failed">कोई मैप ऐप नहीं मिला।</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">सेटिंग्स</string>
+    <string name="background_tracking">बैकग्राउंड ट्रैकिंग</string>
+    <string name="background_tracking_desc">ट्रैकर खोजने के लिए ऐप को बैकग्राउंड में चलने दें।</string>
+    <string name="toggle_on">चालू</string>
+    <string name="toggle_off">बंद</string>
+    <string name="use_metric_units">मीट्रिक इकाइयाँ</string>
+    <string name="unit_desc">दूरी मापने की इकाई।</string>
+    <string name="scan_duration">स्कैन अवधि</string>
+    <string name="scan_duration_desc">स्कैन शुरू करने के बाद अपने आप रुकने का समय तय करें</string>
+    <string name="remove_ads">विज्ञापन हटाएँ</string>
+    <string name="customer_support">ग्राहक सहायता</string>
+    <string name="rate_us">हमें रेट करें</string>
+    <string name="share">शेयर करें</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="terms_of_service">सेवा की शर्तें</string>
+    <string name="instructions_dialog_title">निर्देश</string>
+    <string name="tracking_permission_needed">बैकग्राउंड ट्रैकिंग के लिए ब्लूटूथ, लोकेशन और नोटिफिकेशन अनुमति चाहिए।</string>
+    <string name="share_text">ब्लूटूथ ट्रैकर के साथ आसपास के छिपे ट्रैकर खोजें: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">शेयर करें</string>
+    <string name="link_failed">लिंक नहीं खुल सका।</string>
+
+    <string-array name="unit_labels">
+        <item>मीटर</item>
+        <item>फीट (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 सेकंड</item>
+        <item>45 सेकंड</item>
+        <item>2 मिनट</item>
+        <item>5 मिनट</item>
+    </string-array>
+
+    <string name="rate_title">क्या आपको\nब्लूटूथ ट्रैकर पसंद आया?</string>
+    <string name="rate_body">हम बेहतर अनुभव के लिए प्रयासरत हैं।\nआपकी रेटिंग हमारे लिए महत्वपूर्ण है</string>
+    <string name="rate_best">सर्वश्रेष्ठ रेटिंग</string>
+    <string name="rate_button">रेट करें</string>
+    <string name="send_feedback">फ़ीडबैक भेजें</string>
+
+    <string name="support_hint">समस्या लिखें (कम से कम 20 अक्षर)</string>
+    <string name="support_subject">ब्लूटूथ ट्रैकर सहायता</string>
+    <string name="support_no_email_app">कोई ईमेल ऐप नहीं मिला।</string>
+    <string name="send">भेजें</string>
+    <string name="back">वापस</string>
+
+    <string name="start_like_a_pro">प्रो की तरह शुरू करें</string>
+    <string name="unlock_all_features">सभी सुविधाएँ अनलॉक करें</string>
+    <string name="col_premium">प्रीमियम</string>
+    <string name="col_basic">बेसिक</string>
+    <string name="feature_find_air_tags">टैग खोजें</string>
+    <string name="feature_detect_bluetooth">ब्लूटूथ डिवाइस पहचानें</string>
+    <string name="feature_info_distance">जानकारी और दूरी</string>
+    <string name="feature_vip_support">VIP सहायता</string>
+    <string name="feature_remove_ads">विज्ञापन हटाएँ</string>
+    <string name="price_line_trial">%3$d-दिन के मुफ़्त ट्रायल के बाद %1$s/%2$s</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">कीमत लोड हो रही है…</string>
+    <string name="start_free_trial">मुफ़्त ट्रायल शुरू करें</string>
+    <string name="premium_active">आप प्रीमियम सदस्य हैं</string>
+    <string name="billing_disclaimer">ट्रायल के बाद सदस्यता स्वतः नवीनीकृत हो जाएगी। शुल्क से बचने के लिए पहले रद्द करें।</string>
+    <string name="billing_unavailable">सदस्यता अभी उपलब्ध नहीं है।</string>
+    <string name="purchase_failed">खरीद पूरी नहीं हो सकी।</string>
+    <string name="purchase_success">प्रीमियम में स्वागत है!</string>
+    <string name="period_week">सप्ताह</string>
+    <string name="period_month">महीना</string>
+    <string name="period_year">वर्ष</string>
+    <string name="period_day">दिन</string>
+    <string name="subscribe_now">अभी सब्सक्राइब करें</string>
+
+    <string name="instruction">निर्देश</string>
+    <string name="instr_title_how">ऐप कैसे काम करता है?</string>
+    <string name="instr_title_notification">सूचना मिली, अब क्या करें?</string>
+    <string name="instr_title_disable">टैग को बंद कैसे करें?</string>
+    <string name="instr_title_background">बैकग्राउंड ट्रैकिंग</string>
+    <string name="tag_label">टैग</string>
+    <string name="battery_label">बैटरी</string>
+    <string name="cover_label">कवर</string>
+    <string-array name="instr_how">
+        <item>ऐप ब्लूटूथ से उन डिवाइस को स्कैन करता है जो आपका पीछा कर सकते हैं।</item>
+        <item>लोकेशन की मदद से पता चलता है कि कोई ट्रैकर अलग-अलग जगहों पर आपके साथ है या नहीं।</item>
+        <item>संदिग्ध ट्रैकर मिलने पर आपको सूचना मिलती है।</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>बैटरी निकालकर ट्रैकर को निष्क्रिय करें।</item>
+        <item>ट्रैकर को पुलिस को सौंपें।</item>
+        <item>सुरक्षित स्थान पर जाने से पहले इसे बंद करना सुनिश्चित करें।</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>पिछले हिस्से को दबाकर वामावर्त घुमाएँ, कवर हटाएँ और बैटरी निकाल दें।</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>बैकग्राउंड स्कैनिंग किसी डिवाइस के 20 मिनट से अधिक पास रहने पर आपको सूचित करती है।</item>
+    </string-array>
+
+    <string name="channel_tracking">बैकग्राउंड ट्रैकिंग</string>
+    <string name="channel_alerts">ट्रैकर अलर्ट</string>
+    <string name="notif_tracking_title">ब्लूटूथ ट्रैकर चालू है</string>
+    <string name="notif_tracking_text">आसपास के ट्रैकर खोजे जा रहे हैं</string>
+    <string name="notif_alert_title">कोई ट्रैकर आपका पीछा कर सकता है</string>
+    <string name="notif_alert_text">%1$s कुछ समय से आपके पास है। जाँचने के लिए ऐप खोलें।</string>
+
+    <string name="perm_dialog_title">अनुमतियाँ आवश्यक</string>
+    <string name="perm_dialog_body">ब्लूटूथ ट्रैकर को स्कैन करने और नक्शे पर स्थान दिखाने के लिए ब्लूटूथ और लोकेशन अनुमतियाँ चाहिए।</string>
+    <string name="perm_allow">अनुमति दें</string>
+    <string name="perm_deny">अस्वीकार करें</string>
+    <string name="exit_dialog_title">ऐप बंद करें</string>
+    <string name="exit_dialog_message">क्या आप वाकई बाहर निकलना चाहते हैं?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="loading_percent">लोड हो रहा है… %1$d%%</string>
+    <string name="tap_to_continue">जारी रखने के लिए टैप करें</string>
+    <string name="splash_tagline">आसपास के डिवाइस आसानी से खोजें</string>
+    <string name="splash_footer">स्मार्ट • सरल • कनेक्टेड</string>
+
+    <string name="choose_language">भाषा चुनें</string>
+    <string name="choose_language_subtitle">जारी रखने के लिए अपनी पसंदीदा भाषा चुनें</string>
+    <string name="continue_label">जारी रखें</string>
+    <string name="language">भाषा</string>
+    <string name="language_desc">ऐप की भाषा बदलें।</string>
+    <string name="app_theme_title">ऐप थीम</string>
+    <string name="app_theme_desc">ऐप का रंग और रूप बदलें</string>
+
+    <string name="skip">छोड़ें</string>
+    <string name="next">आगे</string>
+    <string name="get_started">शुरू करें</string>
+    <string name="onboarding_title_1">आसपास के डिवाइस खोजें</string>
+    <string name="onboarding_desc_1">आसपास के ब्लूटूथ डिवाइस स्कैन करें और उपलब्ध जानकारी देखें।</string>
+    <string name="onboarding_title_2">डिवाइस विवरण देखें</string>
+    <string name="onboarding_desc_2">डिवाइस जानकारी, सिग्नल क्षमता और अनुमानित दूरी देखें।</string>
+    <string name="onboarding_title_3">स्कैन इतिहास ट्रैक करें</string>
+    <string name="onboarding_desc_3">लोकेशन अनुमति मिलने पर सहेजा गया इतिहास और फ़ोन की दर्ज लोकेशन नक्शे पर देखें।</string>
+    <string name="onboarding_sample_device">वायरलेस ट्रैकर</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">आवश्यक अनुमतियाँ</string>
+    <string name="perm_screen_subtitle">ब्लूटूथ डिवाइस स्कैन करने और लोकेशन सहेजने के लिए निम्न अनुमतियाँ चाहिए:</string>
+    <string name="perm_bt_title">ब्लूटूथ और नजदीकी डिवाइस</string>
+    <string name="perm_bt_desc">आसपास के ब्लूटूथ डिवाइस और टैग स्कैन करने के लिए आवश्यक।</string>
+    <string name="perm_loc_title">लोकेशन एक्सेस</string>
+    <string name="perm_loc_desc">Android पर ब्लूटूथ स्कैनिंग के लिए आवश्यक।</string>
+    <string name="perm_history_title">स्कैन इतिहास लोकेशन</string>
+    <string name="perm_history_desc">नक्शे पर दिखाने के लिए डिवाइस मिलने पर फ़ोन की लोकेशन सहेजता है।</string>
+    <string name="allow_permissions">अनुमति दें</string>
+    <string name="not_now">अभी नहीं</string>
+    <string name="open_settings">सेटिंग्स खोलें</string>
+    <string name="record_title">रिकॉर्ड</string>
+    <string name="no_history_records">अभी कोई लोकेशन दर्ज नहीं हुई।\nइतिहास बनाने के लिए कोई नजदीकी डिवाइस स्कैन करें।</string>
+    <string name="location_not_recorded">लोकेशन दर्ज नहीं</string>
+    <string name="detected_date">खोजा गया %1$s</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="label_last_seen">अंतिम बार देखा गया</string>
+    <string name="label_classification">वर्गीकरण</string>
+    <string name="label_encounters">पहचान और पैटर्न</string>
+    <string name="class_supported_tag">Find My / समर्थित ट्रैकर टैग</string>
+    <string name="class_bluetooth_device">ब्लूटूथ डिवाइस</string>
+    <string name="rssi_disclaimer">दूरी का अनुमान ब्लूटूथ सिग्नल की ताकत (RSSI) से लगाया गया है और यह GPS जैसी सटीक नहीं है।</string>
+    <string name="map_phone_location_disclaimer">मानचित्र दिखाता है कि आपके फ़ोन ने यह सिग्नल कहाँ पकड़ा, न कि डिवाइस का सटीक स्थान।</string>
+    <string name="encounter_summary_format">%1$d अवलोकन • %2$d स्थान</string>
+    <string name="warning_nearby">पास का डिवाइस मिला</string>
+    <string name="warning_repeated">बार-बार उपस्थिति देखी गई</string>
+    <string name="warning_suspicious">संभावित अवांछित ट्रैकिंग पैटर्न</string>
+    <string name="ignore_device_action">डिवाइस अनदेखा करें</string>
+    <string name="notif_alert_reason">%1$s को %2$d स्थानों पर बार-बार देखा गया। यह दुर्भावनापूर्ण इरादे की पुष्टि नहीं करता है।</string>
+    <string name="open_in_maps">मैप्स में खोलें</string>
+    <string name="theme_blue">नीला</string>
+    <string name="company_device_format">%1$s डिवाइस</string>
+    <string name="recorded_scan_location">सहेजा गया स्कैन स्थान</string>
+    <string name="onboarding_estimated_proximity">अनुमानित निकटता</string>
+    <string name="theme_green">हरा</string>
+    <string name="theme_orange">नारंगी</string>
+    <string name="phone_location">फ़ोन का स्थान</string>
+    <string name="onboarding_sample_location">फ़ोन का नमूना स्थान</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">काला</string>
+    <string name="onboarding_scan_recorded">स्कैन सहेजा गया</string>
+    <string name="ignore_device_state">डिवाइस अनदेखा करें, %1$s</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="purchase_pending">खरीदारी की पुष्टि लंबित है। भुगतान पूरा होने पर Premium अनलॉक हो जाएगा।</string>
+    <string name="purchase_pending_button">खरीदारी लंबित</string>
+</resources>

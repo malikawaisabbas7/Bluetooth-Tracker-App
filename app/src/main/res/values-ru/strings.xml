@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth Трекер</string>
+    <string name="start_scan">Начать поиск</string>
+    <string name="stop_scan">Остановить</string>
+    <string name="devices_found">Найдено устройств: %1$d</string>
+    <string name="devices_found_count">Найдено устройств: %1$d</string>
+    <string name="searching_devices_hint">Поиск сигналов Bluetooth поблизости…</string>
+    <string name="air_tag">Метки</string>
+    <string name="other_tags">Другие метки</string>
+    <string name="bluetooth_devices">Bluetooth-устройства</string>
+    <string name="no_device_found">Устройства не найдены</string>
+    <string name="unknown_device">Неизвестно</string>
+    <string name="permission_needed">Для поиска нужны разрешения Bluetooth и геолокации.</string>
+    <string name="scan_failed">Ошибка поиска: %1$s</string>
+    <string name="close">Закрыть</string>
+    <string name="choose_app_theme">Выбрать тему</string>
+
+    <string name="device_info">О устройстве</string>
+    <string name="label_name">Имя</string>
+    <string name="label_mac">MAC-адрес</string>
+    <string name="label_first_seen">Первое обнаружение</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">Сопряжение</string>
+    <string name="label_company">Компания</string>
+    <string name="label_ignore">Игнорировать</string>
+    <string name="label_scan_record">Запись поиска</string>
+    <string name="bonded">Сопряжено</string>
+    <string name="unbonded">Не сопряжено</string>
+    <string name="unknown_company">Неизвестная компания</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nметр</string>
+    <string name="level_far">Далеко</string>
+    <string name="level_near">Рядом</string>
+    <string name="level_very_near">Очень близко</string>
+    <string name="see_more"><u>Подробнее</u></string>
+    <string name="see_less">Скрыть</string>
+    <string name="no_location">Геопозиция не записана. Включите геолокацию и продолжите поиск.</string>
+    <string name="distance_helper">Расстояние приблизительное. Карта показывает положение вашего телефона в момент обнаружения.</string>
+    <string name="open_map_failed">Приложение карт не найдено.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">Настройки</string>
+    <string name="background_tracking">Фоновый поиск</string>
+    <string name="background_tracking_desc">Разрешить приложению искать трекеры в фоне.</string>
+    <string name="toggle_on">Вкл</string>
+    <string name="toggle_off">Выкл</string>
+    <string name="use_metric_units">Метрические единицы</string>
+    <string name="unit_desc">Единица измерения расстояния.</string>
+    <string name="scan_duration">Длительность поиска</string>
+    <string name="scan_duration_desc">Время до автоматической остановки поиска</string>
+    <string name="remove_ads">Убрать рекламу</string>
+    <string name="customer_support">Поддержка</string>
+    <string name="rate_us">Оценить</string>
+    <string name="share">Поделиться</string>
+    <string name="privacy_policy">Конфиденциальность</string>
+    <string name="terms_of_service">Условия использования</string>
+    <string name="instructions_dialog_title">Инструкция</string>
+    <string name="tracking_permission_needed">Нужны разрешения Bluetooth, геолокации и уведомлений.</string>
+    <string name="share_text">Находите скрытые Bluetooth-трекеры с помощью Bluetooth Трекер: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">Поделиться через</string>
+    <string name="link_failed">Не удалось открыть ссылку.</string>
+
+    <string-array name="unit_labels">
+        <item>Метр</item>
+        <item>Фут (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 секунд</item>
+        <item>45 секунд</item>
+        <item>2 минуты</item>
+        <item>5 минут</item>
+    </string-array>
+
+    <string name="rate_title">Вам нравится\nBluetooth Трекер?</string>
+    <string name="rate_body">Мы стараемся сделать приложение лучше.\nБудем рады вашей оценке</string>
+    <string name="rate_best">Высшая оценка</string>
+    <string name="rate_button">Оценить</string>
+    <string name="send_feedback">Отправить отзыв</string>
+
+    <string name="support_hint">Опишите проблему (минимум 20 символов)</string>
+    <string name="support_subject">Поддержка Bluetooth Трекер</string>
+    <string name="support_no_email_app">Почтовое приложение не найдено.</string>
+    <string name="send">Отправить</string>
+    <string name="back">Назад</string>
+
+    <string name="start_like_a_pro">КАК ПРОФИ</string>
+    <string name="unlock_all_features">Открыть все функции</string>
+    <string name="col_premium">PREMIUM</string>
+    <string name="col_basic">БАЗОВЫЙ</string>
+    <string name="feature_find_air_tags">Поиск меток</string>
+    <string name="feature_detect_bluetooth">Поиск устройств</string>
+    <string name="feature_info_distance">Данные и расстояние</string>
+    <string name="feature_vip_support">VIP-поддержка</string>
+    <string name="feature_remove_ads">Без рекламы</string>
+    <string name="price_line_trial">%1$s/%2$s после %3$d дн. бесплатно</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">Загрузка цены…</string>
+    <string name="start_free_trial">ПОПРОБОВАТЬ БЕСПЛАТНО</string>
+    <string name="premium_active">У ВАС PREMIUM</string>
+    <string name="billing_disclaimer">Подписка продлевается автоматически после пробного периода. Отмените заранее.</string>
+    <string name="billing_unavailable">Подписки сейчас недоступны.</string>
+    <string name="purchase_failed">Не удалось завершить покупку.</string>
+    <string name="purchase_success">Добро пожаловать в Premium!</string>
+    <string name="period_week">нед.</string>
+    <string name="period_month">мес.</string>
+    <string name="period_year">год</string>
+    <string name="period_day">дн.</string>
+    <string name="subscribe_now">Подписаться</string>
+
+    <string name="instruction">Инструкция</string>
+    <string name="instr_title_how">Как работает приложение?</string>
+    <string name="instr_title_notification">Я получил уведомление, что делать?</string>
+    <string name="instr_title_disable">Как отключить метку?</string>
+    <string name="instr_title_background">Фоновый поиск</string>
+    <string name="tag_label">Метка</string>
+    <string name="battery_label">Батарея</string>
+    <string name="cover_label">Крышка</string>
+    <string-array name="instr_how">
+        <item>Приложение ищет по Bluetooth устройства, которые могут следовать за вами.</item>
+        <item>Геолокация помогает определить, сопровождает ли вас метка в разных местах.</item>
+        <item>Вы получите уведомление при обнаружении возможного трекера.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>Отключите трекер, вынув батарейку.</item>
+        <item>Передайте трекер в полицию.</item>
+        <item>Отключите устройство, прежде чем идти в безопасное место.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>Нажмите и поверните заднюю крышку против часовой стрелки, затем извлеките батарейку.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>Фоновый поиск уведомит вас, если устройство остаётся рядом более 20 минут.</item>
+    </string-array>
+
+    <string name="channel_tracking">Фоновый поиск</string>
+    <string name="channel_alerts">Оповещения о трекерах</string>
+    <string name="notif_tracking_title">Bluetooth Трекер активен</string>
+    <string name="notif_tracking_text">Поиск трекеров вокруг вас</string>
+    <string name="notif_alert_title">Возможно, за вами следит трекер</string>
+    <string name="notif_alert_text">%1$s долго находится рядом. Откройте приложение для проверки.</string>
+
+    <string name="perm_dialog_title">Нужны разрешения</string>
+    <string name="perm_dialog_body">Приложению нужны разрешения Bluetooth и геолокации для поиска устройств и отображения их на карте.</string>
+    <string name="perm_allow">Разрешить</string>
+    <string name="perm_deny">Отклонить</string>
+    <string name="exit_dialog_title">Выход</string>
+    <string name="exit_dialog_message">Вы действительно хотите выйти?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="loading_percent">Загрузка… %1$d%%</string>
+    <string name="tap_to_continue">Нажмите, чтобы продолжить</string>
+    <string name="splash_tagline">Легко находите устройства рядом</string>
+    <string name="splash_footer">УМНО • ПРОСТО • НА СВЯЗИ</string>
+
+    <string name="choose_language">Выберите язык</string>
+    <string name="choose_language_subtitle">Выберите предпочитаемый язык для продолжения</string>
+    <string name="continue_label">Продолжить</string>
+    <string name="language">Язык</string>
+    <string name="language_desc">Изменить язык приложения.</string>
+    <string name="app_theme_title">Тема приложения</string>
+    <string name="app_theme_desc">Настройте внешний вид</string>
+
+    <string name="skip">Пропустить</string>
+    <string name="next">Далее</string>
+    <string name="get_started">Начать</string>
+    <string name="onboarding_title_1">Находите устройства рядом</string>
+    <string name="onboarding_desc_1">Сканируйте ближайшие Bluetooth-устройства и просматривайте доступную информацию.</string>
+    <string name="onboarding_title_2">Изучайте детали</string>
+    <string name="onboarding_desc_2">Просматривайте сведения об устройстве, уровень сигнала и примерное расстояние.</string>
+    <string name="onboarding_title_3">История сканирования</string>
+    <string name="onboarding_desc_3">Просматривайте сохранённую историю и координаты телефона на карте при наличии доступа к геолокации.</string>
+    <string name="onboarding_sample_device">Беспроводная метка</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">Необходимые разрешения</string>
+    <string name="perm_screen_subtitle">Для поиска Bluetooth-устройств и записи мест обнаружения требуются следующие разрешения:</string>
+    <string name="perm_bt_title">Bluetooth и устройства рядом</string>
+    <string name="perm_bt_desc">Необходимо для поиска ближайших устройств и меток Bluetooth.</string>
+    <string name="perm_loc_title">Доступ к геолокации</string>
+    <string name="perm_loc_desc">Требуется Android для сканирования Bluetooth.</string>
+    <string name="perm_history_title">Места в истории</string>
+    <string name="perm_history_desc">Сохраняет положение телефона при обнаружении для показа на карте.</string>
+    <string name="allow_permissions">Разрешить</string>
+    <string name="not_now">Не сейчас</string>
+    <string name="open_settings">Открыть настройки</string>
+    <string name="record_title">Записи</string>
+    <string name="no_history_records">Записей пока нет.\nПросканируйте устройство рядом для создания истории.</string>
+    <string name="location_not_recorded">Место не записано</string>
+    <string name="detected_date">Обнаружено %1$s</string>
+    <string name="cancel">Отмена</string>
+    <string name="label_last_seen">Последнее обнаружение</string>
+    <string name="label_classification">Классификация</string>
+    <string name="label_encounters">Обнаружения и шаблон</string>
+    <string name="class_supported_tag">Find My / Поддерживаемый трекер</string>
+    <string name="class_bluetooth_device">Bluetooth-устройство</string>
+    <string name="rssi_disclaimer">Расстояние оценивается по уровню сигнала Bluetooth (RSSI) и не имеет точности GPS.</string>
+    <string name="map_phone_location_disclaimer">На карте показано место, где телефон обнаружил сигнал, а не точное физическое положение устройства.</string>
+    <string name="encounter_summary_format">%1$d обнаружений • %2$d мест</string>
+    <string name="warning_nearby">Обнаружено устройство поблизости</string>
+    <string name="warning_repeated">Зафиксированы повторные обнаружения</string>
+    <string name="warning_suspicious">Возможный признак нежелательного отслеживания</string>
+    <string name="ignore_device_action">Игнорировать устройство</string>
+    <string name="notif_alert_reason">%1$s неоднократно обнаружено в %2$d местах. Это не подтверждает злой умысел.</string>
+    <string name="open_in_maps">Открыть на карте</string>
+    <string name="theme_blue">Синий</string>
+    <string name="company_device_format">Устройство %1$s</string>
+    <string name="recorded_scan_location">Записанное местоположение</string>
+    <string name="onboarding_estimated_proximity">ПРИМЕРНОЕ РАССТОЯНИЕ</string>
+    <string name="theme_green">Зелёный</string>
+    <string name="theme_orange">Оранжевый</string>
+    <string name="phone_location">Местоположение телефона</string>
+    <string name="onboarding_sample_location">Пример местоположения телефона</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">Чёрный</string>
+    <string name="onboarding_scan_recorded">Сканирование записано</string>
+    <string name="ignore_device_state">Игнорировать устройство, %1$s</string>
+    <string name="retry">Повторить</string>
+    <string name="purchase_pending">Покупка ожидает подтверждения. Premium откроется после завершения оплаты.</string>
+    <string name="purchase_pending_button">Покупка в обработке</string>
+</resources>

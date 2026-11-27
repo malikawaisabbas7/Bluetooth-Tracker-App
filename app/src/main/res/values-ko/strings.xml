@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">블루투스 추적기</string>
+    <string name="start_scan">스캔 시작</string>
+    <string name="stop_scan">스캔 중지</string>
+    <string name="devices_found">기기 %1$d개 발견</string>
+    <string name="devices_found_count">기기 %1$d개 발견</string>
+    <string name="searching_devices_hint">주변 블루투스 신호를 검색하는 중…</string>
+    <string name="air_tag">태그</string>
+    <string name="other_tags">기타 태그</string>
+    <string name="bluetooth_devices">블루투스 기기</string>
+    <string name="no_device_found">기기를 찾을 수 없습니다</string>
+    <string name="unknown_device">알 수 없음</string>
+    <string name="permission_needed">스캔하려면 블루투스 및 위치 권한이 필요합니다.</string>
+    <string name="scan_failed">스캔 실패: %1$s</string>
+    <string name="close">닫기</string>
+    <string name="choose_app_theme">앱 테마 선택</string>
+
+    <string name="device_info">기기 정보</string>
+    <string name="label_name">이름</string>
+    <string name="label_mac">MAC 주소</string>
+    <string name="label_first_seen">최초 발견</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">페어링 상태</string>
+    <string name="label_company">제조사</string>
+    <string name="label_ignore">기기 무시</string>
+    <string name="label_scan_record">스캔 기록</string>
+    <string name="bonded">연결됨</string>
+    <string name="unbonded">연결 안 됨</string>
+    <string name="unknown_company">알 수 없는 제조사</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\n미터</string>
+    <string name="level_far">멀음</string>
+    <string name="level_near">가까움</string>
+    <string name="level_very_near">매우 가까움</string>
+    <string name="see_more"><u>더 보기</u></string>
+    <string name="see_less">간략히</string>
+    <string name="no_location">기록된 위치가 없습니다. 위치를 켜고 계속 스캔하세요.</string>
+    <string name="distance_helper">거리는 추정치입니다. 지도는 기기가 감지되었을 때의 휴대폰 위치를 표시합니다.</string>
+    <string name="open_map_failed">지도 앱을 찾을 수 없습니다.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">설정</string>
+    <string name="background_tracking">백그라운드 추적</string>
+    <string name="background_tracking_desc">백그라운드에서 추적기를 감지할 수 있도록 허용합니다.</string>
+    <string name="toggle_on">켜짐</string>
+    <string name="toggle_off">꺼짐</string>
+    <string name="use_metric_units">미터법 사용</string>
+    <string name="unit_desc">거리 측정 단위.</string>
+    <string name="scan_duration">스캔 시간</string>
+    <string name="scan_duration_desc">스캔 시작 후 자동 종료될 시간을 설정합니다</string>
+    <string name="remove_ads">광고 제거</string>
+    <string name="customer_support">고객 지원</string>
+    <string name="rate_us">평가하기</string>
+    <string name="share">공유</string>
+    <string name="privacy_policy">개인정보 처리방침</string>
+    <string name="terms_of_service">이용약관</string>
+    <string name="instructions_dialog_title">안내</string>
+    <string name="tracking_permission_needed">백그라운드 추적에는 블루투스, 위치, 알림 권한이 필요합니다.</string>
+    <string name="share_text">블루투스 추적기로 주변의 숨겨진 추적기를 찾으세요: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">공유 방법</string>
+    <string name="link_failed">링크를 열 수 없습니다.</string>
+
+    <string-array name="unit_labels">
+        <item>미터</item>
+        <item>피트 (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25초</item>
+        <item>45초</item>
+        <item>2분</item>
+        <item>5분</item>
+    </string-array>
+
+    <string name="rate_title">블루투스 추적기가\n마음에 드시나요?</string>
+    <string name="rate_body">더 나은 경험을 위해 노력하고 있습니다.\n평가를 남겨주시면 감사하겠습니다</string>
+    <string name="rate_best">최고의 평가</string>
+    <string name="rate_button">평가하기</string>
+    <string name="send_feedback">피드백 보내기</string>
+
+    <string name="support_hint">문제를 설명해주세요 (최소 20자)</string>
+    <string name="support_subject">블루투스 추적기 지원</string>
+    <string name="support_no_email_app">이메일 앱을 찾을 수 없습니다.</string>
+    <string name="send">보내기</string>
+    <string name="back">뒤로</string>
+
+    <string name="start_like_a_pro">프로처럼 시작</string>
+    <string name="unlock_all_features">모든 기능 잠금 해제</string>
+    <string name="col_premium">프리미엄</string>
+    <string name="col_basic">기본</string>
+    <string name="feature_find_air_tags">태그 찾기</string>
+    <string name="feature_detect_bluetooth">블루투스 기기 감지</string>
+    <string name="feature_info_distance">정보 및 거리</string>
+    <string name="feature_vip_support">VIP 고객 지원</string>
+    <string name="feature_remove_ads">광고 제거</string>
+    <string name="price_line_trial">%3$d일 무료 체험 후 %1$s/%2$s</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">가격 불러오는 중…</string>
+    <string name="start_free_trial">무료 체험 시작</string>
+    <string name="premium_active">프리미엄 사용 중</string>
+    <string name="billing_disclaimer">체험 종료 후 자동 갱신됩니다. 요금 청구를 피하려면 체험 종료 전에 취소하세요.</string>
+    <string name="billing_unavailable">현재 구독을 이용할 수 없습니다.</string>
+    <string name="purchase_failed">구매를 완료할 수 없습니다.</string>
+    <string name="purchase_success">프리미엄에 오신 것을 환영합니다!</string>
+    <string name="period_week">주</string>
+    <string name="period_month">월</string>
+    <string name="period_year">년</string>
+    <string name="period_day">일</string>
+    <string name="subscribe_now">지금 구독하기</string>
+
+    <string name="instruction">사용 안내</string>
+    <string name="instr_title_how">앱은 어떻게 작동하나요?</string>
+    <string name="instr_title_notification">알림을 받았는데 어떻게 해야 하나요?</string>
+    <string name="instr_title_disable">태그를 비활성화하는 방법</string>
+    <string name="instr_title_background">백그라운드 추적</string>
+    <string name="tag_label">태그</string>
+    <string name="battery_label">배터리</string>
+    <string name="cover_label">커버</string>
+    <string-array name="instr_how">
+        <item>앱이 블루투스로 나를 따라올 수 있는 기기를 스캔합니다.</item>
+        <item>위치 정보를 사용해 추적기가 여러 장소에 함께 이동했는지 확인합니다.</item>
+        <item>의심되는 추적기가 감지되면 알림을 받습니다.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>배터리를 제거하여 추적기를 비활성화하세요.</item>
+        <item>추적기를 경찰에 신고하세요.</item>
+        <item>안전한 곳으로 이동하기 전에 반드시 비활성화하세요.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>뒷면 커버를 누르고 시계 반대 방향으로 돌린 뒤 배터리를 꺼내세요.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>백그라운드 자동 스캔은 기기가 20분 이상 근처에 머물면 알림을 보냅니다.</item>
+    </string-array>
+
+    <string name="channel_tracking">백그라운드 추적</string>
+    <string name="channel_alerts">추적기 알림</string>
+    <string name="notif_tracking_title">블루투스 추적기 켜짐</string>
+    <string name="notif_tracking_text">주변 추적기 검색 중</string>
+    <string name="notif_alert_title">추적기가 따라오고 있을 수 있습니다</string>
+    <string name="notif_alert_text">%1$s이(가) 한동안 근처에 있습니다. 앱에서 확인하세요.</string>
+
+    <string name="perm_dialog_title">권한 필요</string>
+    <string name="perm_dialog_body">주변 기기를 스캔하고 지도에 위치를 표시하려면 블루투스 및 위치 권한이 필요합니다.</string>
+    <string name="perm_allow">허용</string>
+    <string name="perm_deny">거부</string>
+    <string name="exit_dialog_title">앱 종료</string>
+    <string name="exit_dialog_message">정말 종료하시겠습니까?</string>
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+    <string name="loading_percent">불러오는 중… %1$d%%</string>
+    <string name="tap_to_continue">계속하려면 탭하세요</string>
+    <string name="splash_tagline">주변 기기를 손쉽게 찾으세요</string>
+    <string name="splash_footer">스마트 • 심플 • 커넥티드</string>
+
+    <string name="choose_language">언어 선택</string>
+    <string name="choose_language_subtitle">계속하려면 원하는 언어를 선택하세요</string>
+    <string name="continue_label">계속</string>
+    <string name="language">언어</string>
+    <string name="language_desc">앱 언어를 변경합니다.</string>
+    <string name="app_theme_title">앱 테마</string>
+    <string name="app_theme_desc">앱 화면 스타일 설정</string>
+
+    <string name="skip">건너뛰기</string>
+    <string name="next">다음</string>
+    <string name="get_started">시작하기</string>
+    <string name="onboarding_title_1">주변 기기 탐색</string>
+    <string name="onboarding_desc_1">주변 블루투스 기기를 스캔하고 사용 가능한 정보를 확인하세요.</string>
+    <string name="onboarding_title_2">기기 상세 정보 확인</string>
+    <string name="onboarding_desc_2">기기 정보, 신호 세기 및 추정 거리를 확인하세요.</string>
+    <string name="onboarding_title_3">스캔 기록 추적</string>
+    <string name="onboarding_desc_3">위치 권한이 허용된 경우 저장된 감지 기록과 휴대폰 위치를 지도에서 확인하세요.</string>
+    <string name="onboarding_sample_device">무선 추적기</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">필요한 권한</string>
+    <string name="perm_screen_subtitle">블루투스 기기를 스캔하고 감지 위치를 기록하려면 다음 권한이 필요합니다:</string>
+    <string name="perm_bt_title">블루투스 및 주변 기기</string>
+    <string name="perm_bt_desc">주변 블루투스 기기 및 태그를 스캔하는 데 필요합니다.</string>
+    <string name="perm_loc_title">위치 접근</string>
+    <string name="perm_loc_desc">Android에서 블루투스 스캔을 위해 필요합니다.</string>
+    <string name="perm_history_title">스캔 기록 위치</string>
+    <string name="perm_history_desc">지도에 표시하기 위해 기기 감지 시 휴대폰 위치를 기록합니다.</string>
+    <string name="allow_permissions">권한 허용</string>
+    <string name="not_now">나중에</string>
+    <string name="open_settings">설정 열기</string>
+    <string name="record_title">기록</string>
+    <string name="no_history_records">기록된 위치가 아직 없습니다.\n주변 기기를 스캔해 기록을 만드세요.</string>
+    <string name="location_not_recorded">위치 기록 없음</string>
+    <string name="detected_date">감지됨 %1$s</string>
+    <string name="cancel">취소</string>
+    <string name="label_last_seen">마지막 감지</string>
+    <string name="label_classification">분류</string>
+    <string name="label_encounters">감지 횟수 및 패턴</string>
+    <string name="class_supported_tag">Find My / 지원 추적 태그</string>
+    <string name="class_bluetooth_device">Bluetooth 기기</string>
+    <string name="rssi_disclaimer">거리는 Bluetooth 신호 세기(RSSI)로 추정되며 GPS처럼 정확하지 않습니다.</string>
+    <string name="map_phone_location_disclaimer">지도는 휴대폰이 신호를 감지한 위치를 표시하며 기기의 정확한 물리적 위치가 아닙니다.</string>
+    <string name="encounter_summary_format">%1$d회 감지 • %2$d개 위치</string>
+    <string name="warning_nearby">주변 기기 감지됨</string>
+    <string name="warning_repeated">반복 감지 관찰됨</string>
+    <string name="warning_suspicious">원치 않는 추적 가능성 패턴</string>
+    <string name="ignore_device_action">기기 무시</string>
+    <string name="notif_alert_reason">%1$s 기기가 %2$d개 위치에서 반복 감지되었습니다. 악의적 의도를 확정하는 것은 아닙니다.</string>
+    <string name="open_in_maps">지도에서 열기</string>
+    <string name="theme_blue">블루</string>
+    <string name="company_device_format">%1$s 기기</string>
+    <string name="recorded_scan_location">기록된 스캔 위치</string>
+    <string name="onboarding_estimated_proximity">추정 거리</string>
+    <string name="theme_green">그린</string>
+    <string name="theme_orange">오렌지</string>
+    <string name="phone_location">휴대전화 위치</string>
+    <string name="onboarding_sample_location">샘플 휴대전화 위치</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">블랙</string>
+    <string name="onboarding_scan_recorded">스캔 기록됨</string>
+    <string name="ignore_device_state">기기 무시, %1$s</string>
+    <string name="retry">다시 시도</string>
+    <string name="purchase_pending">구매 확인 대기 중입니다. 결제가 완료되면 Premium이 잠금 해제됩니다.</string>
+    <string name="purchase_pending_button">구매 대기 중</string>
+</resources>

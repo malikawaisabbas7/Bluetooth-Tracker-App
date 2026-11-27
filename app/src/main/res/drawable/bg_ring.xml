@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer border: light selected theme color -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?attr/themeLightColor" />
+        </shape>
+    </item>
+
+    <!-- Main ring: selected primary theme color -->
+    <item
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp">
+
+        <shape android:shape="oval">
+            <solid android:color="?attr/themePrimaryColor" />
+        </shape>
+    </item>
+
+    <!-- Inner circle: selected light theme color -->
+    <item
+        android:left="18dp"
+        android:top="18dp"
+        android:right="18dp"
+        android:bottom="18dp">
+
+        <shape android:shape="oval">
+            <solid android:color="?attr/themeLightColor" />
+        </shape>
+    </item>
+
+</layer-list>

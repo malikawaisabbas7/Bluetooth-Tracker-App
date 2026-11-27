@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- 1. Outer dark circular body -->
+    <path
+        android:fillColor="#202427"
+        android:pathData="M50,3 A47,47 0,1 1,50 97 A47,47 0,1 1,50 3 Z"/>
+
+    <!-- 2. Subtle outer edge -->
+    <path
+        android:fillColor="#454A4D"
+        android:pathData="M50,6 A44,44 0,1 1,50 94 A44,44 0,1 1,50 6 Z"/>
+
+    <!-- 3. Main gray metallic rim -->
+    <path
+        android:fillColor="#9DA2A5"
+        android:pathData="M50,9 A41,41 0,1 1,50 91 A41,41 0,1 1,50 9 Z"/>
+
+    <!-- 4. Thin inner shadow -->
+    <path
+        android:fillColor="#666C70"
+        android:pathData="M50,17 A33,33 0,1 1,50 83 A33,33 0,1 1,50 17 Z"/>
+
+    <!-- 5. Large recessed center -->
+    <path
+        android:fillColor="#C7C9CA"
+        android:pathData="M50,20 A30,30 0,1 1,50 80 A30,30 0,1 1,50 20 Z"/>
+
+    <!-- 6. Subtle inner circular outline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#AEB2B4"
+        android:strokeWidth="0.7"
+        android:pathData="M50,23 A27,27 0,1 1,50 77 A27,27 0,1 1,50 23 Z"/>
+
+    <!-- 7. Soft upper inner highlight -->
+
+
+    <!-- 8. Soft lower inner shadow -->
+
+
+    <!-- 9. Top black notch -->
+    <path
+        android:fillColor="#111517"
+        android:pathData="M43,4 L57,4 L57,15 L43,15 Z"/>
+
+    <!-- 10. Notch inner detail -->
+    <path
+        android:fillColor="#343A3E"
+        android:pathData="M45,6 L55,6 L55,12 L45,12 Z"/>
+
+    <!-- 11. Notch top highlight -->
+    <path
+        android:fillColor="#646B70"
+        android:pathData="M46,6 L54,6 L54,7 L46,7 Z"/>
+
+</vector>

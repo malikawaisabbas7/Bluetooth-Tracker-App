@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth Takipçi</string>
+    <string name="start_scan">Taramayı Başlat</string>
+    <string name="stop_scan">Taramayı Durdur</string>
+    <string name="devices_found">%1$d Cihaz Bulundu</string>
+    <string name="devices_found_count">%1$d Cihaz Bulundu</string>
+    <string name="searching_devices_hint">Yakındaki Bluetooth sinyalleri aranıyor…</string>
+    <string name="air_tag">Etiketler</string>
+    <string name="other_tags">Diğer Etiketler</string>
+    <string name="bluetooth_devices">Bluetooth Cihazları</string>
+    <string name="no_device_found">Cihaz bulunamadı</string>
+    <string name="unknown_device">Bilinmeyen</string>
+    <string name="permission_needed">Tarama için Bluetooth ve konum izinleri gereklidir.</string>
+    <string name="scan_failed">Tarama başarısız: %1$s</string>
+    <string name="close">Kapat</string>
+    <string name="choose_app_theme">Uygulama Temasını Seç</string>
+
+    <string name="device_info">Cihaz Bilgisi</string>
+    <string name="label_name">Ad</string>
+    <string name="label_mac">MAC Adresi</string>
+    <string name="label_first_seen">İlk Görülme</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">Eşleşme Durumu</string>
+    <string name="label_company">Şirket</string>
+    <string name="label_ignore">Cihazı Yoksay</string>
+    <string name="label_scan_record">Tarama Kaydı</string>
+    <string name="bonded">Eşleşti</string>
+    <string name="unbonded">Eşleşmedi</string>
+    <string name="unknown_company">Bilinmeyen Şirket</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nmetre</string>
+    <string name="level_far">Uzak</string>
+    <string name="level_near">Yakın</string>
+    <string name="level_very_near">Çok yakın</string>
+    <string name="see_more"><u>Daha Fazla</u></string>
+    <string name="see_less">Daha Az</string>
+    <string name="no_location">Henüz konum kaydedilmedi. Konumu açın ve taramaya devam edin.</string>
+    <string name="distance_helper">Mesafe tahminidir. Harita, bu cihaz algılandığında telefonunuzun konumunu gösterir.</string>
+    <string name="open_map_failed">Harita uygulaması bulunamadı.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">Ayarlar</string>
+    <string name="background_tracking">Arka Plan Takibi</string>
+    <string name="background_tracking_desc">Uygulamanın arka planda takip cihazlarını algılamasına izin verin.</string>
+    <string name="toggle_on">Açık</string>
+    <string name="toggle_off">Kapalı</string>
+    <string name="use_metric_units">Metrik Birimler</string>
+    <string name="unit_desc">Mesafe ölçüm birimi.</string>
+    <string name="scan_duration">Tarama Süresi</string>
+    <string name="scan_duration_desc">Aramanın otomatik durdurulacağı süreyi ayarlayın</string>
+    <string name="remove_ads">Reklamları Kaldır</string>
+    <string name="customer_support">Müşteri Desteği</string>
+    <string name="rate_us">Bizi Değerlendirin</string>
+    <string name="share">Paylaş</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="terms_of_service">Kullanım Koşulları</string>
+    <string name="instructions_dialog_title">Talimatlar</string>
+    <string name="tracking_permission_needed">Arka plan takibi için Bluetooth, konum ve bildirim izinleri gereklidir.</string>
+    <string name="share_text">Bluetooth Takipçi ile çevrenizdeki gizli takip cihazlarını bulun: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">Şununla paylaş</string>
+    <string name="link_failed">Bağlantı açılamadı.</string>
+
+    <string-array name="unit_labels">
+        <item>Metre</item>
+        <item>Fit (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 Saniye</item>
+        <item>45 Saniye</item>
+        <item>2 Dakika</item>
+        <item>5 Dakika</item>
+    </string-array>
+
+    <string name="rate_title">Bluetooth Takipçi\'yi\nbeğendiniz mi?</string>
+    <string name="rate_body">Daha iyi bir deneyim için çalışıyoruz.\nPuan verirseniz çok seviniriz</string>
+    <string name="rate_best">En iyi değerlendirme</string>
+    <string name="rate_button">Değerlendir</string>
+    <string name="send_feedback">Geri bildirim gönder</string>
+
+    <string name="support_hint">Sorunu açıklayın (en az 20 karakter)</string>
+    <string name="support_subject">Bluetooth Takipçi Desteği</string>
+    <string name="support_no_email_app">E-posta uygulaması bulunamadı.</string>
+    <string name="send">Gönder</string>
+    <string name="back">Geri</string>
+
+    <string name="start_like_a_pro">PRO GİBİ BAŞLA</string>
+    <string name="unlock_all_features">Tüm Özellikleri Aç</string>
+    <string name="col_premium">PREMİUM</string>
+    <string name="col_basic">TEMEL</string>
+    <string name="feature_find_air_tags">Etiketleri Bul</string>
+    <string name="feature_detect_bluetooth">Bluetooth Cihazlarını Algıla</string>
+    <string name="feature_info_distance">Bilgi ve Mesafe</string>
+    <string name="feature_vip_support">VIP Destek</string>
+    <string name="feature_remove_ads">Reklamları Kaldır</string>
+    <string name="price_line_trial">%3$d günlük ücretsiz denemeden sonra %1$s/%2$s</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">Fiyat yükleniyor…</string>
+    <string name="start_free_trial">ÜCRETSİZ DENEMEYİ BAŞLAT</string>
+    <string name="premium_active">PREMİUM ÜYESİNİZ</string>
+    <string name="billing_disclaimer">Deneme bitiminde abonelik otomatik yenilenir. Ücret alınmaması için önceden iptal edin.</string>
+    <string name="billing_unavailable">Abonelikler şu anda kullanılamıyor.</string>
+    <string name="purchase_failed">Satın alma tamamlanamadı.</string>
+    <string name="purchase_success">Premium\'a hoş geldiniz!</string>
+    <string name="period_week">hafta</string>
+    <string name="period_month">ay</string>
+    <string name="period_year">yıl</string>
+    <string name="period_day">gün</string>
+    <string name="subscribe_now">Şimdi Abone Ol</string>
+
+    <string name="instruction">Talimatlar</string>
+    <string name="instr_title_how">Uygulama nasıl çalışır?</string>
+    <string name="instr_title_notification">Bildirim aldım, ne yapmalıyım?</string>
+    <string name="instr_title_disable">Bir Etiketi nasıl devre dışı bırakırım?</string>
+    <string name="instr_title_background">Arka Plan Takibi</string>
+    <string name="tag_label">Etiket</string>
+    <string name="battery_label">Pil</string>
+    <string name="cover_label">Kapak</string>
+    <string-array name="instr_how">
+        <item>Uygulama sizi takip edebilecek cihazları Bluetooth ile tarar.</item>
+        <item>Konum bilgisi, bir takip cihazının sizinle farklı yerlere gidip gitmediğini belirler.</item>
+        <item>Şüpheli bir takip cihazı algılandığında bildirim alırsınız.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>Pili çıkararak takip cihazını devre dışı bırakın.</item>
+        <item>Takip cihazını polise teslim edin.</item>
+        <item>Güvenli bir yere gitmeden önce cihazı kapattığınızdan emin olun.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>Arka kapağı bastırıp saat yönünün tersine çevirin ve pili çıkarın.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>Arka plan taraması, bir cihaz 20 dakikadan uzun süre yakınınızda kalırsa sizi uyarır.</item>
+    </string-array>
+
+    <string name="channel_tracking">Arka plan takibi</string>
+    <string name="channel_alerts">Takip uyarıları</string>
+    <string name="notif_tracking_title">Bluetooth Takipçi açık</string>
+    <string name="notif_tracking_text">Çevrenizdeki takip cihazları aranıyor</string>
+    <string name="notif_alert_title">Bir cihaz sizi takip ediyor olabilir</string>
+    <string name="notif_alert_text">%1$s bir süredir yakınınızda. Kontrol etmek için uygulamayı açın.</string>
+
+    <string name="perm_dialog_title">İzinler Gerekli</string>
+    <string name="perm_dialog_body">Bluetooth Takipçi, cihazları taramak ve haritada konum göstermek için Bluetooth ve Konum izinlerine ihtiyaç duyar.</string>
+    <string name="perm_allow">İzin Ver</string>
+    <string name="perm_deny">Reddet</string>
+    <string name="exit_dialog_title">Uygulamadan Çık</string>
+    <string name="exit_dialog_message">Çıkmak istediğinize emin misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="loading_percent">Yükleniyor… %1$d%%</string>
+    <string name="tap_to_continue">Devam etmek için dokunun</string>
+    <string name="splash_tagline">Yakındaki cihazları kolayca bulun</string>
+    <string name="splash_footer">AKILLI • BASİT • BAĞLI</string>
+
+    <string name="choose_language">Dil Seçin</string>
+    <string name="choose_language_subtitle">Devam etmek için tercih ettiğiniz dili seçin</string>
+    <string name="continue_label">Devam Et</string>
+    <string name="language">Dil</string>
+    <string name="language_desc">Uygulama dilini değiştirin.</string>
+    <string name="app_theme_title">Uygulama Teması</string>
+    <string name="app_theme_desc">Uygulama görünümünü özelleştirin</string>
+
+    <string name="skip">Atla</string>
+    <string name="next">İleri</string>
+    <string name="get_started">Başla</string>
+    <string name="onboarding_title_1">Yakındaki Cihazları Keşfet</string>
+    <string name="onboarding_desc_1">Yakındaki Bluetooth cihazlarını tarayın ve mevcut bilgileri inceleyin.</string>
+    <string name="onboarding_title_2">Cihaz Detaylarını İncele</string>
+    <string name="onboarding_desc_2">Cihaz bilgilerini, sinyal gücünü ve tahmini mesafeyi görün.</string>
+    <string name="onboarding_title_3">Tarama Geçmişini Takip Et</string>
+    <string name="onboarding_desc_3">Konum izni açıkken kayıtlı algılama geçmişini ve telefon konumlarını haritada inceleyin.</string>
+    <string name="onboarding_sample_device">Kablosuz Takipçi</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">Gerekli İzinler</string>
+    <string name="perm_screen_subtitle">Bluetooth cihazlarını taramak ve algılama konumlarını kaydetmek için şu izinler gerekir:</string>
+    <string name="perm_bt_title">Bluetooth ve Yakındaki Cihazlar</string>
+    <string name="perm_bt_desc">Yakındaki Bluetooth cihazlarını ve etiketleri taramak için gereklidir.</string>
+    <string name="perm_loc_title">Konum Erişimi</string>
+    <string name="perm_loc_desc">Android\'de Bluetooth taraması için gereklidir.</string>
+    <string name="perm_history_title">Tarama Geçmişi Konumları</string>
+    <string name="perm_history_desc">Haritada göstermek için algılama anındaki telefon konumunu kaydeder.</string>
+    <string name="allow_permissions">İzin Ver</string>
+    <string name="not_now">Şimdi Değil</string>
+    <string name="open_settings">Ayarları Aç</string>
+    <string name="record_title">Kayıt</string>
+    <string name="no_history_records">Henüz kayıtlı konum yok.\nGeçmiş oluşturmak için yakındaki bir cihazı tarayın.</string>
+    <string name="location_not_recorded">Konum kaydedilmedi</string>
+    <string name="detected_date">Algılandı %1$s</string>
+    <string name="cancel">İptal</string>
+    <string name="label_last_seen">Son Algılama</string>
+    <string name="label_classification">Sınıflandırma</string>
+    <string name="label_encounters">Karşılaşmalar ve Örüntü</string>
+    <string name="class_supported_tag">Find My / Desteklenen Takip Etiketi</string>
+    <string name="class_bluetooth_device">Bluetooth Cihazı</string>
+    <string name="rssi_disclaimer">Mesafe Bluetooth sinyal gücünden (RSSI) tahmin edilir ve GPS hassasiyetinde değildir.</string>
+    <string name="map_phone_location_disclaimer">Harita cihazın kesin fiziksel konumunu değil, telefonunuzun sinyali algıladığı yeri gösterir.</string>
+    <string name="encounter_summary_format">%1$d gözlem • %2$d konum</string>
+    <string name="warning_nearby">Yakında cihaz algılandı</string>
+    <string name="warning_repeated">Tekrarlanan karşılaşma gözlemlendi</string>
+    <string name="warning_suspicious">Olası istenmeyen takip örüntüsü</string>
+    <string name="ignore_device_action">Cihazı Yoksay</string>
+    <string name="notif_alert_reason">%1$s, %2$d konumda tekrar tekrar algılandı. Bu durum kötü niyeti doğrulamaz.</string>
+    <string name="open_in_maps">Haritalarda aç</string>
+    <string name="theme_blue">Mavi</string>
+    <string name="company_device_format">%1$s Cihazı</string>
+    <string name="recorded_scan_location">Kaydedilen tarama konumu</string>
+    <string name="onboarding_estimated_proximity">TAHMİNİ YAKINLIK</string>
+    <string name="theme_green">Yeşil</string>
+    <string name="theme_orange">Turuncu</string>
+    <string name="phone_location">Telefon konumu</string>
+    <string name="onboarding_sample_location">Örnek telefon konumu</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">Siyah</string>
+    <string name="onboarding_scan_recorded">Tarama kaydedildi</string>
+    <string name="ignore_device_state">Cihazı yoksay, %1$s</string>
+    <string name="retry">Tekrar Dene</string>
+    <string name="purchase_pending">Satın alma onay bekliyor. Ödeme tamamlandığında Premium açılacaktır.</string>
+    <string name="purchase_pending_button">Satın Alma Beklemede</string>
+</resources>

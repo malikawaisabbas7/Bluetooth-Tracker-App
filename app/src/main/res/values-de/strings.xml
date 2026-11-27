@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth Tracker</string>
+    <string name="start_scan">Scan starten</string>
+    <string name="stop_scan">Scan stoppen</string>
+    <string name="devices_found">%1$d Geräte gefunden</string>
+    <string name="devices_found_count">%1$d Geräte gefunden</string>
+    <string name="searching_devices_hint">Suche nach Bluetooth-Signalen in Reichweite…</string>
+    <string name="air_tag">Tags</string>
+    <string name="other_tags">Andere Tags</string>
+    <string name="bluetooth_devices">Bluetooth-Geräte</string>
+    <string name="no_device_found">Kein Gerät gefunden</string>
+    <string name="unknown_device">Unbekannt</string>
+    <string name="permission_needed">Zum Scannen sind Bluetooth- und Standortberechtigungen erforderlich.</string>
+    <string name="scan_failed">Scan fehlgeschlagen: %1$s</string>
+    <string name="close">Schließen</string>
+    <string name="choose_app_theme">App-Design wählen</string>
+
+    <string name="device_info">Geräteinfo</string>
+    <string name="label_name">Name</string>
+    <string name="label_mac">MAC-Adresse</string>
+    <string name="label_first_seen">Zuerst gesehen</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">Kopplungsstatus</string>
+    <string name="label_company">Hersteller</string>
+    <string name="label_ignore">Gerät ignorieren</string>
+    <string name="label_scan_record">Scan-Verlauf</string>
+    <string name="bonded">Gekoppelt</string>
+    <string name="unbonded">Nicht gekoppelt</string>
+    <string name="unknown_company">Unbekannter Hersteller</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nMeter</string>
+    <string name="level_far">Weit</string>
+    <string name="level_near">Nah</string>
+    <string name="level_very_near">Sehr nah</string>
+    <string name="see_more"><u>Mehr sehen</u></string>
+    <string name="see_less">Weniger sehen</string>
+    <string name="no_location">Noch kein Standort gespeichert. Standort aktivieren und weiter scannen.</string>
+    <string name="distance_helper">Die Entfernung ist geschätzt. Die Karte zeigt den Standort Ihres Telefons zum Zeitpunkt der Erkennung.</string>
+    <string name="open_map_failed">Keine Karten-App gefunden.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">Einstellungen</string>
+    <string name="background_tracking">Hintergrund-Tracking</string>
+    <string name="background_tracking_desc">Erlaubt der App, im Hintergrund nach Trackern zu suchen.</string>
+    <string name="toggle_on">An</string>
+    <string name="toggle_off">Aus</string>
+    <string name="use_metric_units">Metrische Einheiten</string>
+    <string name="unit_desc">Einheit für die Entfernung.</string>
+    <string name="scan_duration">Scan-Dauer</string>
+    <string name="scan_duration_desc">Zeit bis zum automatischen Beenden des Scans</string>
+    <string name="remove_ads">Werbung entfernen</string>
+    <string name="customer_support">Kundensupport</string>
+    <string name="rate_us">Bewerten</string>
+    <string name="share">Teilen</string>
+    <string name="privacy_policy">Datenschutz</string>
+    <string name="terms_of_service">Nutzungsbedingungen</string>
+    <string name="instructions_dialog_title">Anleitung</string>
+    <string name="tracking_permission_needed">Für Hintergrund-Tracking sind Bluetooth-, Standort- und Benachrichtigungsrechte nötig.</string>
+    <string name="share_text">Finde versteckte Bluetooth-Tracker mit Bluetooth Tracker: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">Teilen über</string>
+    <string name="link_failed">Link konnte nicht geöffnet werden.</string>
+
+    <string-array name="unit_labels">
+        <item>Meter</item>
+        <item>Fuß (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 Sekunden</item>
+        <item>45 Sekunden</item>
+        <item>2 Minuten</item>
+        <item>5 Minuten</item>
+    </string-array>
+
+    <string name="rate_title">Gefällt Ihnen\nBluetooth Tracker?</string>
+    <string name="rate_body">Wir arbeiten ständig an Verbesserungen.\nWir freuen uns über Ihre Bewertung</string>
+    <string name="rate_best">Beste Bewertung</string>
+    <string name="rate_button">Bewerten</string>
+    <string name="send_feedback">Feedback senden</string>
+
+    <string name="support_hint">Problem beschreiben (mind. 20 Zeichen)</string>
+    <string name="support_subject">Bluetooth Tracker Support</string>
+    <string name="support_no_email_app">Keine E-Mail-App gefunden.</string>
+    <string name="send">Senden</string>
+    <string name="back">Zurück</string>
+
+    <string name="start_like_a_pro">WIE EIN PROFI</string>
+    <string name="unlock_all_features">Alle Funktionen freischalten</string>
+    <string name="col_premium">PREMIUM</string>
+    <string name="col_basic">BASIS</string>
+    <string name="feature_find_air_tags">Tags finden</string>
+    <string name="feature_detect_bluetooth">Bluetooth-Geräte erkennen</string>
+    <string name="feature_info_distance">Info &amp; Entfernung</string>
+    <string name="feature_vip_support">VIP-Support</string>
+    <string name="feature_remove_ads">Werbung entfernen</string>
+    <string name="price_line_trial">%1$s/%2$s nach %3$d Tagen gratis</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">Preis wird geladen…</string>
+    <string name="start_free_trial">GRATIS TESTEN</string>
+    <string name="premium_active">SIE HABEN PREMIUM</string>
+    <string name="billing_disclaimer">Das Abo wird nach dem Testzeitraum automatisch verlängert. Vorher kündigen.</string>
+    <string name="billing_unavailable">Abos sind derzeit nicht verfügbar.</string>
+    <string name="purchase_failed">Kauf fehlgeschlagen.</string>
+    <string name="purchase_success">Willkommen bei Premium!</string>
+    <string name="period_week">Woche</string>
+    <string name="period_month">Monat</string>
+    <string name="period_year">Jahr</string>
+    <string name="period_day">Tag</string>
+    <string name="subscribe_now">Jetzt abonnieren</string>
+
+    <string name="instruction">Anleitung</string>
+    <string name="instr_title_how">Wie funktioniert die App?</string>
+    <string name="instr_title_notification">Ich habe eine Warnung erhalten?</string>
+    <string name="instr_title_disable">Wie deaktiviere ich einen Tag?</string>
+    <string name="instr_title_background">Hintergrund-Tracking</string>
+    <string name="tag_label">Tag</string>
+    <string name="battery_label">Batterie</string>
+    <string name="cover_label">Deckel</string>
+    <string-array name="instr_how">
+        <item>Die App sucht per Bluetooth nach Geräten, die Ihnen folgen könnten.</item>
+        <item>Mit dem Standort erkennt die App, ob ein Tracker an mehreren Orten bei Ihnen ist.</item>
+        <item>Sie erhalten eine Benachrichtigung bei einem verdächtigen Tracker.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>Deaktivieren Sie den Tracker, indem Sie die Batterie entfernen.</item>
+        <item>Bringen Sie den Tracker zur Polizei.</item>
+        <item>Deaktivieren Sie ihn, bevor Sie einen sicheren Ort aufsuchen.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>Drücken und drehen Sie die Rückseite gegen den Uhrzeigersinn, öffnen Sie den Deckel und entfernen Sie die Batterie.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>Der Hintergrund-Scan warnt Sie, wenn ein Gerät länger als 20 Minuten in Ihrer Nähe bleibt.</item>
+    </string-array>
+
+    <string name="channel_tracking">Hintergrund-Tracking</string>
+    <string name="channel_alerts">Tracker-Warnungen</string>
+    <string name="notif_tracking_title">Bluetooth Tracker aktiv</string>
+    <string name="notif_tracking_text">Suche nach Trackern in der Nähe</string>
+    <string name="notif_alert_title">Ein Tracker folgt Ihnen possibly</string>
+    <string name="notif_alert_text">%1$s ist seit einiger Zeit in Ihrer Nähe. App öffnen zum Prüfen.</string>
+
+    <string name="perm_dialog_title">Berechtigungen erforderlich</string>
+    <string name="perm_dialog_body">Bluetooth Tracker benötigt Bluetooth- und Standortberechtigungen zum Scannen und Anzeigen von Fundorten auf der Karte.</string>
+    <string name="perm_allow">Erlauben</string>
+    <string name="perm_deny">Ablehnen</string>
+    <string name="exit_dialog_title">App beenden</string>
+    <string name="exit_dialog_message">Möchten Sie die App wirklich beenden?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="loading_percent">Laden… %1$d%%</string>
+    <string name="tap_to_continue">Zum Fortfahren tippen</string>
+    <string name="splash_tagline">Geräte in der Nähe leicht finden</string>
+    <string name="splash_footer">SMART • EINFACH • VERBUNDEN</string>
+
+    <string name="choose_language">Sprache wählen</string>
+    <string name="choose_language_subtitle">Wählen Sie Ihre bevorzugte Sprache</string>
+    <string name="continue_label">Weiter</string>
+    <string name="language">Sprache</string>
+    <string name="language_desc">App-Sprache ändern.</string>
+    <string name="app_theme_title">App-Design</string>
+    <string name="app_theme_desc">Erscheinungsbild anpassen</string>
+
+    <string name="skip">Überspringen</string>
+    <string name="next">Weiter</string>
+    <string name="get_started">Los geht\'s</string>
+    <string name="onboarding_title_1">Geräte in der Nähe finden</string>
+    <string name="onboarding_desc_1">Scannen Sie Bluetooth-Geräte in der Nähe und sehen Sie verfügbare Informationen.</string>
+    <string name="onboarding_title_2">Gerätedetails erkunden</string>
+    <string name="onboarding_desc_2">Sehen Sie Geräteinformationen, Signalstärke und geschätzte Entfernung.</string>
+    <string name="onboarding_title_3">Scan-Verlauf verfolgen</string>
+    <string name="onboarding_desc_3">Prüfen Sie gespeicherte Funde und aufgezeichnete Telefonstandorte auf der Karte.</string>
+    <string name="onboarding_sample_device">Drahtloser Tracker</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">Erforderliche Berechtigungen</string>
+    <string name="perm_screen_subtitle">Zum Scannen und Speichern von Fundorten benötigt die App folgende Berechtigungen:</string>
+    <string name="perm_bt_title">Bluetooth &amp; Geräte in der Nähe</string>
+    <string name="perm_bt_desc">Erforderlich zum Scannen von Bluetooth-Geräten und Tags.</string>
+    <string name="perm_loc_title">Standortzugriff</string>
+    <string name="perm_loc_desc">Von Android für Bluetooth-Scans benötigt.</string>
+    <string name="perm_history_title">Verlaufsstandorte</string>
+    <string name="perm_history_desc">Speichert den Standort des Telefons bei einer Erkennung für die Kartenansicht.</string>
+    <string name="allow_permissions">Berechtigungen erteilen</string>
+    <string name="not_now">Nicht jetzt</string>
+    <string name="open_settings">Einstellungen öffnen</string>
+    <string name="record_title">Verlauf</string>
+    <string name="no_history_records">Noch keine Standorte gespeichert.\nScannen Sie ein Gerät, um den Verlauf zu erstellen.</string>
+    <string name="location_not_recorded">Standort nicht gespeichert</string>
+    <string name="detected_date">Erkannt %1$s</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="label_last_seen">Zuletzt erkannt</string>
+    <string name="label_classification">Klassifizierung</string>
+    <string name="label_encounters">Begegnungen &amp; Muster</string>
+    <string name="class_supported_tag">Find My / Unterstützter Tracker</string>
+    <string name="class_bluetooth_device">Bluetooth-Gerät</string>
+    <string name="rssi_disclaimer">Die Entfernung wird aus der Bluetooth-Signalstärke (RSSI) geschätzt und ist nicht GPS-genau.</string>
+    <string name="map_phone_location_disclaimer">Die Karte zeigt, wo Ihr Telefon das Signal erkannt hat, nicht den genauen Standort des Geräts.</string>
+    <string name="encounter_summary_format">%1$d Beobachtungen • %2$d Orte</string>
+    <string name="warning_nearby">Gerät in der Nähe erkannt</string>
+    <string name="warning_repeated">Wiederholte Begegnung beobachtet</string>
+    <string name="warning_suspicious">Mögliches unerwünstes Tracking-Muster</string>
+    <string name="ignore_device_action">Gerät ignorieren</string>
+    <string name="notif_alert_reason">%1$s wurde wiederholt an %2$d Orten erkannt. Dies bestätigt keine böswillige Absicht.</string>
+    <string name="open_in_maps">In Karten öffnen</string>
+    <string name="theme_blue">Blau</string>
+    <string name="company_device_format">%1$s-Gerät</string>
+    <string name="recorded_scan_location">Aufgezeichneter Scan-Standort</string>
+    <string name="onboarding_estimated_proximity">GESCHÄTZTE NÄHE</string>
+    <string name="theme_green">Grün</string>
+    <string name="theme_orange">Orange</string>
+    <string name="phone_location">Telefonstandort</string>
+    <string name="onboarding_sample_location">Beispiel-Telefonstandort</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">Schwarz</string>
+    <string name="onboarding_scan_recorded">Scan aufgezeichnet</string>
+    <string name="ignore_device_state">Gerät ignorieren, %1$s</string>
+    <string name="retry">Erneut versuchen</string>
+    <string name="purchase_pending">Der Kauf wartet auf Bestätigung. Premium wird nach Zahlungsabschluss freigeschaltet.</string>
+    <string name="purchase_pending_button">Kauf ausstehend</string>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="?attr/themeLightColor">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/back"
+            android:padding="12dp"
+            android:src="@drawable/ic_back"
+            app:tint="?attr/themePrimaryColor" />
+
+        <TextView
+            style="@style/ToolbarTitle"
+            android:layout_marginStart="8dp"
+            android:text="@string/instruction" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="14dp">
+
+            <LinearLayout style="@style/InstrCard">
+                <TextView
+                    style="@style/InstrTitle"
+                    android:text="@string/instr_title_how" />
+                <LinearLayout
+                    android:id="@+id/listHow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/InstrCard">
+                <TextView
+                    style="@style/InstrTitle"
+                    android:text="@string/instr_title_notification" />
+                <LinearLayout
+                    android:id="@+id/listNotification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/InstrCard">
+                <TextView
+                    style="@style/InstrTitle"
+                    android:text="@string/instr_title_disable" />
+                <LinearLayout
+                    android:id="@+id/listDisable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <!-- simple generic illustration: tag, battery, cover -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout style="@style/IllustrationItem">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tag_label"
+                            android:textColor="?attr/themeTextColor"
+                            android:textSize="12sp" />
+                        <ImageView
+                            style="@style/IllustrationDisc"
+                            android:background="@null"
+                            android:contentDescription="@null"
+                            android:src="@drawable/illus_tag" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/IllustrationItem">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/battery_label"
+                            android:textColor="?attr/themeTextColor"
+                            android:textSize="12sp" />
+                        <ImageView
+                            style="@style/IllustrationDisc"
+                            android:background="@null"
+                            android:contentDescription="@null"
+                            android:src="@drawable/illus_battery" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/IllustrationItem">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cover_label"
+                            android:textColor="?attr/themeTextColor"
+                            android:textSize="12sp" />
+                        <ImageView
+                            style="@style/IllustrationDisc"
+                            android:background="@null"
+                            android:contentDescription="@null"
+                            android:src="@drawable/illus_cover" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/InstrCard">
+                <TextView
+                    style="@style/InstrTitle"
+                    android:text="@string/instr_title_background" />
+                <LinearLayout
+                    android:id="@+id/listBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

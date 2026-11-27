@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">متتبع البلوتوث</string>
+    <string name="start_scan">بدء الفحص</string>
+    <string name="stop_scan">إيقاف الفحص</string>
+    <string name="devices_found">تم العثور على %1$d أجهزة</string>
+    <string name="devices_found_count">تم العثور على %1$d أجهزة</string>
+    <string name="searching_devices_hint">جارٍ البحث عن إشارات البلوتوث القريبة…</string>
+    <string name="air_tag">العلامات</string>
+    <string name="other_tags">علامات أخرى</string>
+    <string name="bluetooth_devices">أجهزة البلوتوث</string>
+    <string name="no_device_found">لم يتم العثور على جهاز</string>
+    <string name="unknown_device">غير معروف</string>
+    <string name="permission_needed">أذونات البلوتوث والموقع مطلوبة للفحص.</string>
+    <string name="scan_failed">فشل الفحص: %1$s</string>
+    <string name="close">إغلاق</string>
+    <string name="choose_app_theme">اختر مظهر التطبيق</string>
+
+    <string name="device_info">معلومات الجهاز</string>
+    <string name="label_name">الاسم</string>
+    <string name="label_mac">عنوان MAC</string>
+    <string name="label_first_seen">أول ظهور</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">حالة الاقتران</string>
+    <string name="label_company">الشركة</string>
+    <string name="label_ignore">تجاهل الجهاز</string>
+    <string name="label_scan_record">سجل الفحص</string>
+    <string name="bonded">مقترن</string>
+    <string name="unbonded">غير مقترن</string>
+    <string name="unknown_company">شركة غير معروفة</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nمتر</string>
+    <string name="level_far">بعيد</string>
+    <string name="level_near">قريب</string>
+    <string name="level_very_near">قريب جداً</string>
+    <string name="see_more"><u>عرض المزيد</u></string>
+    <string name="see_less">عرض أقل</string>
+    <string name="no_location">لم يتم تسجيل موقع بعد. فعّل الموقع واستمر في الفحص.</string>
+    <string name="distance_helper">المسافة تقريبية. تعرض الخريطة موقع هاتفك وقت اكتشاف هذا الجهاز.</string>
+    <string name="open_map_failed">لم يتم العثور على تطبيق خرائط.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">الإعدادات</string>
+    <string name="background_tracking">التتبع في الخلفية</string>
+    <string name="background_tracking_desc">السماح للتطبيق بالعمل في الخلفية لاكتشاف المتتبعات.</string>
+    <string name="toggle_on">تشغيل</string>
+    <string name="toggle_off">إيقاف</string>
+    <string name="use_metric_units">استخدام الوحدات المترية</string>
+    <string name="unit_desc">وحدة قياس مسافة المتتبع.</string>
+    <string name="scan_duration">مدة الفحص</string>
+    <string name="scan_duration_desc">حدد المدة لإيقاف البحث عن الأجهزة تلقائياً بعد بدء الفحص</string>
+    <string name="remove_ads">إزالة الإعلانات</string>
+    <string name="customer_support">دعم العملاء</string>
+    <string name="rate_us">قيّمنا</string>
+    <string name="share">مشاركة</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="terms_of_service">شروط الخدمة</string>
+    <string name="instructions_dialog_title">التعليمات</string>
+    <string name="tracking_permission_needed">أذونات البلوتوث والموقع والإشعارات مطلوبة للتتبع في الخلفية.</string>
+    <string name="share_text">اعثر على متتبعات البلوتوث المخفية حولك باستخدام متتبع البلوتوث: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">مشاركة عبر</string>
+    <string name="link_failed">تعذر فتح الرابط.</string>
+
+    <string-array name="unit_labels">
+        <item>متر</item>
+        <item>قدم (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 ثانية</item>
+        <item>45 ثانية</item>
+        <item>دقيقتان</item>
+        <item>5 دقائق</item>
+    </string-array>
+
+    <string name="rate_title">هل أعجبك\nمتتبع البلوتوث؟</string>
+    <string name="rate_body">نعمل بجد لتحسين تجربتك.\nنقدر كثيراً تقييمك لنا</string>
+    <string name="rate_best">أفضل تقييم</string>
+    <string name="rate_button">تقييم</string>
+    <string name="send_feedback">أرسل ملاحظاتك</string>
+
+    <string name="support_hint">صف المشكلة (20 حرفاً على الأقل)</string>
+    <string name="support_subject">دعم متتبع البلوتوث</string>
+    <string name="support_no_email_app">لم يتم العثور على تطبيق بريد إلكتروني.</string>
+    <string name="send">إرسال</string>
+    <string name="back">رجوع</string>
+
+    <string name="start_like_a_pro">ابدأ كالمحترفين</string>
+    <string name="unlock_all_features">افتح جميع الميزات</string>
+    <string name="col_premium">بريميوم</string>
+    <string name="col_basic">أساسي</string>
+    <string name="feature_find_air_tags">العثور على العلامات</string>
+    <string name="feature_detect_bluetooth">اكتشاف أجهزة البلوتوث</string>
+    <string name="feature_info_distance">عرض المعلومات والمسافة</string>
+    <string name="feature_vip_support">دعم VIP للعملاء</string>
+    <string name="feature_remove_ads">إزالة الإعلانات</string>
+    <string name="price_line_trial">%1$s/%2$s بعد تجربة مجانية لمدة %3$d أيام</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">جارٍ تحميل السعر…</string>
+    <string name="start_free_trial">ابدأ التجربة المجانية</string>
+    <string name="premium_active">أنت مشترك بريميوم</string>
+    <string name="billing_disclaimer">تُجدد الخطة تلقائياً بعد انتهاء التجربة. يمكنك الإلغاء في أي وقت قبل انتهاء التجربة لتجنب الرسوم.</string>
+    <string name="billing_unavailable">الاشتراكات غير متاحة حالياً. حاول مرة أخرى لاحقاً.</string>
+    <string name="purchase_failed">تعذر إتمام عملية الشراء.</string>
+    <string name="purchase_success">مرحباً بك في بريميوم!</string>
+    <string name="period_week">أسبوع</string>
+    <string name="period_month">شهر</string>
+    <string name="period_year">سنة</string>
+    <string name="period_day">يوم</string>
+    <string name="subscribe_now">اشترك الآن</string>
+
+    <string name="instruction">التعليمات</string>
+    <string name="instr_title_how">كيف يعمل التطبيق؟</string>
+    <string name="instr_title_notification">وصلني إشعار، ماذا أفعل؟</string>
+    <string name="instr_title_disable">كيف أعطّل العلامة بعد العثور عليها؟</string>
+    <string name="instr_title_background">التتبع في الخلفية</string>
+    <string name="tag_label">العلامة</string>
+    <string name="battery_label">البطارية</string>
+    <string name="cover_label">الغطاء</string>
+    <string-array name="instr_how">
+        <item>يستخدم التطبيق البلوتوث للبحث عن الأجهزة التي قد تتبعك.</item>
+        <item>يستخدم التطبيق معلومات الموقع لاكتشاف ما إذا كان المتتبع يرافقك في أماكن متعددة.</item>
+        <item>ستتلقى إشعاراً عند اكتشاف جهاز تتبع محتمل قريب منك.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>عطّل المتتبع بإزالة البطارية.</item>
+        <item>سلّم المتتبع إلى الشرطة.</item>
+        <item>تأكد من تعطيل المتتبع قبل الانتقال إلى مكان آمن.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>يمكنك إيقاف التتبع بإزالة بطارية العلامة. اضغط لأسفل وأدر الغطاء عكس اتجاه عقارب الساعة ثم أخرج البطارية.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>تتيح ميزة الفحص التلقائي للتطبيق فحص الأجهزة القريبة في الخلفية وإرسال إشعار إذا بقي جهاز بالقرب منك لأكثر من 20 دقيقة.</item>
+    </string-array>
+
+    <string name="channel_tracking">التتبع في الخلفية</string>
+    <string name="channel_alerts">تنبيهات المتتبع</string>
+    <string name="notif_tracking_title">متتبع البلوتوث قيد التشغيل</string>
+    <string name="notif_tracking_text">جارٍ البحث عن المتتبعات حولك</string>
+    <string name="notif_alert_title">قد يكون هناك متتبع يتبعك</string>
+    <string name="notif_alert_text">%1$s بالقرب منك منذ فترة. افتح التطبيق للتحقق.</string>
+
+    <string name="perm_dialog_title">الأذونات مطلوبة</string>
+    <string name="perm_dialog_body">يحتاج متتبع البلوتوث إلى أذونات البلوتوث والموقع للبحث عن المتتبعات القريبة وعرض مواقع الاكتشاف على الخريطة.</string>
+    <string name="perm_allow">سماح</string>
+    <string name="perm_deny">رفض</string>
+    <string name="exit_dialog_title">الخروج من التطبيق</string>
+    <string name="exit_dialog_message">هل تؤكد الخروج؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="loading_percent">جارٍ التحميل… %1$d%%</string>
+    <string name="tap_to_continue">اضغط في أي مكان للمتابعة</string>
+    <string name="splash_tagline">اعثر على الأجهزة القريبة بسهولة</string>
+    <string name="splash_footer">ذكي • بسيط • متصل</string>
+
+    <string name="choose_language">اختر اللغة</string>
+    <string name="choose_language_subtitle">اختر لغتك المفضلة للمتابعة</string>
+    <string name="continue_label">متابعة</string>
+    <string name="language">اللغة</string>
+    <string name="language_desc">تغيير لغة التطبيق.</string>
+    <string name="app_theme_title">مظهر التطبيق</string>
+    <string name="app_theme_desc">خصّص مظهر التطبيق</string>
+
+    <string name="skip">تخطي</string>
+    <string name="next">التالي</string>
+    <string name="get_started">ابدأ الآن</string>
+    <string name="onboarding_title_1">اكتشف الأجهزة القريبة</string>
+    <string name="onboarding_desc_1">افحص أجهزة البلوتوث القريبة واستكشف المعلومات المتاحة.</string>
+    <string name="onboarding_title_2">استكشف تفاصيل الجهاز</string>
+    <string name="onboarding_desc_2">اعرض معلومات الجهاز وقوة الإشارة والمسافة التقريبية.</string>
+    <string name="onboarding_title_3">تتبّع سجل الفحص</string>
+    <string name="onboarding_desc_3">راجع سجل الاكتشافات المحفوظ ومواقع الهاتف المسجلة على الخريطة عند توفر إذن الموقع.</string>
+    <string name="onboarding_sample_device">متتبع لاسلكي</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">الأذونات المطلوبة</string>
+    <string name="perm_screen_subtitle">لفحص أجهزة البلوتوث القريبة وتسجيل مواقع الاكتشاف، يستخدم التطبيق الأذونات التالية:</string>
+    <string name="perm_bt_title">البلوتوث والأجهزة القريبة</string>
+    <string name="perm_bt_desc">مطلوب للبحث عن أجهزة وعلامات البلوتوث القريبة.</string>
+    <string name="perm_loc_title">الوصول إلى الموقع</string>
+    <string name="perm_loc_desc">مطلوب من نظام أندرويد لفحص البلوتوث واكتشاف الأجهزة.</string>
+    <string name="perm_history_title">مواقع سجل الفحص</string>
+    <string name="perm_history_desc">يسجل موقع هاتفك عند اكتشاف جهاز لعرضه على الخريطة.</string>
+    <string name="allow_permissions">السماح بالأذونات</string>
+    <string name="not_now">ليس الآن</string>
+    <string name="open_settings">فتح الإعدادات</string>
+    <string name="record_title">السجل</string>
+    <string name="no_history_records">لا توجد مواقع مسجلة بعد.\nافحص جهازاً قريباً لإنشاء السجل.</string>
+    <string name="location_not_recorded">الموقع غير مسجل</string>
+    <string name="detected_date">تم الاكتشاف %1$s</string>
+    <string name="cancel">إلغاء</string>
+    <string name="label_last_seen">آخر اكتشاف</string>
+    <string name="label_classification">التصنيف</string>
+    <string name="label_encounters">المشاهدات والنمط</string>
+    <string name="class_supported_tag">علامة تتبع مدعومة / Find My</string>
+    <string name="class_bluetooth_device">جهاز بلوتوث</string>
+    <string name="rssi_disclaimer">المسافة تقديرية من قوة إشارة البلوتوث (RSSI) وليست دقيقة كنظام GPS.</string>
+    <string name="map_phone_location_disclaimer">تُظهر الخريطة المكان الذي التقط فيه هاتفك الإشارة، وليس الموقع الفعلي الدقيق للجهاز.</string>
+    <string name="encounter_summary_format">%1$d مشاهدات • %2$d مواقع</string>
+    <string name="warning_nearby">تم اكتشاف جهاز قريب</string>
+    <string name="warning_repeated">تم رصد تكرار الظهور</string>
+    <string name="warning_suspicious">نمط تتبع محتمل غير مرغوب فيه</string>
+    <string name="ignore_device_action">تجاهل الجهاز</string>
+    <string name="notif_alert_reason">تم اكتشاف %1$s بشكل متكرر في %2$d مواقع. هذا لا يثبت وجود نية ضارة.</string>
+    <string name="onboarding_estimated_proximity">القرب التقديري</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="onboarding_scan_recorded">تم تسجيل الفحص</string>
+    <string name="onboarding_sample_location">موقع هاتف تجريبي</string>
+    <string name="company_device_format">جهاز %1$s</string>
+    <string name="ignore_device_state">تجاهل الجهاز، %1$s</string>
+    <string name="recorded_scan_location">موقع الفحص المسجل</string>
+    <string name="phone_location">موقع الهاتف</string>
+    <string name="open_in_maps">فتح في الخرائط</string>
+    <string name="theme_blue">أزرق</string>
+    <string name="theme_orange">برتقالي</string>
+    <string name="theme_black">أسود</string>
+    <string name="theme_green">أخضر</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="purchase_pending">الشراء بانتظار التأكيد. سيتم فتح Premium عند إتمام الدفع.</string>
+    <string name="purchase_pending_button">الشراء معلق</string>
+</resources>

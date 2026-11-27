@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Light outer border -->
+    <item android:id="@+id/outer_ring">
+        <shape android:shape="oval">
+            <solid android:color="?attr/themeLightColor" />
+        </shape>
+    </item>
+
+    <!-- Distance-colored ring -->
+    <item
+        android:id="@+id/distance_ring"
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp">
+
+        <shape android:shape="oval">
+            <solid android:color="?attr/themePrimaryColor" />
+        </shape>
+    </item>
+
+    <!-- Primary-colored inner circle -->
+    <item
+        android:id="@+id/inner_circle"
+        android:left="18dp"
+        android:top="18dp"
+        android:right="18dp"
+        android:bottom="18dp">
+
+        <shape android:shape="oval">
+            <solid android:color="?attr/themePrimaryColor" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tracker Bluetooth</string>
+    <string name="start_scan">Începe scanarea</string>
+    <string name="stop_scan">Oprește scanarea</string>
+    <string name="devices_found">%1$d dispozitive găsite</string>
+    <string name="devices_found_count">%1$d dispozitive găsite</string>
+    <string name="searching_devices_hint">Se caută semnale Bluetooth în apropiere…</string>
+    <string name="air_tag">Etichete</string>
+    <string name="other_tags">Alte etichete</string>
+    <string name="bluetooth_devices">Dispozitive Bluetooth</string>
+    <string name="no_device_found">Niciun dispozitiv găsit</string>
+    <string name="unknown_device">Necunoscut</string>
+    <string name="permission_needed">Permisiunile Bluetooth și de locație sunt necesare.</string>
+    <string name="scan_failed">Scanare eșuată: %1$s</string>
+    <string name="close">Închide</string>
+    <string name="choose_app_theme">Alege tema aplicației</string>
+
+    <string name="device_info">Info dispozitiv</string>
+    <string name="label_name">Nume</string>
+    <string name="label_mac">Adresă MAC</string>
+    <string name="label_first_seen">Văzut prima dată</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">Stare asociere</string>
+    <string name="label_company">Companie</string>
+    <string name="label_ignore">Ignoră dispozitivul</string>
+    <string name="label_scan_record">Istoric scanare</string>
+    <string name="bonded">Asociat</string>
+    <string name="unbonded">Neasociat</string>
+    <string name="unknown_company">Companie necunoscută</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nmetru</string>
+    <string name="level_far">Departe</string>
+    <string name="level_near">Aproape</string>
+    <string name="level_very_near">Foarte aproape</string>
+    <string name="see_more"><u>Vezi mai mult</u></string>
+    <string name="see_less">Vezi mai puțin</string>
+    <string name="no_location">Nicio locație înregistrată. Activează locația și continuă scanarea.</string>
+    <string name="distance_helper">Distanța este aproximativă. Harta arată poziția telefonului la detectare.</string>
+    <string name="open_map_failed">Nicio aplicație de hărți găsită.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">Setări</string>
+    <string name="background_tracking">Urmărire în fundal</string>
+    <string name="background_tracking_desc">Permite aplicației să caute trackere în fundal.</string>
+    <string name="toggle_on">Pornit</string>
+    <string name="toggle_off">Oprit</string>
+    <string name="use_metric_units">Unități metrice</string>
+    <string name="unit_desc">Unitatea de măsură pentru distanță.</string>
+    <string name="scan_duration">Durată scanare</string>
+    <string name="scan_duration_desc">Setează durata până la oprirea automată a căutării</string>
+    <string name="remove_ads">Elimină reclamele</string>
+    <string name="customer_support">Suport clienți</string>
+    <string name="rate_us">Evaluează-ne</string>
+    <string name="share">Distribuie</string>
+    <string name="privacy_policy">Confidențialitate</string>
+    <string name="terms_of_service">Termeni și condiții</string>
+    <string name="instructions_dialog_title">Instrucțiuni</string>
+    <string name="tracking_permission_needed">Permisiunile Bluetooth, locație și notificări sunt necesare.</string>
+    <string name="share_text">Găsește trackere Bluetooth ascunse cu Tracker Bluetooth: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">Distribuie prin</string>
+    <string name="link_failed">Nu s-a putut deschide linkul.</string>
+
+    <string-array name="unit_labels">
+        <item>Metru</item>
+        <item>Picior (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 secunde</item>
+        <item>45 secunde</item>
+        <item>2 minute</item>
+        <item>5 minute</item>
+    </string-array>
+
+    <string name="rate_title">Îți place\nTracker Bluetooth?</string>
+    <string name="rate_body">Lucrăm continuu pentru o experiență mai bună.\nApreciem evaluarea ta</string>
+    <string name="rate_best">Evaluare maximă</string>
+    <string name="rate_button">Evaluează</string>
+    <string name="send_feedback">Trimite feedback</string>
+
+    <string name="support_hint">Descrie problema (minim 20 de caractere)</string>
+    <string name="support_subject">Suport Tracker Bluetooth</string>
+    <string name="support_no_email_app">Nicio aplicație de e-mail găsită.</string>
+    <string name="send">Trimite</string>
+    <string name="back">Înapoi</string>
+
+    <string name="start_like_a_pro">ÎNCEPE CA UN PRO</string>
+    <string name="unlock_all_features">Deblochează tot</string>
+    <string name="col_premium">PREMIUM</string>
+    <string name="col_basic">BAZĂ</string>
+    <string name="feature_find_air_tags">Găsește etichete</string>
+    <string name="feature_detect_bluetooth">Detectează dispozitive</string>
+    <string name="feature_info_distance">Informații și distanță</string>
+    <string name="feature_vip_support">Suport VIP</string>
+    <string name="feature_remove_ads">Fără reclame</string>
+    <string name="price_line_trial">%1$s/%2$s după %3$d zile gratuit</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">Se încarcă prețul…</string>
+    <string name="start_free_trial">ÎNCEPE PROBA GRATUITĂ</string>
+    <string name="premium_active">EȘTI PREMIUM</string>
+    <string name="billing_disclaimer">Abonamentul se reînnoiește automat după probă. Anulează înainte de expirare.</string>
+    <string name="billing_unavailable">Abonamentele nu sunt disponibile acum.</string>
+    <string name="purchase_failed">Achiziția nu a putut fi finalizată.</string>
+    <string name="purchase_success">Bun venit la Premium!</string>
+    <string name="period_week">săptămână</string>
+    <string name="period_month">lună</string>
+    <string name="period_year">an</string>
+    <string name="period_day">zi</string>
+    <string name="subscribe_now">Abonează-te acum</string>
+
+    <string name="instruction">Instrucțiuni</string>
+    <string name="instr_title_how">Cum funcționează aplicația?</string>
+    <string name="instr_title_notification">Am primit o notificare, ce fac?</string>
+    <string name="instr_title_disable">Cum dezactivez o etichetă?</string>
+    <string name="instr_title_background">Urmărire în fundal</string>
+    <string name="tag_label">Etichetă</string>
+    <string name="battery_label">Baterie</string>
+    <string name="cover_label">Capac</string>
+    <string-array name="instr_how">
+        <item>Aplicația folosește Bluetooth pentru a scana dispozitivele care te-ar putea urmări.</item>
+        <item>Locația ajută la detectarea unui tracker care te însoțește în mai multe locuri.</item>
+        <item>Primești o notificare când este detectat un posibil tracker.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>Dezactivează trackerul scoțând bateria.</item>
+        <item>Predă trackerul la poliție.</item>
+        <item>Dezactivează-l înainte de a merge într-un loc sigur.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>Apasă și rotește capacul din spate în sens antiorar, apoi scoate bateria.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>Scanarea în fundal te notifică dacă un dispozitiv rămâne aproape de tine peste 20 de minute.</item>
+    </string-array>
+
+    <string name="channel_tracking">Urmărire în fundal</string>
+    <string name="channel_alerts">Alerte tracker</string>
+    <string name="notif_tracking_title">Tracker Bluetooth activ</string>
+    <string name="notif_tracking_text">Se caută trackere în jur</string>
+    <string name="notif_alert_title">Un tracker te-ar putea urmări</string>
+    <string name="notif_alert_text">%1$s este aproape de tine de ceva timp. Deschide aplicația.</string>
+
+    <string name="perm_dialog_title">Permisiuni necesare</string>
+    <string name="perm_dialog_body">Tracker Bluetooth are nevoie de permisiunile Bluetooth și Locație pentru scanare și afișare pe hartă.</string>
+    <string name="perm_allow">Permite</string>
+    <string name="perm_deny">Refuză</string>
+    <string name="exit_dialog_title">Ieșire din aplicație</string>
+    <string name="exit_dialog_message">Confirmi că vrei să ieși?</string>
+    <string name="yes">Da</string>
+    <string name="no">Nu</string>
+    <string name="loading_percent">Se încarcă… %1$d%%</string>
+    <string name="tap_to_continue">Atinge pentru a continua</string>
+    <string name="splash_tagline">Găsește ușor dispozitivele din apropiere</string>
+    <string name="splash_footer">INTELIGENT • SIMPLU • CONECTAT</string>
+
+    <string name="choose_language">Alege limba</string>
+    <string name="choose_language_subtitle">Selectează limba preferată pentru a continua</string>
+    <string name="continue_label">Continuă</string>
+    <string name="language">Limbă</string>
+    <string name="language_desc">Schimbă limba aplicației.</string>
+    <string name="app_theme_title">Tema aplicației</string>
+    <string name="app_theme_desc">Personalizează aspectul aplicației</string>
+
+    <string name="skip">Sari peste</string>
+    <string name="next">Înainte</string>
+    <string name="get_started">Începe</string>
+    <string name="onboarding_title_1">Descoperă dispozitive apropiate</string>
+    <string name="onboarding_desc_1">Scanează dispozitivele Bluetooth din apropiere și explorează informațiile disponibile.</string>
+    <string name="onboarding_title_2">Explorează detaliile</string>
+    <string name="onboarding_desc_2">Vezi informațiile dispozitivului, puterea semnalului și distanța estimată.</string>
+    <string name="onboarding_title_3">Urmărește istoricul</string>
+    <string name="onboarding_desc_3">Consultă istoricul salvat și locațiile telefonului pe hartă când accesul la locație este activ.</string>
+    <string name="onboarding_sample_device">Tracker wireless</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">Permisiuni necesare</string>
+    <string name="perm_screen_subtitle">Pentru scanarea Bluetooth și salvarea locațiilor de detectare, sunt necesare:</string>
+    <string name="perm_bt_title">Bluetooth și dispozitive apropiate</string>
+    <string name="perm_bt_desc">Necesar pentru scanarea dispozitivelor și etichetelor Bluetooth.</string>
+    <string name="perm_loc_title">Acces la locație</string>
+    <string name="perm_loc_desc">Solicitat de Android pentru scanarea Bluetooth.</string>
+    <string name="perm_history_title">Locații din istoric</string>
+    <string name="perm_history_desc">Salvează poziția telefonului la detectare pentru afișare pe hartă.</string>
+    <string name="allow_permissions">Permite</string>
+    <string name="not_now">Nu acum</string>
+    <string name="open_settings">Deschide setările</string>
+    <string name="record_title">Înregistrări</string>
+    <string name="no_history_records">Nicio locație salvată încă.\nScanează un dispozitiv apropiat pentru istoric.</string>
+    <string name="location_not_recorded">Locație neînregistrată</string>
+    <string name="detected_date">Detectat %1$s</string>
+    <string name="cancel">Anulează</string>
+    <string name="label_last_seen">Ultima detectare</string>
+    <string name="label_classification">Clasificare</string>
+    <string name="label_encounters">Detectări și tipar</string>
+    <string name="class_supported_tag">Find My / Tracker compatibil</string>
+    <string name="class_bluetooth_device">Dispozitiv Bluetooth</string>
+    <string name="rssi_disclaimer">Distanța este estimată din puterea semnalului Bluetooth (RSSI) și nu are precizie GPS.</string>
+    <string name="map_phone_location_disclaimer">Harta arată unde telefonul a detectat semnalul, nu locația fizică exactă a dispozitivului.</string>
+    <string name="encounter_summary_format">%1$d observații • %2$d locații</string>
+    <string name="warning_nearby">Dispozitiv apropiat detectat</string>
+    <string name="warning_repeated">Detectare repetată observată</string>
+    <string name="warning_suspicious">Posibil tipar de urmărire nedorită</string>
+    <string name="ignore_device_action">Ignoră dispozitivul</string>
+    <string name="notif_alert_reason">%1$s a fost detectat repetat în %2$d locații. Aceasta nu confirmă intenția răuvoitoare.</string>
+    <string name="open_in_maps">Deschide în hărți</string>
+    <string name="theme_blue">Albastru</string>
+    <string name="company_device_format">Dispozitiv %1$s</string>
+    <string name="recorded_scan_location">Locație scanare înregistrată</string>
+    <string name="onboarding_estimated_proximity">PROXIMITATE ESTIMATĂ</string>
+    <string name="theme_green">Verde</string>
+    <string name="theme_orange">Portocaliu</string>
+    <string name="phone_location">Locația telefonului</string>
+    <string name="onboarding_sample_location">Exemplu locație telefon</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">Negru</string>
+    <string name="onboarding_scan_recorded">Scanare înregistrată</string>
+    <string name="ignore_device_state">Ignoră dispozitivul, %1$s</string>
+    <string name="retry">Reîncearcă</string>
+    <string name="purchase_pending">Achiziția așteaptă confirmarea. Premium se va debloca după finalizarea plății.</string>
+    <string name="purchase_pending_button">Achiziție în așteptare</string>
+</resources>

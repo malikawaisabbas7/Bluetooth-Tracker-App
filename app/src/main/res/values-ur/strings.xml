@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بلوٹوتھ ٹریکر</string>
+    <string name="start_scan">اسکین شروع کریں</string>
+    <string name="stop_scan">اسکین روکیں</string>
+    <string name="devices_found">%1$d آلات ملے</string>
+    <string name="devices_found_count">%1$d آلات ملے</string>
+    <string name="searching_devices_hint">قریب میں بلوٹوتھ سگنلز تلاش کیے جا رہے ہیں…</string>
+    <string name="air_tag">ٹیگز</string>
+    <string name="other_tags">دیگر ٹیگز</string>
+    <string name="bluetooth_devices">بلوٹوتھ آلات</string>
+    <string name="no_device_found">کوئی آلہ نہیں ملا</string>
+    <string name="unknown_device">نامعلوم</string>
+    <string name="permission_needed">اسکین کرنے کے لیے بلوٹوتھ اور لوکیشن کی اجازت درکار ہے۔</string>
+    <string name="scan_failed">اسکین ناکام: %1$s</string>
+    <string name="close">بند کریں</string>
+    <string name="choose_app_theme">ایپ تھیم منتخب کریں</string>
+
+    <string name="device_info">آلے کی معلومات</string>
+    <string name="label_name">نام</string>
+    <string name="label_mac">میک ایڈریس</string>
+    <string name="label_first_seen">پہلی بار دیکھا گیا</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">بانڈنگ کی حالت</string>
+    <string name="label_company">کمپنی</string>
+    <string name="label_ignore">آلے کو نظرانداز کریں</string>
+    <string name="label_scan_record">اسکین ریکارڈ</string>
+    <string name="bonded">جوڑا ہوا</string>
+    <string name="unbonded">غیر مربوط</string>
+    <string name="unknown_company">نامعلوم کمپنی</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nمیٹر</string>
+    <string name="level_far">دور</string>
+    <string name="level_near">قریب</string>
+    <string name="level_very_near">بہت قریب</string>
+    <string name="see_more"><u>مزید دیکھیں</u></string>
+    <string name="see_less">کم دیکھیں</string>
+    <string name="no_location">ابھی تک کوئی لوکیشن ریکارڈ نہیں ہوئی۔ لوکیشن آن کریں اور اسکین جاری رکھیں۔</string>
+    <string name="distance_helper">فاصلہ تخمینی ہے۔ نقشہ اس وقت آپ کے فون کی لوکیشن دکھاتا ہے جب یہ آلہ ملا تھا۔</string>
+    <string name="open_map_failed">کوئی میپ ایپ نہیں ملی۔</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">ترتیبات</string>
+    <string name="background_tracking">بیک گراؤنڈ ٹریکنگ</string>
+    <string name="background_tracking_desc">ٹریکرز تلاش کرنے کے لیے ایپ کو بیک گراؤنڈ میں کام کرنے کی اجازت دیں۔</string>
+    <string name="toggle_on">آن</string>
+    <string name="toggle_off">آف</string>
+    <string name="use_metric_units">میٹرک یونٹس استعمال کریں</string>
+    <string name="unit_desc">فاصلے کی پیمائش کا یونٹ۔</string>
+    <string name="scan_duration">اسکین کا دورانیہ</string>
+    <string name="scan_duration_desc">اسکین شروع کرنے کے بعد خودکار طور پر رکنے کا وقت مقرر کریں</string>
+    <string name="remove_ads">اشتہارات ہٹائیں</string>
+    <string name="customer_support">کسٹمر سپورٹ</string>
+    <string name="rate_us">ہمیں ریٹ کریں</string>
+    <string name="share">شیئر کریں</string>
+    <string name="privacy_policy">رازداری کی پالیسی</string>
+    <string name="terms_of_service">سروس کی شرائط</string>
+    <string name="instructions_dialog_title">ہدایات</string>
+    <string name="tracking_permission_needed">بیک گراؤنڈ ٹریکنگ کے لیے بلوٹوتھ، لوکیشن اور نوٹیفکیشن کی اجازت درکار ہے۔</string>
+    <string name="share_text">بلوٹوتھ ٹریکر کے ساتھ اپنے اردگرد چھپے بلوٹوتھ ٹریکرز تلاش کریں: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">شیئر کریں بذریعہ</string>
+    <string name="link_failed">لنک نہیں کھل سکا۔</string>
+
+    <string-array name="unit_labels">
+        <item>میٹر</item>
+        <item>فٹ (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 سیکنڈ</item>
+        <item>45 سیکنڈ</item>
+        <item>2 منٹ</item>
+        <item>5 منٹ</item>
+    </string-array>
+
+    <string name="rate_title">کیا آپ کو\nبلوٹوتھ ٹریکر پسند آیا؟</string>
+    <string name="rate_body">ہم بہتر تجربے کے لیے محنت کر رہے ہیں۔\nاگر آپ ہمیں ریٹ کریں تو ہم شکر گزار ہوں گے</string>
+    <string name="rate_best">بہترین درجہ بندی</string>
+    <string name="rate_button">ریٹ کریں</string>
+    <string name="send_feedback">ہمیں فیڈبیک بھیجیں</string>
+
+    <string name="support_hint">مسئلہ بیان کریں (کم از کم 20 حروف)</string>
+    <string name="support_subject">بلوٹوتھ ٹریکر سپورٹ</string>
+    <string name="support_no_email_app">کوئی ای میل ایپ نہیں ملی۔</string>
+    <string name="send">بھیجیں</string>
+    <string name="back">واپس</string>
+
+    <string name="start_like_a_pro">پرو کی طرح شروع کریں</string>
+    <string name="unlock_all_features">تمام فیچرز ان لاک کریں</string>
+    <string name="col_premium">پریمیم</string>
+    <string name="col_basic">بیسک</string>
+    <string name="feature_find_air_tags">ٹیگز تلاش کریں</string>
+    <string name="feature_detect_bluetooth">بلوٹوتھ آلات دریافت کریں</string>
+    <string name="feature_info_distance">معلومات اور فاصلہ دیکھیں</string>
+    <string name="feature_vip_support">VIP کسٹمر سپورٹ</string>
+    <string name="feature_remove_ads">اشتہارات ہٹائیں</string>
+    <string name="price_line_trial">%3$d دن کے مفت ٹرائل کے بعد %1$s/%2$s</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">قیمت لوڈ ہو رہی ہے…</string>
+    <string name="start_free_trial">مفت ٹرائل شروع کریں</string>
+    <string name="premium_active">آپ پریمیم ہیں</string>
+    <string name="billing_disclaimer">ٹرائل ختم ہونے کے بعد سبسکرپشن خود بخود تجدید ہو جائے گی۔ چارجز سے بچنے کے لیے ٹرائل ختم ہونے سے پہلے منسوخ کریں۔</string>
+    <string name="billing_unavailable">سبسکرپشن اس وقت دستیاب نہیں ہے۔ براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
+    <string name="purchase_failed">خریداری مکمل نہیں ہو سکی۔</string>
+    <string name="purchase_success">پریمیم میں خوش آمدید!</string>
+    <string name="period_week">ہفتہ</string>
+    <string name="period_month">مہینہ</string>
+    <string name="period_year">سال</string>
+    <string name="period_day">دن</string>
+    <string name="subscribe_now">ابھی سبسکرائب کریں</string>
+
+    <string name="instruction">ہدایات</string>
+    <string name="instr_title_how">ایپ کیسے کام کرتی ہے؟</string>
+    <string name="instr_title_notification">مجھے نوٹیفکیشن ملا، کیا کروں؟</string>
+    <string name="instr_title_disable">ملنے کے بعد ٹیگ کو کیسے بند کروں؟</string>
+    <string name="instr_title_background">بیک گراؤنڈ ٹریکنگ</string>
+    <string name="tag_label">ٹیگ</string>
+    <string name="battery_label">بیٹری</string>
+    <string name="cover_label">کور</string>
+    <string-array name="instr_how">
+        <item>ایپ بلوٹوتھ کے ذریعے آپ کا پیچھا کرنے والے آلات کو اسکین کرتی ہے۔</item>
+        <item>ایپ یہ جاننے کے لیے لوکیشن استعمال کرتی ہے کہ آیا کوئی ٹریکر مختلف جگہوں پر آپ کے ساتھ ہے۔</item>
+        <item>جب کوئی مشکوک ٹریکر آپ کے ساتھ ہو تو آپ کو نوٹیفکیشن ملتا ہے۔</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>بیٹری نکال کر ٹریکر کو غیر فعال کریں۔</item>
+        <item>ٹریکر کو پولیس کے پاس لے جائیں۔</item>
+        <item>محفوظ جگہ جانے سے پہلے ٹریکر کو بند کرنا یقینی بنائیں۔</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>آپ ٹیگ کی بیٹری نکال کر ٹریکنگ روک سکتے ہیں۔ پچھلے حصے کو دبا کر گھڑی کی مخالف سمت گھمائیں، کور ہٹائیں اور بیٹری نکال دیں۔</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>خودکار اسکیننگ فیچر ایپ کو بیک گراؤنڈ میں قریبی آلات اسکین کرنے دیتا ہے۔ اگر کوئی آلہ 20 منٹ سے زیادہ دیر تک قریب رہے تو آپ کو نوٹیفکیشن ملے گا۔</item>
+    </string-array>
+
+    <string name="channel_tracking">بیک گراؤنڈ ٹریکنگ</string>
+    <string name="channel_alerts">ٹریکر الرٹس</string>
+    <string name="notif_tracking_title">بلوٹوتھ ٹریکر فعال ہے</string>
+    <string name="notif_tracking_text">آپ کے اردگرد ٹریکرز تلاش کیے جا رہے ہیں</string>
+    <string name="notif_alert_title">ایک ٹریکر آپ کا پیچھا کر سکتا ہے</string>
+    <string name="notif_alert_text">%1$s کافی دیر سے آپ کے قریب ہے۔ چیک کرنے کے لیے ایپ کھولیں۔</string>
+
+    <string name="perm_dialog_title">اجازتیں درکار ہیں</string>
+    <string name="perm_dialog_body">بلوٹوتھ ٹریکر کو قریبی ٹریکرز اسکین کرنے اور نقشے پر لوکیشن دکھانے کے لیے بلوٹوتھ اور لوکیشن کی اجازت درکار ہے۔</string>
+    <string name="perm_allow">اجازت دیں</string>
+    <string name="perm_deny">انکار کریں</string>
+    <string name="exit_dialog_title">ایپ بند کریں</string>
+    <string name="exit_dialog_message">کیا آپ واقعی باہر نکلنا چاہتے ہیں؟</string>
+    <string name="yes">ہاں</string>
+    <string name="no">نہیں</string>
+    <string name="loading_percent">لوڈ ہو رہا ہے… %1$d%%</string>
+    <string name="tap_to_continue">جاری رکھنے کے لیے کہیں بھی ٹیپ کریں</string>
+    <string name="splash_tagline">آسانی سے قریبی آلات تلاش کریں</string>
+    <string name="splash_footer">اسمارٹ • سادہ • مربوط</string>
+
+    <string name="choose_language">زبان منتخب کریں</string>
+    <string name="choose_language_subtitle">جاری رکھنے کے لیے اپنی پسندیدہ زبان منتخب کریں</string>
+    <string name="continue_label">جاری رکھیں</string>
+    <string name="language">زبان</string>
+    <string name="language_desc">ایپ کی زبان تبدیل کریں۔</string>
+    <string name="app_theme_title">ایپ تھیم</string>
+    <string name="app_theme_desc">ایپ کا رنگ و انداز منتخب کریں</string>
+
+    <string name="skip">چھوڑیں</string>
+    <string name="next">اگلا</string>
+    <string name="get_started">شروع کریں</string>
+    <string name="onboarding_title_1">قریبی آلات دریافت کریں</string>
+    <string name="onboarding_desc_1">قریبی بلوٹوتھ آلات اسکین کریں اور دستیاب معلومات دیکھیں۔</string>
+    <string name="onboarding_title_2">آلے کی تفصیلات دیکھیں</string>
+    <string name="onboarding_desc_2">آلے کی معلومات، سگنل کی طاقت اور تخمینی فاصلہ دیکھیں۔</string>
+    <string name="onboarding_title_3">اسکین ہسٹری ٹریک کریں</string>
+    <string name="onboarding_desc_3">لوکیشن کی اجازت دستیاب ہونے پر محفوظ شدہ ہسٹری اور فون کی ریکارڈ شدہ لوکیشن نقشے پر دیکھیں۔</string>
+    <string name="onboarding_sample_device">وائرلیس ٹریکر</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">اجازتیں درکار ہیں</string>
+    <string name="perm_screen_subtitle">قریبی بلوٹوتھ آلات اسکین کرنے اور لوکیشن ریکارڈ کرنے کے لیے درج ذیل اجازتیں درکار ہیں:</string>
+    <string name="perm_bt_title">بلوٹوتھ اور قریبی آلات</string>
+    <string name="perm_bt_desc">قریبی بلوٹوتھ آلات اور ٹیگز اسکین کرنے کے لیے درکار ہے۔</string>
+    <string name="perm_loc_title">لوکیشن تک رسائی</string>
+    <string name="perm_loc_desc">اینڈرائیڈ پر بلوٹوتھ اسکیننگ کے لیے درکار ہے۔</string>
+    <string name="perm_history_title">اسکین ہسٹری لوکیشنز</string>
+    <string name="perm_history_desc">جب کوئی آلہ ملتا ہے تو نقشے پر دکھانے کے لیے فون کی لوکیشن محفوظ کرتا ہے۔</string>
+    <string name="allow_permissions">اجازت دیں</string>
+    <string name="not_now">ابھی نہیں</string>
+    <string name="open_settings">ترتیبات کھولیں</string>
+    <string name="record_title">ریکارڈ</string>
+    <string name="no_history_records">ابھی تک کوئی لوکیشن ریکارڈ نہیں ہوئی۔\nہسٹری بنانے کے لیے قریبی آلہ اسکین کریں۔</string>
+    <string name="location_not_recorded">لوکیشن ریکارڈ نہیں ہوئی</string>
+    <string name="detected_date">دریافت: %1$s</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="label_last_seen">آخری بار دیکھا گیا</string>
+    <string name="label_classification">درجہ بندی</string>
+    <string name="label_encounters">مشاہدات اور پیٹرن</string>
+    <string name="class_supported_tag">Find My / معاون ٹریکر ٹیگ</string>
+    <string name="class_bluetooth_device">بلوٹوتھ ڈیوائس</string>
+    <string name="rssi_disclaimer">فاصلے کا اندازہ بلوٹوتھ سگنل کی طاقت (RSSI) سے لگایا جاتا ہے اور یہ GPS جتنا درست نہیں ہے۔</string>
+    <string name="map_phone_location_disclaimer">نقشہ وہ جگہ دکھاتا ہے جہاں آپ کے فون نے سگنل پکڑا، ڈیوائس کی اصل جگہ نہیں۔</string>
+    <string name="encounter_summary_format">%1$d مشاہدات • %2$d مقامات</string>
+    <string name="warning_nearby">قریبی ڈیوائس ملی</string>
+    <string name="warning_repeated">بار بار موجودگی دیکھی گئی</string>
+    <string name="warning_suspicious">ممکنہ ناپسندیدہ ٹریکنگ پیٹرن</string>
+    <string name="ignore_device_action">ڈیوائس نظر انداز کریں</string>
+    <string name="notif_alert_reason">%1$s کو %2$d مقامات پر بار بار دیکھا گیا۔ اس سے بدنیتی ثابت نہیں ہوتی۔</string>
+    <string name="onboarding_estimated_proximity">تخمینی قربت</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="onboarding_scan_recorded">اسکین ریکارڈ ہو گیا</string>
+    <string name="onboarding_sample_location">فون کا نمونہ مقام</string>
+    <string name="company_device_format">%1$s ڈیوائس</string>
+    <string name="ignore_device_state">ڈیوائس نظر انداز کریں، %1$s</string>
+    <string name="recorded_scan_location">ریکارڈ شدہ اسکین مقام</string>
+    <string name="phone_location">فون کا مقام</string>
+    <string name="open_in_maps">نقشے میں کھولیں</string>
+    <string name="theme_blue">نیلا</string>
+    <string name="theme_orange">نارنجی</string>
+    <string name="theme_black">سیاہ</string>
+    <string name="theme_green">سبز</string>
+    <string name="retry">دوبارہ کوشش کریں</string>
+    <string name="purchase_pending">خریداری کی تصدیق زیر التوا ہے۔ ادائیگی مکمل ہونے پر Premium فعال ہو جائے گا۔</string>
+    <string name="purchase_pending_button">خریداری زیر التوا</string>
+</resources>

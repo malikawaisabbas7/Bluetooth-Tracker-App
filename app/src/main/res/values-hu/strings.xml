@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth Követő</string>
+    <string name="start_scan">Keresés indítása</string>
+    <string name="stop_scan">Keresés leállítása</string>
+    <string name="devices_found">%1$d eszköz található</string>
+    <string name="devices_found_count">%1$d eszköz található</string>
+    <string name="searching_devices_hint">Bluetooth-jelek keresése a közelben…</string>
+    <string name="air_tag">Címkék</string>
+    <string name="other_tags">Egyéb címkék</string>
+    <string name="bluetooth_devices">Bluetooth-eszközök</string>
+    <string name="no_device_found">Nem található eszköz</string>
+    <string name="unknown_device">Ismeretlen</string>
+    <string name="permission_needed">A kereséshez Bluetooth és helymeghatározási engedély szükséges.</string>
+    <string name="scan_failed">Keresés sikertelen: %1$s</string>
+    <string name="close">Bezárás</string>
+    <string name="choose_app_theme">Téma kiválasztása</string>
+
+    <string name="device_info">Eszköz adatai</string>
+    <string name="label_name">Név</string>
+    <string name="label_mac">MAC-cím</string>
+    <string name="label_first_seen">Első észlelés</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">Párosítás állapota</string>
+    <string name="label_company">Gyártó</string>
+    <string name="label_ignore">Eszköz mellőzése</string>
+    <string name="label_scan_record">Keresési napló</string>
+    <string name="bonded">Párosítva</string>
+    <string name="unbonded">Nincs párosítva</string>
+    <string name="unknown_company">Ismeretlen gyártó</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nméter</string>
+    <string name="level_far">Távol</string>
+    <string name="level_near">Közel</string>
+    <string name="level_very_near">Nagyon közel</string>
+    <string name="see_more"><u>Továbbiak</u></string>
+    <string name="see_less">Kevesebb</string>
+    <string name="no_location">Még nincs rögzített hely. Kapcsolja be a helymeghatározást.</string>
+    <string name="distance_helper">A távolság becsült érték. A térkép a telefon helyzetét mutatja az észleléskor.</string>
+    <string name="open_map_failed">Nem található térképalkalmazás.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">Beállítások</string>
+    <string name="background_tracking">Háttérkövetés</string>
+    <string name="background_tracking_desc">Háttérben futó keresés engedélyezése.</string>
+    <string name="toggle_on">Be</string>
+    <string name="toggle_off">Ki</string>
+    <string name="use_metric_units">Metrikus mértékegység</string>
+    <string name="unit_desc">Távolság mértékegysége.</string>
+    <string name="scan_duration">Keresés időtartama</string>
+    <string name="scan_duration_desc">Automatikus leállítás ideje keresés indítása után</string>
+    <string name="remove_ads">Reklámok eltávolítása</string>
+    <string name="customer_support">Ügyfélszolgálat</string>
+    <string name="rate_us">Értékeljen minket</string>
+    <string name="share">Megosztás</string>
+    <string name="privacy_policy">Adatvédelmi irányelvek</string>
+    <string name="terms_of_service">Szolgáltatási feltételek</string>
+    <string name="instructions_dialog_title">Útmutató</string>
+    <string name="tracking_permission_needed">Bluetooth, hely és értesítési engedély szükséges.</string>
+    <string name="share_text">Találja meg a rejtett Bluetooth-követőket: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">Megosztás</string>
+    <string name="link_failed">A hivatkozás nem nyitható meg.</string>
+
+    <string-array name="unit_labels">
+        <item>Méter</item>
+        <item>Láb (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 másodperc</item>
+        <item>45 másodperc</item>
+        <item>2 perc</item>
+        <item>5 perc</item>
+    </string-array>
+
+    <string name="rate_title">Tetszik a\nBluetooth Követő?</string>
+    <string name="rate_body">Folyamatosan fejlesztjük az alkalmazást.\nKöszönjük az értékelést!</string>
+    <string name="rate_best">Legjobb értékelés</string>
+    <string name="rate_button">Értékelés</string>
+    <string name="send_feedback">Visszajelzés küldése</string>
+
+    <string name="support_hint">Írja le a problémát (legalább 20 karakter)</string>
+    <string name="support_subject">Bluetooth Követő támogatás</string>
+    <string name="support_no_email_app">Nem található e-mail alkalmazás.</string>
+    <string name="send">Küldés</string>
+    <string name="back">Vissza</string>
+
+    <string name="start_like_a_pro">PROFI MÓDRA</string>
+    <string name="unlock_all_features">Összes funkció feloldása</string>
+    <string name="col_premium">PRÉMIUM</string>
+    <string name="col_basic">ALAP</string>
+    <string name="feature_find_air_tags">Címkék keresése</string>
+    <string name="feature_detect_bluetooth">Bluetooth-eszközök észlelése</string>
+    <string name="feature_info_distance">Adatok és távolság</string>
+    <string name="feature_vip_support">VIP támogatás</string>
+    <string name="feature_remove_ads">Reklámmentes</string>
+    <string name="price_line_trial">%1$s/%2$s a %3$d napos próba után</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">Ár betöltése…</string>
+    <string name="start_free_trial">INGYENES PRÓBA</string>
+    <string name="premium_active">PRÉMIUM AKTÍV</string>
+    <string name="billing_disclaimer">A próba után az előfizetés automatikusan megújul. Előtte bármikor lemondható.</string>
+    <string name="billing_unavailable">Az előfizetések jelenleg nem érhetők el.</string>
+    <string name="purchase_failed">A vásárlás sikertelen.</string>
+    <string name="purchase_success">Üdvözöljük a Prémiumban!</string>
+    <string name="period_week">hét</string>
+    <string name="period_month">hónap</string>
+    <string name="period_year">év</string>
+    <string name="period_day">nap</string>
+    <string name="subscribe_now">Előfizetés</string>
+
+    <string name="instruction">Útmutató</string>
+    <string name="instr_title_how">Hogyan működik az app?</string>
+    <string name="instr_title_notification">Értesítést kaptam, mit tegyek?</string>
+    <string name="instr_title_disable">Hogyan kapcsolhatom ki a címkét?</string>
+    <string name="instr_title_background">Háttérkövetés</string>
+    <string name="tag_label">Címke</string>
+    <string name="battery_label">Elem</string>
+    <string name="cover_label">Fedél</string>
+    <string-array name="instr_how">
+        <item>Az alkalmazás Bluetooth segítségével keresi a közelben lévő követőket.</item>
+        <item>A helyadatok alapján észleli, ha egy követő több helyre is elkíséri.</item>
+        <item>Értesítést kap, ha gyanús követőeszközt észlel.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>Kapcsolja ki az eszközt az elem eltávolításával.</item>
+        <item>Vigye el a követőt a rendőrségre.</item>
+        <item>Biztonságos helyre indulás előtt kapcsolja ki.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>Nyomja meg és fordítsa el a hátlapot az óramutató járásával ellentétesen, majd vegye ki az elemet.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>A háttérkeresés értesíti, ha egy eszköz 20 percnél tovább a közelében marad.</item>
+    </string-array>
+
+    <string name="channel_tracking">Háttérkövetés</string>
+    <string name="channel_alerts">Követő riasztások</string>
+    <string name="notif_tracking_title">Bluetooth Követő aktív</string>
+    <string name="notif_tracking_text">Követők keresése a közelben</string>
+    <string name="notif_alert_title">Lehetséges, hogy egy eszköz követi</string>
+    <string name="notif_alert_text">%1$s egy ideje a közelében van. Nyissa meg az alkalmazást.</string>
+
+    <string name="perm_dialog_title">Engedélyek szükségesek</string>
+    <string name="perm_dialog_body">A Bluetooth Követőnek Bluetooth és helymeghatározási engedélyekre van szüksége a kereséshez és a térképhez.</string>
+    <string name="perm_allow">Engedélyezés</string>
+    <string name="perm_deny">Elutasítás</string>
+    <string name="exit_dialog_title">Kilépés</string>
+    <string name="exit_dialog_message">Biztosan ki szeretne lépni?</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <string name="loading_percent">Betöltés… %1$d%%</string>
+    <string name="tap_to_continue">Érintse meg a folytatáshoz</string>
+    <string name="splash_tagline">Találja meg könnyedén a közeli eszközöket</string>
+    <string name="splash_footer">OKOS • EGYSZERŰ • KAPCSOLÓDVA</string>
+
+    <string name="choose_language">Nyelv kiválasztása</string>
+    <string name="choose_language_subtitle">Válassza ki a kívánt nyelvet a folytatáshoz</string>
+    <string name="continue_label">Tovább</string>
+    <string name="language">Nyelv</string>
+    <string name="language_desc">Alkalmazás nyelvének módosítása.</string>
+    <string name="app_theme_title">Alkalmazás témája</string>
+    <string name="app_theme_desc">Megjelenés testreszabása</string>
+
+    <string name="skip">Kihagyás</string>
+    <string name="next">Következő</string>
+    <string name="get_started">Kezdés</string>
+    <string name="onboarding_title_1">Közeli eszközök felfedezése</string>
+    <string name="onboarding_desc_1">Keressen közeli Bluetooth-eszközöket, és tekintse meg az elérhető adatokat.</string>
+    <string name="onboarding_title_2">Eszközadatok megtekintése</string>
+    <string name="onboarding_desc_2">Tekintse meg az eszköz adatait, a jelerősséget és a becsült távolságot.</string>
+    <string name="onboarding_title_3">Keresési előzmények</string>
+    <string name="onboarding_desc_3">Nézze meg a mentett észleléseket és a telefon rögzített helyzetét a térképen.</string>
+    <string name="onboarding_sample_device">Vezeték nélküli követő</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">Szükséges engedélyek</string>
+    <string name="perm_screen_subtitle">A Bluetooth-eszközök kereséséhez és a helyek rögzítéséhez az alábbiak szükségesek:</string>
+    <string name="perm_bt_title">Bluetooth és közeli eszközök</string>
+    <string name="perm_bt_desc">Közeli Bluetooth-eszközök és címkék kereséséhez szükséges.</string>
+    <string name="perm_loc_title">Helyhozzáférés</string>
+    <string name="perm_loc_desc">Az Android megköveteli a Bluetooth-kereséshez.</string>
+    <string name="perm_history_title">Előzményhelyek</string>
+    <string name="perm_history_desc">Rögzíti a telefon helyzetét észleléskor a térképes megjelenítéshez.</string>
+    <string name="allow_permissions">Engedélyezés</string>
+    <string name="not_now">Most nem</string>
+    <string name="open_settings">Beállítások megnyitása</string>
+    <string name="record_title">Előzmények</string>
+    <string name="no_history_records">Még nincs rögzített hely.\nKeressen egy közeli eszközt az előzményekhez.</string>
+    <string name="location_not_recorded">Hely nincs rögzítve</string>
+    <string name="detected_date">Észlelve: %1$s</string>
+    <string name="cancel">Mégse</string>
+    <string name="label_last_seen">Utoljára észlelve</string>
+    <string name="label_classification">Besorolás</string>
+    <string name="label_encounters">Észlelések és minta</string>
+    <string name="class_supported_tag">Find My / Támogatott nyomkövető</string>
+    <string name="class_bluetooth_device">Bluetooth-eszköz</string>
+    <string name="rssi_disclaimer">A távolság a Bluetooth-jelerősségből (RSSI) becsült érték, és nem GPS-pontosságú.</string>
+    <string name="map_phone_location_disclaimer">A térkép azt mutatja, hol észlelte a telefon a jelet, nem az eszköz pontos fizikai helyét.</string>
+    <string name="encounter_summary_format">%1$d észlelés • %2$d hely</string>
+    <string name="warning_nearby">Közeli eszköz észlelve</string>
+    <string name="warning_repeated">Ismétlődő észlelés</string>
+    <string name="warning_suspicious">Lehetséges nem kívánt követési minta</string>
+    <string name="ignore_device_action">Eszköz mellőzése</string>
+    <string name="notif_alert_reason">A(z) %1$s ismételten észlelve %2$d helyen. Ez nem igazol rosszindulatú szándékot.</string>
+    <string name="open_in_maps">Megnyitás térképen</string>
+    <string name="theme_blue">Kék</string>
+    <string name="company_device_format">%1$s eszköz</string>
+    <string name="recorded_scan_location">Rögzített észlelési hely</string>
+    <string name="onboarding_estimated_proximity">BECSÜLT KÖZELSÉG</string>
+    <string name="theme_green">Zöld</string>
+    <string name="theme_orange">Narancs</string>
+    <string name="phone_location">Telefon helyzete</string>
+    <string name="onboarding_sample_location">Minta telefonhelyzet</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">Fekete</string>
+    <string name="onboarding_scan_recorded">Keresés rögzítve</string>
+    <string name="ignore_device_state">Eszköz mellőzése, %1$s</string>
+    <string name="retry">Újra</string>
+    <string name="purchase_pending">A vásárlás megerősítésre vár. A Premium a fizetés befejezése után aktiválódik.</string>
+    <string name="purchase_pending_button">Függőben lévő vásárlás</string>
+</resources>

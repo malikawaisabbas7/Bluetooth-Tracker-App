@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth Sledovač</string>
+    <string name="start_scan">Spustiť skenovanie</string>
+    <string name="stop_scan">Zastaviť</string>
+    <string name="devices_found">Nájdených zariadení: %1$d</string>
+    <string name="devices_found_count">Nájdených zariadení: %1$d</string>
+    <string name="searching_devices_hint">Hľadajú sa signály Bluetooth v okolí…</string>
+    <string name="air_tag">Štítky</string>
+    <string name="other_tags">Iné štítky</string>
+    <string name="bluetooth_devices">Bluetooth zariadenia</string>
+    <string name="no_device_found">Nenašlo sa žiadne zariadenie</string>
+    <string name="unknown_device">Neznáme</string>
+    <string name="permission_needed">Na skenovanie sú potrebné povolenia Bluetooth a polohy.</string>
+    <string name="scan_failed">Skenovanie zlyhalo: %1$s</string>
+    <string name="close">Zavrieť</string>
+    <string name="choose_app_theme">Vybrať tému aplikácie</string>
+
+    <string name="device_info">Informácie o zariadení</string>
+    <string name="label_name">Názov</string>
+    <string name="label_mac">MAC adresa</string>
+    <string name="label_first_seen">Prvýkrát videné</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">Stav párovania</string>
+    <string name="label_company">Spoločnosť</string>
+    <string name="label_ignore">Ignorovať zariadenie</string>
+    <string name="label_scan_record">Záznam skenovania</string>
+    <string name="bonded">Spárované</string>
+    <string name="unbonded">Nespárované</string>
+    <string name="unknown_company">Neznáma spoločnosť</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nmeter</string>
+    <string name="level_far">Ďaleko</string>
+    <string name="level_near">Blízko</string>
+    <string name="level_very_near">Veľmi blízko</string>
+    <string name="see_more"><u>Zobraziť viac</u></string>
+    <string name="see_less">Zobraziť menej</string>
+    <string name="no_location">Zatiaľ nebola zaznamenaná poloha. Zapnite polohu a skenujte.</string>
+    <string name="distance_helper">Vzdialenosť je približná. Mapa ukazuje polohu telefónu pri zistení zariadenia.</string>
+    <string name="open_map_failed">Nenašla sa žiadna mapová aplikácia.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">Nastavenia</string>
+    <string name="background_tracking">Sledovanie na pozadí</string>
+    <string name="background_tracking_desc">Povoliť aplikácii hľadať sledovače na pozadí.</string>
+    <string name="toggle_on">Zap.</string>
+    <string name="toggle_off">Vyp.</string>
+    <string name="use_metric_units">Metrické jednotky</string>
+    <string name="unit_desc">Jednotka merania vzdialenosti.</string>
+    <string name="scan_duration">Trvanie skenovania</string>
+    <string name="scan_duration_desc">Čas automatického ukončenia vyhľadávania</string>
+    <string name="remove_ads">Odstrániť reklamy</string>
+    <string name="customer_support">Zákaznícka podpora</string>
+    <string name="rate_us">Ohodnoťte nás</string>
+    <string name="share">Zdieľať</string>
+    <string name="privacy_policy">Ochrana súkromia</string>
+    <string name="terms_of_service">Podmienky služby</string>
+    <string name="instructions_dialog_title">Pokyny</string>
+    <string name="tracking_permission_needed">Na sledovanie na pozadí sú potrebné povolenia Bluetooth, polohy a upozornení.</string>
+    <string name="share_text">Nájdite skryté Bluetooth sledovače: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">Zdieľať cez</string>
+    <string name="link_failed">Odkaz sa nepodarilo otvoriť.</string>
+
+    <string-array name="unit_labels">
+        <item>Meter</item>
+        <item>Stopa (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 sekúnd</item>
+        <item>45 sekúnd</item>
+        <item>2 minúty</item>
+        <item>5 minút</item>
+    </string-array>
+
+    <string name="rate_title">Páči sa vám\nBluetooth Sledovač?</string>
+    <string name="rate_body">Pracujeme na zlepšovaní aplikácie.\nĎakujeme za vaše hodnotenie</string>
+    <string name="rate_best">Najlepšie hodnotenie</string>
+    <string name="rate_button">Ohodnotiť</string>
+    <string name="send_feedback">Poslať spätnú väzbu</string>
+
+    <string name="support_hint">Popíšte problém (aspoň 20 znakov)</string>
+    <string name="support_subject">Podpora Bluetooth Sledovač</string>
+    <string name="support_no_email_app">Nenašla sa e-mailová aplikácia.</string>
+    <string name="send">Odoslať</string>
+    <string name="back">Späť</string>
+
+    <string name="start_like_a_pro">ZAČNITE AKO PRO</string>
+    <string name="unlock_all_features">Odomknúť všetky funkcie</string>
+    <string name="col_premium">PREMIUM</string>
+    <string name="col_basic">ZÁKLAD</string>
+    <string name="feature_find_air_tags">Nájsť štítky</string>
+    <string name="feature_detect_bluetooth">Zistiť Bluetooth zariadenia</string>
+    <string name="feature_info_distance">Info a vzdialenosť</string>
+    <string name="feature_vip_support">VIP podpora</string>
+    <string name="feature_remove_ads">Bez reklám</string>
+    <string name="price_line_trial">%1$s/%2$s po %3$d dňoch zdarma</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">Načítava sa cena…</string>
+    <string name="start_free_trial">SKÚSIŤ ZDARMA</string>
+    <string name="premium_active">MÁTE PREMIUM</string>
+    <string name="billing_disclaimer">Predplatné sa po skončení skúšobnej doby automaticky obnoví. Zrušte ho vopred.</string>
+    <string name="billing_unavailable">Predplatné momentálne nie je dostupné.</string>
+    <string name="purchase_failed">Nákup sa nepodaril.</string>
+    <string name="purchase_success">Vitajte v Premium!</string>
+    <string name="period_week">týždeň</string>
+    <string name="period_month">mesiac</string>
+    <string name="period_year">rok</string>
+    <string name="period_day">deň</string>
+    <string name="subscribe_now">Predplatiť</string>
+
+    <string name="instruction">Pokyny</string>
+    <string name="instr_title_how">Ako aplikácia funguje?</string>
+    <string name="instr_title_notification">Dostal som upozornenie, čo robiť?</string>
+    <string name="instr_title_disable">Ako deaktivovať štítok?</string>
+    <string name="instr_title_background">Sledovanie na pozadí</string>
+    <string name="tag_label">Štítok</string>
+    <string name="battery_label">Batéria</string>
+    <string name="cover_label">Kryt</string>
+    <string-array name="instr_how">
+        <item>Aplikácia cez Bluetooth vyhľadáva zariadenia, ktoré vás môžu sledovať.</item>
+        <item>Poloha pomáha zistiť, či vás sledovač sprevádza na viacerých miestach.</item>
+        <item>Pri zistení možného sledovača dostanete upozornenie.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>Deaktivujte sledovač vybratím batérie.</item>
+        <item>Odovzdajte sledovač polícii.</item>
+        <item>Pred odchodom na bezpečné miesto ho deaktivujte.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>Zatlačte a otočte zadný kryt proti smeru hodinových ručičiek a vyberte batériu.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>Skenovanie na pozadí vás upozorní, ak zariadenie zostane nablízku viac ako 20 minút.</item>
+    </string-array>
+
+    <string name="channel_tracking">Sledovanie na pozadí</string>
+    <string name="channel_alerts">Upozornenia na sledovače</string>
+    <string name="notif_tracking_title">Bluetooth Sledovač je zapnutý</string>
+    <string name="notif_tracking_text">Hľadajú sa sledovače v okolí</string>
+    <string name="notif_alert_title">Možno vás sleduje sledovač</string>
+    <string name="notif_alert_text">%1$s je už dlhšie vo vašej blízkosti. Otvorte aplikáciu.</string>
+
+    <string name="perm_dialog_title">Vyžadujú sa povolenia</string>
+    <string name="perm_dialog_body">Aplikácia potrebuje povolenia Bluetooth a polohy na vyhľadávanie a zobrazenie na mape.</string>
+    <string name="perm_allow">Povoliť</string>
+    <string name="perm_deny">Zamietnuť</string>
+    <string name="exit_dialog_title">Ukončiť aplikáciu</string>
+    <string name="exit_dialog_message">Naozaj chcete aplikáciu ukončiť?</string>
+    <string name="yes">Áno</string>
+    <string name="no">Nie</string>
+    <string name="loading_percent">Načítava sa… %1$d%%</string>
+    <string name="tap_to_continue">Ťuknite pre pokračovanie</string>
+    <string name="splash_tagline">Jednoducho nájdite blízke zariadenia</string>
+    <string name="splash_footer">INTELIGENTNÉ • JEDNODUCHÉ • SPOJENÉ</string>
+
+    <string name="choose_language">Vyberte jazyk</string>
+    <string name="choose_language_subtitle">Zvoľte preferovaný jazyk pre pokračovanie</string>
+    <string name="continue_label">Pokračovať</string>
+    <string name="language">Jazyk</string>
+    <string name="language_desc">Zmeniť jazyk aplikácie.</string>
+    <string name="app_theme_title">Téma aplikácie</string>
+    <string name="app_theme_desc">Prispôsobte si vzhľad</string>
+
+    <string name="skip">Preskočiť</string>
+    <string name="next">Ďalej</string>
+    <string name="get_started">Začať</string>
+    <string name="onboarding_title_1">Objavte blízke zariadenia</string>
+    <string name="onboarding_desc_1">Skenujte blízke Bluetooth zariadenia a prezrite si dostupné informácie.</string>
+    <string name="onboarding_title_2">Preskúmajte podrobnosti</string>
+    <string name="onboarding_desc_2">Zobrazte informácie o zariadení, silu signálu a odhadovanú vzdialenosť.</string>
+    <string name="onboarding_title_3">Sledujte históriu</string>
+    <string name="onboarding_desc_3">Prezrite si uloženú históriu a polohu telefónu na mape, ak je povolená poloha.</string>
+    <string name="onboarding_sample_device">Bezdrôtový sledovač</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">Potrebné povolenia</string>
+    <string name="perm_screen_subtitle">Na skenovanie Bluetooth a ukladanie miest zistenia sú potrebné:</string>
+    <string name="perm_bt_title">Bluetooth a blízke zariadenia</string>
+    <string name="perm_bt_desc">Potrebné na skenovanie blízkych Bluetooth zariadení a štítkov.</string>
+    <string name="perm_loc_title">Prístup k polohe</string>
+    <string name="perm_loc_desc">Vyžaduje Android na skenovanie Bluetooth.</string>
+    <string name="perm_history_title">Polohy v histórii</string>
+    <string name="perm_history_desc">Uloží polohu telefónu pri zistení pre zobrazenie na mape.</string>
+    <string name="allow_permissions">Povoliť</string>
+    <string name="not_now">Teraz nie</string>
+    <string name="open_settings">Otvoriť nastavenia</string>
+    <string name="record_title">Záznam</string>
+    <string name="no_history_records">Zatiaľ žiadne záznamy.\nNaskenujte blízke zariadenie na vytvorenie histórie.</string>
+    <string name="location_not_recorded">Poloha nezaznamenaná</string>
+    <string name="detected_date">Zistené %1$s</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="label_last_seen">Naposledy zistené</string>
+    <string name="label_classification">Klasifikácia</string>
+    <string name="label_encounters">Zachytenia a vzor</string>
+    <string name="class_supported_tag">Find My / Podporovaný sledovač</string>
+    <string name="class_bluetooth_device">Bluetooth zariadenie</string>
+    <string name="rssi_disclaimer">Vzdialenosť je odhadnutá zo sily Bluetooth signálu (RSSI) a nemá presnosť GPS.</string>
+    <string name="map_phone_location_disclaimer">Mapa zobrazuje, kde telefón zachytil signál, nie presnú fyzickú polohu zariadenia.</string>
+    <string name="encounter_summary_format">%1$d pozorovaní • %2$d miest</string>
+    <string name="warning_nearby">Zistené blízke zariadenie</string>
+    <string name="warning_repeated">Zistený opakovaný výskyt</string>
+    <string name="warning_suspicious">Možný vzorec neželaného sledovania</string>
+    <string name="ignore_device_action">Ignorovať zariadenie</string>
+    <string name="notif_alert_reason">%1$s bolo opakovane zistené na %2$d miestach. To nepotvrdzuje zlý úmysel.</string>
+    <string name="open_in_maps">Otvoriť v mapách</string>
+    <string name="theme_blue">Modrá</string>
+    <string name="company_device_format">Zariadenie %1$s</string>
+    <string name="recorded_scan_location">Zaznamenaná poloha skenovania</string>
+    <string name="onboarding_estimated_proximity">ODHADOVANÁ BLÍZKOSŤ</string>
+    <string name="theme_green">Zelená</string>
+    <string name="theme_orange">Oranžová</string>
+    <string name="phone_location">Poloha telefónu</string>
+    <string name="onboarding_sample_location">Ukážková poloha telefónu</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">Čierna</string>
+    <string name="onboarding_scan_recorded">Skenovanie zaznamenané</string>
+    <string name="ignore_device_state">Ignorovať zariadenie, %1$s</string>
+    <string name="retry">Skúsiť znova</string>
+    <string name="purchase_pending">Nákup čaká na potvrdenie. Premium sa odomkne po dokončení platby.</string>
+    <string name="purchase_pending_button">Čakajúci nákup</string>
+</resources>

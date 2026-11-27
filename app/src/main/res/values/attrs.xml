@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="themePrimaryColor" format="color" />
+
+    <attr name="themeLightColor" format="color" />
+
+    <attr name="themeTextColor" format="color" />
+
+</resources>

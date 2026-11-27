@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lokalizator Bluetooth</string>
+    <string name="start_scan">Rozpocznij skanowanie</string>
+    <string name="stop_scan">Zatrzymaj skanowanie</string>
+    <string name="devices_found">Znaleziono urządzeń: %1$d</string>
+    <string name="devices_found_count">Znaleziono urządzeń: %1$d</string>
+    <string name="searching_devices_hint">Wyszukiwanie sygnałów Bluetooth w pobliżu…</string>
+    <string name="air_tag">Tagi</string>
+    <string name="other_tags">Inne tagi</string>
+    <string name="bluetooth_devices">Urządzenia Bluetooth</string>
+    <string name="no_device_found">Nie znaleziono urządzenia</string>
+    <string name="unknown_device">Nieznane</string>
+    <string name="permission_needed">Do skanowania wymagane są uprawnienia Bluetooth i lokalizacji.</string>
+    <string name="scan_failed">Błąd skanowania: %1$s</string>
+    <string name="close">Zamknij</string>
+    <string name="choose_app_theme">Wybierz motyw</string>
+
+    <string name="device_info">Informacje o urządzeniu</string>
+    <string name="label_name">Nazwa</string>
+    <string name="label_mac">Adres MAC</string>
+    <string name="label_first_seen">Pierwsze wykrycie</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">Stan parowania</string>
+    <string name="label_company">Producent</string>
+    <string name="label_ignore">Ignoruj urządzenie</string>
+    <string name="label_scan_record">Historia skanowania</string>
+    <string name="bonded">Sparowane</string>
+    <string name="unbonded">Niesparowane</string>
+    <string name="unknown_company">Nieznany producent</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nmetr</string>
+    <string name="level_far">Daleko</string>
+    <string name="level_near">Blisko</string>
+    <string name="level_very_near">Bardzo blisko</string>
+    <string name="see_more"><u>Zobacz więcej</u></string>
+    <string name="see_less">Zobacz mniej</string>
+    <string name="no_location">Brak zapisanej lokalizacji. Włącz lokalizację i skanuj dalej.</string>
+    <string name="distance_helper">Odległość jest przybliżona. Mapa pokazuje pozycję telefonu w chwili wykrycia.</string>
+    <string name="open_map_failed">Nie znaleziono aplikacji map.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">Ustawienia</string>
+    <string name="background_tracking">Śledzenie w tle</string>
+    <string name="background_tracking_desc">Pozwól aplikacji wykrywać lokalizatory w tle.</string>
+    <string name="toggle_on">Wł.</string>
+    <string name="toggle_off">Wył.</string>
+    <string name="use_metric_units">Jednostki metryczne</string>
+    <string name="unit_desc">Jednostka pomiaru odległości.</string>
+    <string name="scan_duration">Czas skanowania</string>
+    <string name="scan_duration_desc">Czas automatycznego zatrzymania wyszukiwania</string>
+    <string name="remove_ads">Usuń reklamy</string>
+    <string name="customer_support">Wsparcie</string>
+    <string name="rate_us">Oceń nas</string>
+    <string name="share">Udostępnij</string>
+    <string name="privacy_policy">Polityka prywatności</string>
+    <string name="terms_of_service">Warunki korzystania</string>
+    <string name="instructions_dialog_title">Instrukcje</string>
+    <string name="tracking_permission_needed">Wymagane są uprawnienia Bluetooth, lokalizacji i powiadomień.</string>
+    <string name="share_text">Znajdź ukryte lokalizatory Bluetooth: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">Udostępnij przez</string>
+    <string name="link_failed">Nie można otworzyć linku.</string>
+
+    <string-array name="unit_labels">
+        <item>Metr</item>
+        <item>Stopa (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 sekund</item>
+        <item>45 sekund</item>
+        <item>2 minuty</item>
+        <item>5 minut</item>
+    </string-array>
+
+    <string name="rate_title">Podoba Ci się\nLokalizator Bluetooth?</string>
+    <string name="rate_body">Ciągle ulepszamy aplikację.\nBędziemy wdzięczni za Twoją ocenę</string>
+    <string name="rate_best">Najwyższa ocena</string>
+    <string name="rate_button">Oceń</string>
+    <string name="send_feedback">Wyślij opinię</string>
+
+    <string name="support_hint">Opisz problem (min. 20 znaków)</string>
+    <string name="support_subject">Wsparcie Lokalizator Bluetooth</string>
+    <string name="support_no_email_app">Nie znaleziono aplikacji e-mail.</string>
+    <string name="send">Wyślij</string>
+    <string name="back">Wstecz</string>
+
+    <string name="start_like_a_pro">ZACZNIJ JAK PRO</string>
+    <string name="unlock_all_features">Odblokuj wszystko</string>
+    <string name="col_premium">PREMIUM</string>
+    <string name="col_basic">PODSTAWOWA</string>
+    <string name="feature_find_air_tags">Znajdź tagi</string>
+    <string name="feature_detect_bluetooth">Wykrywaj urządzenia</string>
+    <string name="feature_info_distance">Info i odległość</string>
+    <string name="feature_vip_support">Wsparcie VIP</string>
+    <string name="feature_remove_ads">Brak reklam</string>
+    <string name="price_line_trial">%1$s/%2$s po %3$d dniach za darmo</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">Ładowanie ceny…</string>
+    <string name="start_free_trial">ROZPOCZNIJ DARMOWY OKRES</string>
+    <string name="premium_active">MASZ PREMIUM</string>
+    <string name="billing_disclaimer">Subskrypcja odnawia się automatycznie po okresie próbnym. Anuluj wcześniej.</string>
+    <string name="billing_unavailable">Subskrypcje są obecnie niedostępne.</string>
+    <string name="purchase_failed">Nie udało się dokończyć zakupu.</string>
+    <string name="purchase_success">Witamy w Premium!</string>
+    <string name="period_week">tydzień</string>
+    <string name="period_month">miesiąc</string>
+    <string name="period_year">rok</string>
+    <string name="period_day">dzień</string>
+    <string name="subscribe_now">Subskrybuj teraz</string>
+
+    <string name="instruction">Instrukcje</string>
+    <string name="instr_title_how">Jak działa aplikacja?</string>
+    <string name="instr_title_notification">Dostałem powiadomienie, co robić?</string>
+    <string name="instr_title_disable">Jak wyłączyć tag?</string>
+    <string name="instr_title_background">Śledzenie w tle</string>
+    <string name="tag_label">Tag</string>
+    <string name="battery_label">Bateria</string>
+    <string name="cover_label">Pokrywka</string>
+    <string-array name="instr_how">
+        <item>Aplikacja wyszukuje przez Bluetooth urządzenia, które mogą Cię śledzić.</item>
+        <item>Lokalizacja pozwala wykryć, czy lokalizator przemieszcza się z Tobą.</item>
+        <item>Otrzymasz powiadomienie po wykryciu podejrzanego lokalizatora.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>Wyłącz lokalizator, wyjmując baterię.</item>
+        <item>Przekaż urządzenie policji.</item>
+        <item>Wyłącz je przed udaniem się w bezpieczne miejsce.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>Naciśnij i obróć tylną pokrywę przeciwnie do ruchu wskazówek zegara, następnie wyjmij baterię.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>Skanowanie w tle powiadomi Cię, jeśli urządzenie pozostanie w pobliżu dłużej niż 20 minut.</item>
+    </string-array>
+
+    <string name="channel_tracking">Śledzenie w tle</string>
+    <string name="channel_alerts">Alerty lokalizatora</string>
+    <string name="notif_tracking_title">Lokalizator Bluetooth aktywny</string>
+    <string name="notif_tracking_text">Szukanie lokalizatorów w pobliżu</string>
+    <string name="notif_alert_title">Lokalizator może Cię śledzić</string>
+    <string name="notif_alert_text">%1$s jest w pobliżu od dłuższego czasu. Otwórz aplikację.</string>
+
+    <string name="perm_dialog_title">Wymagane uprawnienia</string>
+    <string name="perm_dialog_body">Aplikacja wymaga uprawnień Bluetooth i lokalizacji do skanowania i wyświetlania na mapie.</string>
+    <string name="perm_allow">Zezwól</string>
+    <string name="perm_deny">Odmów</string>
+    <string name="exit_dialog_title">Zamknij aplikację</string>
+    <string name="exit_dialog_message">Czy na pewno chcesz wyjść?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="loading_percent">Ładowanie… %1$d%%</string>
+    <string name="tap_to_continue">Dotknij, aby kontynuować</string>
+    <string name="splash_tagline">Łatwo znajdź pobliskie urządzenia</string>
+    <string name="splash_footer">INTELIGENTNIE • PROSTO • POŁĄCZONE</string>
+
+    <string name="choose_language">Wybierz język</string>
+    <string name="choose_language_subtitle">Wybierz preferowany język, aby kontynuować</string>
+    <string name="continue_label">Kontynuuj</string>
+    <string name="language">Język</string>
+    <string name="language_desc">Zmień język aplikacji.</string>
+    <string name="app_theme_title">Motyw aplikacji</string>
+    <string name="app_theme_desc">Dostosuj wygląd aplikacji</string>
+
+    <string name="skip">Pomiń</string>
+    <string name="next">Dalej</string>
+    <string name="get_started">Rozpocznij</string>
+    <string name="onboarding_title_1">Odkryj pobliskie urządzenia</string>
+    <string name="onboarding_desc_1">Skanuj pobliskie urządzenia Bluetooth i przeglądaj dostępne informacje.</string>
+    <string name="onboarding_title_2">Poznaj szczegóły</string>
+    <string name="onboarding_desc_2">Zobacz informacje o urządzeniu, siłę sygnału i szacowaną odległość.</string>
+    <string name="onboarding_title_3">Śledź historię skanowania</string>
+    <string name="onboarding_desc_3">Przeglądaj zapisaną historię i pozycje telefonu na mapie, gdy dostępna jest lokalizacja.</string>
+    <string name="onboarding_sample_device">Bezprzewodowy tag</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">Wymagane uprawnienia</string>
+    <string name="perm_screen_subtitle">Aby skanować urządzenia Bluetooth i zapisywać lokalizacje, aplikacja potrzebuje:</string>
+    <string name="perm_bt_title">Bluetooth i pobliskie urządzenia</string>
+    <string name="perm_bt_desc">Wymagane do skanowania pobliskich urządzeń i tagów Bluetooth.</string>
+    <string name="perm_loc_title">Dostęp do lokalizacji</string>
+    <string name="perm_loc_desc">Wymagane przez system Android do skanowania Bluetooth.</string>
+    <string name="perm_history_title">Lokalizacje w historii</string>
+    <string name="perm_history_desc">Zapisuje pozycję telefonu przy wykryciu, aby pokazać ją na mapie.</string>
+    <string name="allow_permissions">Zezwól</string>
+    <string name="not_now">Nie teraz</string>
+    <string name="open_settings">Otwórz ustawienia</string>
+    <string name="record_title">Historia</string>
+    <string name="no_history_records">Brak zapisanych lokalizacji.\nZeskanuj pobliskie urządzenie, aby utworzyć historię.</string>
+    <string name="location_not_recorded">Brak lokalizacji</string>
+    <string name="detected_date">Wykryto %1$s</string>
+    <string name="cancel">Anuluj</string>
+    <string name="label_last_seen">Ostatnio wykryto</string>
+    <string name="label_classification">Klasyfikacja</string>
+    <string name="label_encounters">Wykrycia i wzorzec</string>
+    <string name="class_supported_tag">Find My / Obsługiwany lokalizator</string>
+    <string name="class_bluetooth_device">Urządzenie Bluetooth</string>
+    <string name="rssi_disclaimer">Odległość jest szacowana na podstawie siły sygnału Bluetooth (RSSI) i nie ma dokładności GPS.</string>
+    <string name="map_phone_location_disclaimer">Mapa pokazuje miejsce wykrycia sygnału przez telefon, a nie dokładną fizyczną lokalizację urządzenia.</string>
+    <string name="encounter_summary_format">%1$d wykryć • %2$d lokalizacje</string>
+    <string name="warning_nearby">Wykryto pobliskie urządzenie</string>
+    <string name="warning_repeated">Zaobserwowano powtarzające się wykrycia</string>
+    <string name="warning_suspicious">Potencjalny wzorzec niechcianego śledzenia</string>
+    <string name="ignore_device_action">Ignoruj urządzenie</string>
+    <string name="notif_alert_reason">Wykryto %1$s wielokrotnie w %2$d lokalizacjach. Nie potwierdza to złych zamiarów.</string>
+    <string name="open_in_maps">Otwórz na mapie</string>
+    <string name="theme_blue">Niebieski</string>
+    <string name="company_device_format">Urządzenie %1$s</string>
+    <string name="recorded_scan_location">Zapisana lokalizacja skanu</string>
+    <string name="onboarding_estimated_proximity">SZACOWANA BLISKOŚĆ</string>
+    <string name="theme_green">Zielony</string>
+    <string name="theme_orange">Pomarańczowy</string>
+    <string name="phone_location">Lokalizacja telefonu</string>
+    <string name="onboarding_sample_location">Przykładowa lokalizacja telefonu</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">Czarny</string>
+    <string name="onboarding_scan_recorded">Zapisano skan</string>
+    <string name="ignore_device_state">Ignoruj urządzenie, %1$s</string>
+    <string name="retry">Spróbuj ponownie</string>
+    <string name="purchase_pending">Zakup oczekuje na potwierdzenie. Premium zostanie odblokowane po zakończeniu płatności.</string>
+    <string name="purchase_pending_button">Zakup oczekujący</string>
+</resources>

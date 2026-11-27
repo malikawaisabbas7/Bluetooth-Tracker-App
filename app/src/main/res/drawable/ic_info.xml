@@ -1,0 +1,70 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+
+    <!-- Circular background: selected primary color -->
+    <path
+        android:fillColor="?attr/themePrimaryColor"
+        android:pathData="
+            M16,2.5
+            A12,12 0,1 1,16 26.5
+            A12,12 0,1 1,16 2.5
+            Z" />
+
+    <!-- Information dot: selected light color -->
+    <path
+        android:fillColor="?attr/themeLightColor"
+        android:pathData="
+            M16,7
+            a1.9,1.9 0,1 0,0 3.8
+            a1.9,1.9 0,1 0,0 -3.8
+            Z" />
+
+    <!-- Information top bar -->
+    <path
+        android:fillColor="?attr/themeLightColor"
+        android:strokeColor="?attr/themeLightColor"
+        android:strokeWidth="0.7"
+        android:strokeLineCap="round"
+        android:pathData="M13,12 H19" />
+
+    <!-- Information vertical stem -->
+    <path
+        android:fillColor="?attr/themeLightColor"
+        android:pathData="
+            M14.5,12
+            H17.5
+            V21
+            H14.5
+            Z" />
+
+    <!-- Information bottom bar -->
+    <path
+        android:fillColor="?attr/themeLightColor"
+        android:strokeColor="?attr/themeLightColor"
+        android:strokeWidth="0.7"
+        android:strokeLineCap="round"
+        android:pathData="M13,21 H19" />
+
+    <!-- Left arrow -->
+    <path
+        android:fillColor="?attr/themePrimaryColor"
+        android:strokeColor="?attr/themeLightColor"
+        android:strokeWidth="0.5"
+        android:pathData="M8,19l-3,3.6 3,3.6V23z" />
+
+    <!-- Right arrow -->
+    <path
+        android:fillColor="?attr/themePrimaryColor"
+        android:strokeColor="?attr/themeLightColor"
+        android:strokeWidth="0.5"
+        android:pathData="M24,19l3,3.6 -3,3.6V23z" />
+
+    <!-- Horizontal distance line -->
+    <path
+        android:fillColor="?attr/themeLightColor"
+        android:pathData="M7.8,22h16v1.0H7.7z" />
+
+</vector>

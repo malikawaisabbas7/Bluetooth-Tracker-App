@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth-paikannin</string>
+    <string name="start_scan">Aloita haku</string>
+    <string name="stop_scan">Lopeta haku</string>
+    <string name="devices_found">%1$d laitetta löytyi</string>
+    <string name="devices_found_count">%1$d laitetta löytyi</string>
+    <string name="searching_devices_hint">Etsitään lähellä olevia Bluetooth-signaaleja…</string>
+    <string name="air_tag">Tunnisteet</string>
+    <string name="other_tags">Muut tunnisteet</string>
+    <string name="bluetooth_devices">Bluetooth-laitteet</string>
+    <string name="no_device_found">Laitteita ei löytynyt</string>
+    <string name="unknown_device">Tuntematon</string>
+    <string name="permission_needed">Skannaukseen tarvitaan Bluetooth- ja sijaintiluvat.</string>
+    <string name="scan_failed">Haku epäonnistui: %1$s</string>
+    <string name="close">Sulje</string>
+    <string name="choose_app_theme">Valitse sovellusteema</string>
+
+    <string name="device_info">Laitetiedot</string>
+    <string name="label_name">Nimi</string>
+    <string name="label_mac">MAC-osoite</string>
+    <string name="label_first_seen">Havaittu ensimmäisen kerran</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">Pariliitoksen tila</string>
+    <string name="label_company">Valmistaja</string>
+    <string name="label_ignore">Ohita laite</string>
+    <string name="label_scan_record">Hakuhistoria</string>
+    <string name="bonded">Pariliitetty</string>
+    <string name="unbonded">Ei pariliitetty</string>
+    <string name="unknown_company">Tuntematon valmistaja</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nmetri</string>
+    <string name="level_far">Kaukana</string>
+    <string name="level_near">Lähellä</string>
+    <string name="level_very_near">Hyvin lähellä</string>
+    <string name="see_more"><u>Näytä lisää</u></string>
+    <string name="see_less">Näytä vähemmän</string>
+    <string name="no_location">Sijaintia ei ole vielä tallennettu. Ota sijainti käyttöön ja jatka hakua.</string>
+    <string name="distance_helper">Etäisyys on arvio. Kartta näyttää puhelimesi sijainnin laitteen havaitsemishetkellä.</string>
+    <string name="open_map_failed">Karttasovellusta ei löytynyt.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">Asetukset</string>
+    <string name="background_tracking">Taustaseuranta</string>
+    <string name="background_tracking_desc">Salli sovelluksen etsiä paikantimia taustalla.</string>
+    <string name="toggle_on">Päällä</string>
+    <string name="toggle_off">Pois</string>
+    <string name="use_metric_units">Käytä metrijärjestelmää</string>
+    <string name="unit_desc">Etäisyyden mittayksikkö.</string>
+    <string name="scan_duration">Haun kesto</string>
+    <string name="scan_duration_desc">Aika, jonka jälkeen haku pysähtyy automaattisesti</string>
+    <string name="remove_ads">Poista mainokset</string>
+    <string name="customer_support">Asiakastuki</string>
+    <string name="rate_us">Arvostele meidät</string>
+    <string name="share">Jaa</string>
+    <string name="privacy_policy">Tietosuojakäytäntö</string>
+    <string name="terms_of_service">Käyttöehdot</string>
+    <string name="instructions_dialog_title">Ohjeet</string>
+    <string name="tracking_permission_needed">Taustaseurantaan tarvitaan Bluetooth-, sijainti- ja ilmoitusluvat.</string>
+    <string name="share_text">Löydä piilotetut Bluetooth-paikantimet: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">Jaa sovelluksella</string>
+    <string name="link_failed">Linkkiä ei voitu avata.</string>
+
+    <string-array name="unit_labels">
+        <item>Metri</item>
+        <item>Jalka (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 sekuntia</item>
+        <item>45 sekuntia</item>
+        <item>2 minuuttia</item>
+        <item>5 minuuttia</item>
+    </string-array>
+
+    <string name="rate_title">Pidätkö\nBluetooth-paikantimesta?</string>
+    <string name="rate_body">Kehitämme sovellusta jatkuvasti.\nArvostamme suuresti palautettasi</string>
+    <string name="rate_best">Paras arvosana</string>
+    <string name="rate_button">Arvostele</string>
+    <string name="send_feedback">Lähetä palautetta</string>
+
+    <string name="support_hint">Kuvaile ongelma (vähintään 20 merkkiä)</string>
+    <string name="support_subject">Bluetooth-paikannin tuki</string>
+    <string name="support_no_email_app">Sähköpostisovellusta ei löytynyt.</string>
+    <string name="send">Lähetä</string>
+    <string name="back">Takaisin</string>
+
+    <string name="start_like_a_pro">ALOITA KUIN PRO</string>
+    <string name="unlock_all_features">Avaa kaikki ominaisuudet</string>
+    <string name="col_premium">PREMIUM</string>
+    <string name="col_basic">PERUS</string>
+    <string name="feature_find_air_tags">Etsi tunnisteita</string>
+    <string name="feature_detect_bluetooth">Havaitse Bluetooth-laitteet</string>
+    <string name="feature_info_distance">Tiedot ja etäisyys</string>
+    <string name="feature_vip_support">VIP-tuki</string>
+    <string name="feature_remove_ads">Ei mainoksia</string>
+    <string name="price_line_trial">%1$s/%2$s %3$d päivän ilmaiskokeilun jälkeen</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">Ladataan hintaa…</string>
+    <string name="start_free_trial">ALOITA ILMAISKOKEILU</string>
+    <string name="premium_active">SINULLA ON PREMIUM</string>
+    <string name="billing_disclaimer">Tilaus uusiutuu automaattisesti kokeilujakson jälkeen. Peruuta etukäteen välttääksesi veloitukset.</string>
+    <string name="billing_unavailable">Tilaukset eivät ole nyt saatavilla.</string>
+    <string name="purchase_failed">Ostoa ei voitu suorittaa.</string>
+    <string name="purchase_success">Tervetuloa Premiumiin!</string>
+    <string name="period_week">viikko</string>
+    <string name="period_month">kuukausi</string>
+    <string name="period_year">vuosi</string>
+    <string name="period_day">päivä</string>
+    <string name="subscribe_now">Tilaa nyt</string>
+
+    <string name="instruction">Ohjeet</string>
+    <string name="instr_title_how">Miten sovellus toimii?</string>
+    <string name="instr_title_notification">Sain ilmoituksen, mitä teen?</string>
+    <string name="instr_title_disable">Miten poistan tunnisteen käytöstä?</string>
+    <string name="instr_title_background">Taustaseuranta</string>
+    <string name="tag_label">Tunniste</string>
+    <string name="battery_label">Paristo</string>
+    <string name="cover_label">Kansi</string>
+    <string-array name="instr_how">
+        <item>Sovellus etsii Bluetoothilla laitteita, jotka saattavat seurata sinua.</item>
+        <item>Sijainti auttaa havaitsemaan, kulkeeko paikannin mukanasi eri paikoissa.</item>
+        <item>Saat ilmoituksen, kun mahdollinen paikannin havaitaan.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>Poista paikannin käytöstä irrottamalla paristo.</item>
+        <item>Toimita paikannin poliisille.</item>
+        <item>Varmista, että se on poistettu käytöstä ennen turvalliseen paikkaan siirtymistä.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>Paina ja kierrä takakantta vastapäivään, avaa kansi ja poista paristo.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>Taustahaku ilmoittaa, jos laite pysyy lähelläsi yli 20 minuuttia.</item>
+    </string-array>
+
+    <string name="channel_tracking">Taustaseuranta</string>
+    <string name="channel_alerts">Paikanninhälytykset</string>
+    <string name="notif_tracking_title">Bluetooth-paikannin on päällä</string>
+    <string name="notif_tracking_text">Etsitään paikantimia ympäriltäsi</string>
+    <string name="notif_alert_title">Paikannin saattaa seurata sinua</string>
+    <string name="notif_alert_text">%1$s on ollut lähelläsi jonkin aikaa. Avaa sovellus tarkistaaksesi.</string>
+
+    <string name="perm_dialog_title">Luvat vaaditaan</string>
+    <string name="perm_dialog_body">Sovellus tarvitsee Bluetooth- ja sijaintiluvat skannaukseen ja karttanäkymään.</string>
+    <string name="perm_allow">Salli</string>
+    <string name="perm_deny">Estä</string>
+    <string name="exit_dialog_title">Sulje sovellus</string>
+    <string name="exit_dialog_message">Haluatko varmasti poistua?</string>
+    <string name="yes">Kyllä</string>
+    <string name="no">Ei</string>
+    <string name="loading_percent">Ladataan… %1$d%%</string>
+    <string name="tap_to_continue">Jatka napauttamalla</string>
+    <string name="splash_tagline">Löydä lähellä olevat laitteet helposti</string>
+    <string name="splash_footer">ÄLYKÄS • YKSINKERTAINEN • YHDISTETTY</string>
+
+    <string name="choose_language">Valitse kieli</string>
+    <string name="choose_language_subtitle">Valitse haluamasi kieli jatkaaksesi</string>
+    <string name="continue_label">Jatka</string>
+    <string name="language">Kieli</string>
+    <string name="language_desc">Vaihda sovelluksen kieli.</string>
+    <string name="app_theme_title">Sovelluksen teema</string>
+    <string name="app_theme_desc">Mukauta sovelluksen ulkoasua</string>
+
+    <string name="skip">Ohita</string>
+    <string name="next">Seuraava</string>
+    <string name="get_started">Aloita</string>
+    <string name="onboarding_title_1">Löydä lähellä olevat laitteet</string>
+    <string name="onboarding_desc_1">Skannaa lähellä olevat Bluetooth-laitteet ja tutki saatavilla olevia tietoja.</string>
+    <string name="onboarding_title_2">Tutki laitetietoja</string>
+    <string name="onboarding_desc_2">Näe laitetiedot, signaalin voimakkuus ja arvioitu etäisyys.</string>
+    <string name="onboarding_title_3">Seuraa hakuhistoriaa</string>
+    <string name="onboarding_desc_3">Tarkastele tallennettua historiaa ja puhelimen sijainteja kartalla, kun sijaintilupa on käytössä.</string>
+    <string name="onboarding_sample_device">Langaton paikannin</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">Tarvittavat luvat</string>
+    <string name="perm_screen_subtitle">Bluetooth-laitteiden skannaamiseen ja sijaintien tallentamiseen tarvitaan seuraavat luvat:</string>
+    <string name="perm_bt_title">Bluetooth ja lähilaitteet</string>
+    <string name="perm_bt_desc">Tarvitaan lähellä olevien Bluetooth-laitteiden ja tunnisteiden skannaukseen.</string>
+    <string name="perm_loc_title">Sijainnin käyttöoikeus</string>
+    <string name="perm_loc_desc">Android vaatii tämän Bluetooth-skannaukseen.</string>
+    <string name="perm_history_title">Hakuhistorian sijainnit</string>
+    <string name="perm_history_desc">Tallentaa puhelimen sijainnin laitteen havaitsemishetkellä karttaa varten.</string>
+    <string name="allow_permissions">Salli luvat</string>
+    <string name="not_now">Ei nyt</string>
+    <string name="open_settings">Avaa asetukset</string>
+    <string name="record_title">Historia</string>
+    <string name="no_history_records">Sijainteja ei ole vielä tallennettu.\nSkannaa lähilaite luodaksesi historiaa.</string>
+    <string name="location_not_recorded">Sijaintia ei tallennettu</string>
+    <string name="detected_date">Havaittu %1$s</string>
+    <string name="cancel">Peruuta</string>
+    <string name="label_last_seen">Viimeksi havaittu</string>
+    <string name="label_classification">Luokittelu</string>
+    <string name="label_encounters">Havainnot ja kaava</string>
+    <string name="class_supported_tag">Find My / Tuettu paikannin</string>
+    <string name="class_bluetooth_device">Bluetooth-laite</string>
+    <string name="rssi_disclaimer">Etäisyys arvioidaan Bluetooth-signaalin voimakkuudesta (RSSI), eikä se ole GPS-tarkka.</string>
+    <string name="map_phone_location_disclaimer">Kartta näyttää, missä puhelimesi havaitsi signaalin, ei laitteen tarkkaa fyysistä sijaintia.</string>
+    <string name="encounter_summary_format">%1$d havaintoa • %2$d sijaintia</string>
+    <string name="warning_nearby">Lähellä oleva laite havaittu</string>
+    <string name="warning_repeated">Toistuva havainto havaittu</string>
+    <string name="warning_suspicious">Mahdollinen ei-toivottu seurantakaava</string>
+    <string name="ignore_device_action">Ohita laite</string>
+    <string name="notif_alert_reason">%1$s havaittiin toistuvasti %2$d sijainnissa. Tämä ei vahvista haitallista tarkoitusta.</string>
+    <string name="open_in_maps">Avaa kartoissa</string>
+    <string name="theme_blue">Sininen</string>
+    <string name="company_device_format">%1$s-laite</string>
+    <string name="recorded_scan_location">Tallennettu skannaussijainti</string>
+    <string name="onboarding_estimated_proximity">ARVIOITU ETÄISYYS</string>
+    <string name="theme_green">Vihreä</string>
+    <string name="theme_orange">Oranssi</string>
+    <string name="phone_location">Puhelimen sijainti</string>
+    <string name="onboarding_sample_location">Esimerkki puhelimen sijainnista</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">Musta</string>
+    <string name="onboarding_scan_recorded">Skannaus tallennettu</string>
+    <string name="ignore_device_state">Ohita laite, %1$s</string>
+    <string name="retry">Yritä uudelleen</string>
+    <string name="purchase_pending">Ostos odottaa vahvistusta. Premium avautuu, kun maksu on valmis.</string>
+    <string name="purchase_pending_button">Odottaa vahvistusta</string>
+</resources>

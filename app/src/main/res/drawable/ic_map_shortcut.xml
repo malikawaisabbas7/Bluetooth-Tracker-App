@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="108dp"
+android:height="108dp"
+android:viewportWidth="108"
+android:viewportHeight="108">
+
+<!-- White Circular Background -->
+<path
+    android:fillColor="#FFFFFF"
+    android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+
+<!-- Map Base (Blue) -->
+<path
+    android:fillColor="#1A73E8"
+    android:pathData="M33,44 C31.3,44 29.8,45.1 29.3,46.7 L23.5,67.5 C22.8,70 24.7,72.5 27.3,72.5 L80.7,72.5 C83.3,72.5 85.2,70 84.5,67.5 L78.7,46.7 C78.2,45.1 76.7,44 75,44 Z" />
+
+<!-- Green Park Area (Bottom Right) -->
+<path
+    android:fillColor="#689F38"
+    android:pathData="M62,72.5 L80.7,72.5 C83.3,72.5 85.2,70 84.5,67.5 L79.5,49.5 L54,65.5 Z" />
+
+<!-- Yellow Roads -->
+<path
+    android:fillColor="#FBC02D"
+    android:pathData="M28.2,50.5 L61.5,63.5 L57.5,72.5 L52.5,72.5 L55.8,65.2 L27.1,54.2 Z" />
+<path
+    android:fillColor="#FBC02D"
+    android:pathData="M79.3,48.8 L56.5,63.5 L58.8,67.2 L80.5,53.2 Z" />
+<path
+    android:fillColor="#FBC02D"
+    android:pathData="M37,54.5 L25.5,63.5 L24.5,67.5 L40.5,55.8 Z" />
+
+<!-- Red Location Pin -->
+<path
+    android:fillColor="#EA4335"
+    android:pathData="M54,23 C44.6,23 37,30.6 37,40 C37,51.2 54,62 54,62 C54,62 71,51.2 71,40 C71,30.6 63.4,23 54,23 Z" />
+
+<!-- Inner Pin Circle -->
+<path
+    android:fillColor="#F5F5F5"
+    android:pathData="M54,40m-6.5,0a6.5,6.5 0,1 1,13 0a6.5,6.5 0,1 1,-13 0" />
+
+</vector>

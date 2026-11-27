@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ردیاب بلوتوث</string>
+    <string name="start_scan">شروع اسکن</string>
+    <string name="stop_scan">توقف اسکن</string>
+    <string name="devices_found">%1$d دستگاه پیدا شد</string>
+    <string name="devices_found_count">%1$d دستگاه پیدا شد</string>
+    <string name="searching_devices_hint">در حال جستجوی سیگنال‌های بلوتوث در محدوده…</string>
+    <string name="air_tag">تگ‌ها</string>
+    <string name="other_tags">سایر تگ‌ها</string>
+    <string name="bluetooth_devices">دستگاه‌های بلوتوث</string>
+    <string name="no_device_found">دستگاهی پیدا نشد</string>
+    <string name="unknown_device">ناشناس</string>
+    <string name="permission_needed">برای اسکن به مجوزهای بلوتوث و موقعیت مکانی نیاز است.</string>
+    <string name="scan_failed">اسکن ناموفق بود: %1$s</string>
+    <string name="close">بستن</string>
+    <string name="choose_app_theme">انتخاب تم برنامه</string>
+
+    <string name="device_info">اطلاعات دستگاه</string>
+    <string name="label_name">نام</string>
+    <string name="label_mac">آدرس MAC</string>
+    <string name="label_first_seen">اولین مشاهده</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">وضعیت جفت‌سازی</string>
+    <string name="label_company">شرکت</string>
+    <string name="label_ignore">نادیده گرفتن دستگاه</string>
+    <string name="label_scan_record">سابقه اسکن</string>
+    <string name="bonded">جفت‌شده</string>
+    <string name="unbonded">جفت‌نشده</string>
+    <string name="unknown_company">شرکت ناشناس</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nمتر</string>
+    <string name="level_far">دور</string>
+    <string name="level_near">نزدیک</string>
+    <string name="level_very_near">بسیار نزدیک</string>
+    <string name="see_more"><u>مشاهده بیشتر</u></string>
+    <string name="see_less">مشاهده کمتر</string>
+    <string name="no_location">هنوز موقعیتی ثبت نشده است. موقعیت مکانی را روشن کنید و اسکن را ادامه دهید.</string>
+    <string name="distance_helper">فاصله تقریبی است. نقشه موقعیت گوشی شما را در زمان شناسایی دستگاه نشان می‌دهد.</string>
+    <string name="open_map_failed">برنامه نقشه‌ای یافت نشد.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">تنظیمات</string>
+    <string name="background_tracking">ردیابی در پس‌زمینه</string>
+    <string name="background_tracking_desc">به برنامه اجازه دهید برای یافتن ردیاب‌ها در پس‌زمینه کار کند.</string>
+    <string name="toggle_on">روشن</string>
+    <string name="toggle_off">خاموش</string>
+    <string name="use_metric_units">استفاده از واحد متریک</string>
+    <string name="unit_desc">واحد اندازه‌گیری فاصله.</string>
+    <string name="scan_duration">مدت زمان اسکن</string>
+    <string name="scan_duration_desc">مدت زمان توقف خودکار جستجو پس از شروع اسکن را تعیین کنید</string>
+    <string name="remove_ads">حذف تبلیغات</string>
+    <string name="customer_support">پشتیبانی</string>
+    <string name="rate_us">امتیاز به ما</string>
+    <string name="share">اشتراک‌گذاری</string>
+    <string name="privacy_policy">سیاست حفظ حریم خصوصی</string>
+    <string name="terms_of_service">شرایط خدمات</string>
+    <string name="instructions_dialog_title">راهنما</string>
+    <string name="tracking_permission_needed">برای ردیابی در پس‌زمینه به مجوزهای بلوتوث، موقعیت مکانی و اعلان نیاز است.</string>
+    <string name="share_text">با ردیاب بلوتوث، ردیاب‌های پنهان اطراف خود را پیدا کنید: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">اشتراک‌گذاری با</string>
+    <string name="link_failed">باز کردن پیوند ممکن نشد.</string>
+
+    <string-array name="unit_labels">
+        <item>متر</item>
+        <item>فوت (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 ثانیه</item>
+        <item>45 ثانیه</item>
+        <item>2 دقیقه</item>
+        <item>5 دقیقه</item>
+    </string-array>
+
+    <string name="rate_title">آیا از\nردیاب بلوتوث راضی هستید؟</string>
+    <string name="rate_body">ما برای تجربه بهتر شما تلاش می‌کنیم.\nاز امتیاز شما سپاسگزاریم</string>
+    <string name="rate_best">بهترین امتیاز</string>
+    <string name="rate_button">ثبت امتیاز</string>
+    <string name="send_feedback">ارسال بازخورد</string>
+
+    <string name="support_hint">مشکل را شرح دهید (حداقل 20 نویسه)</string>
+    <string name="support_subject">پشتیبانی ردیاب بلوتوث</string>
+    <string name="support_no_email_app">برنامه ایمیلی یافت نشد.</string>
+    <string name="send">ارسال</string>
+    <string name="back">بازگشت</string>
+
+    <string name="start_like_a_pro">حرفه‌ای شروع کنید</string>
+    <string name="unlock_all_features">باز کردن همه امکانات</string>
+    <string name="col_premium">ویژه</string>
+    <string name="col_basic">پایه</string>
+    <string name="feature_find_air_tags">یافتن تگ‌ها</string>
+    <string name="feature_detect_bluetooth">شناسایی دستگاه‌های بلوتوث</string>
+    <string name="feature_info_distance">مشاهده اطلاعات و فاصله</string>
+    <string name="feature_vip_support">پشتیبانی VIP</string>
+    <string name="feature_remove_ads">حذف تبلیغات</string>
+    <string name="price_line_trial">%1$s/%2$s پس از %3$d روز آزمایشی رایگان</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">در حال بارگذاری قیمت…</string>
+    <string name="start_free_trial">شروع دوره آزمایشی رایگان</string>
+    <string name="premium_active">اشتراک ویژه فعال است</string>
+    <string name="billing_disclaimer">اشتراک پس از پایان دوره آزمایشی به‌طور خودکار تمدید می‌شود. پیش از پایان دوره لغو کنید.</string>
+    <string name="billing_unavailable">اشتراک در حال حاضر در دسترس نیست. لطفاً بعداً تلاش کنید.</string>
+    <string name="purchase_failed">خرید تکمیل نشد.</string>
+    <string name="purchase_success">به نسخه ویژه خوش آمدید!</string>
+    <string name="period_week">هفته</string>
+    <string name="period_month">ماه</string>
+    <string name="period_year">سال</string>
+    <string name="period_day">روز</string>
+    <string name="subscribe_now">اکنون مشترک شوید</string>
+
+    <string name="instruction">راهنما</string>
+    <string name="instr_title_how">برنامه چگونه کار می‌کند؟</string>
+    <string name="instr_title_notification">اعلان دریافت کردم، چه کنم؟</string>
+    <string name="instr_title_disable">چگونه تگ را غیرفعال کنم؟</string>
+    <string name="instr_title_background">ردیابی در پس‌زمینه</string>
+    <string name="tag_label">تگ</string>
+    <string name="battery_label">باتری</string>
+    <string name="cover_label">درپوش</string>
+    <string-array name="instr_how">
+        <item>برنامه با بلوتوث دستگاه‌هایی را که ممکن است شما را تعقیب کنند اسکن می‌کند.</item>
+        <item>برنامه از موقعیت مکانی برای تشخیص همراهی ردیاب در مکان‌های مختلف استفاده می‌کند.</item>
+        <item>هنگام شناسایی ردیاب مشکوک، اعلان دریافت خواهید کرد.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>با خارج کردن باتری، ردیاب را غیرفعال کنید.</item>
+        <item>ردیاب را به پلیس تحویل دهید.</item>
+        <item>پیش از رفتن به مکان امن، ردیاب را غیرفعال کنید.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>با فشار دادن و چرخاندن درپوش پشتی در خلاف جهت عقربه‌های ساعت، باتری تگ را خارج کنید.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>اسکن خودکار در پس‌زمینه اگر دستگاهی بیش از 20 دقیقه نزدیک شما بماند به شما اعلان می‌دهد.</item>
+    </string-array>
+
+    <string name="channel_tracking">ردیابی پس‌زمینه</string>
+    <string name="channel_alerts">هشدارهای ردیاب</string>
+    <string name="notif_tracking_title">ردیاب بلوتوث روشن است</string>
+    <string name="notif_tracking_text">در حال جستجوی ردیاب‌های اطراف</string>
+    <string name="notif_alert_title">ممکن است ردیابی شما را دنبال کند</string>
+    <string name="notif_alert_text">%1$s مدتی است نزدیک شماست. برای بررسی برنامه را باز کنید.</string>
+
+    <string name="perm_dialog_title">مجوزها مورد نیاز است</string>
+    <string name="perm_dialog_body">ردیاب بلوتوث برای اسکن ردیاب‌های نزدیک و نمایش موقعیت روی نقشه به مجوزهای بلوتوث و موقعیت مکانی نیاز دارد.</string>
+    <string name="perm_allow">اجازه دادن</string>
+    <string name="perm_deny">رد کردن</string>
+    <string name="exit_dialog_title">خروج از برنامه</string>
+    <string name="exit_dialog_message">آیا خروج را تأیید می‌کنید؟</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="loading_percent">در حال بارگذاری… %1$d%%</string>
+    <string name="tap_to_continue">برای ادامه لمس کنید</string>
+    <string name="splash_tagline">دستگاه‌های نزدیک را به راحتی پیدا کنید</string>
+    <string name="splash_footer">هوشمند • ساده • متصل</string>
+
+    <string name="choose_language">انتخاب زبان</string>
+    <string name="choose_language_subtitle">برای ادامه زبان دلخواه خود را انتخاب کنید</string>
+    <string name="continue_label">ادامه</string>
+    <string name="language">زبان</string>
+    <string name="language_desc">تغییر زبان برنامه.</string>
+    <string name="app_theme_title">تم برنامه</string>
+    <string name="app_theme_desc">ظاهر برنامه را سفارشی کنید</string>
+
+    <string name="skip">رد شدن</string>
+    <string name="next">بعدی</string>
+    <string name="get_started">شروع</string>
+    <string name="onboarding_title_1">کشف دستگاه‌های نزدیک</string>
+    <string name="onboarding_desc_1">دستگاه‌های بلوتوث اطراف را اسکن کنید و اطلاعات آن‌ها را ببینید.</string>
+    <string name="onboarding_title_2">بررسی جزئیات دستگاه</string>
+    <string name="onboarding_desc_2">اطلاعات دستگاه، قدرت سیگنال و فاصله تقریبی را مشاهده کنید.</string>
+    <string name="onboarding_title_3">پیگیری سابقه اسکن</string>
+    <string name="onboarding_desc_3">سابقه شناسایی‌ها و موقعیت‌های ثبت‌شده گوشی را در صورت داشتن مجوز روی نقشه ببینید.</string>
+    <string name="onboarding_sample_device">ردیاب بی‌سیم</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">مجوزهای مورد نیاز</string>
+    <string name="perm_screen_subtitle">برای اسکن دستگاه‌های بلوتوث و ثبت موقعیت‌ها، مجوزهای زیر نیاز است:</string>
+    <string name="perm_bt_title">بلوتوث و دستگاه‌های نزدیک</string>
+    <string name="perm_bt_desc">برای اسکن دستگاه‌ها و تگ‌های بلوتوث نزدیک.</string>
+    <string name="perm_loc_title">دسترسی به موقعیت مکانی</string>
+    <string name="perm_loc_desc">برای اسکن بلوتوث در اندروید ضروری است.</string>
+    <string name="perm_history_title">موقعیت‌های سابقه اسکن</string>
+    <string name="perm_history_desc">موقعیت گوشی را هنگام شناسایی دستگاه برای نمایش روی نقشه ثبت می‌کند.</string>
+    <string name="allow_permissions">اجازه دسترسی</string>
+    <string name="not_now">فعلاً نه</string>
+    <string name="open_settings">باز کردن تنظیمات</string>
+    <string name="record_title">سابقه</string>
+    <string name="no_history_records">هنوز موقعیتی ثبت نشده است.\nبرای ایجاد سابقه یک دستگاه را اسکن کنید.</string>
+    <string name="location_not_recorded">موقعیت ثبت نشده</string>
+    <string name="detected_date">شناسایی %1$s</string>
+    <string name="cancel">لغو</string>
+    <string name="label_last_seen">آخرین شناسایی</string>
+    <string name="label_classification">دسته‌بندی</string>
+    <string name="label_encounters">مشاهدات و الگو</string>
+    <string name="class_supported_tag">ردیاب پشتیبانی‌شده / Find My</string>
+    <string name="class_bluetooth_device">دستگاه بلوتوث</string>
+    <string name="rssi_disclaimer">فاصله بر اساس قدرت سیگنال بلوتوث (RSSI) تخمین زده می‌شود و دقت GPS ندارد.</string>
+    <string name="map_phone_location_disclaimer">نقشه محل دریافت سیگنال توسط گوشی شما را نشان می‌دهد، نه موقعیت فیزیکی دقیق دستگاه را.</string>
+    <string name="encounter_summary_format">%1$d مشاهده • %2$d مکان</string>
+    <string name="warning_nearby">دستگاه نزدیک شناسایی شد</string>
+    <string name="warning_repeated">مشاهده مکرر ثبت شد</string>
+    <string name="warning_suspicious">الگوی احتمالی ردیابی ناخواسته</string>
+    <string name="ignore_device_action">نادیده گرفتن دستگاه</string>
+    <string name="notif_alert_reason">%1$s به‌طور مکرر در %2$d مکان شناسایی شد. این به معنای تایید نیت بدخواهانه نیست.</string>
+    <string name="onboarding_estimated_proximity">نزدیکی تخمینی</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="onboarding_scan_recorded">اسکن ثبت شد</string>
+    <string name="onboarding_sample_location">موقعیت نمونه گوشی</string>
+    <string name="company_device_format">دستگاه %1$s</string>
+    <string name="ignore_device_state">نادیده گرفتن دستگاه، %1$s</string>
+    <string name="recorded_scan_location">موقعیت ثبت‌شده اسکن</string>
+    <string name="phone_location">موقعیت گوشی</string>
+    <string name="open_in_maps">باز کردن در نقشه</string>
+    <string name="theme_blue">آبی</string>
+    <string name="theme_orange">نارنجی</string>
+    <string name="theme_black">مشکی</string>
+    <string name="theme_green">سبز</string>
+    <string name="retry">تلاش مجدد</string>
+    <string name="purchase_pending">خرید در انتظار تایید است. پس از تکمیل پرداخت، نسخه ویژه فعال می‌شود.</string>
+    <string name="purchase_pending_button">در انتظار تایید</string>
+</resources>

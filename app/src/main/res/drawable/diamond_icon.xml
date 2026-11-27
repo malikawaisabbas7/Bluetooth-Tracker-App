@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Diamond Fill + Outer Border -->
+    <path
+        android:fillColor="?attr/themePrimaryColor"
+        android:strokeColor="?attr/themeLightColor"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M22,19.5 L78,19.5 L100,50 L50,99 L0,50 L22,19.5 Z" />
+
+    <!-- Middle Horizontal Line -->
+    <path
+        android:strokeColor="?attr/themeLightColor"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M0,50 L100,50" />
+
+    <!-- Middle Vertical Line -->
+    <path
+        android:strokeColor="?attr/themeLightColor"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M50,19.5 L50,99" />
+
+    <!-- Top Left Facet Line -->
+    <path
+        android:strokeColor="?attr/themeLightColor"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M29,19.5 L20,50" />
+
+    <!-- Top Right Facet Line -->
+    <path
+        android:strokeColor="?attr/themeLightColor"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M71,19.5 L80,50" />
+
+    <!-- Bottom Left Facet Line -->
+    <path
+        android:strokeColor="?attr/themeLightColor"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M20,50 L48,97" />
+
+    <!-- Bottom Right Facet Line -->
+    <path
+        android:strokeColor="?attr/themeLightColor"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M80,50 L50,97" />
+
+</vector>

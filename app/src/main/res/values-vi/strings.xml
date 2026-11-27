@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trình theo dõi Bluetooth</string>
+    <string name="start_scan">Bắt đầu quét</string>
+    <string name="stop_scan">Dừng quét</string>
+    <string name="devices_found">Đã tìm thấy %1$d thiết bị</string>
+    <string name="devices_found_count">Đã tìm thấy %1$d thiết bị</string>
+    <string name="searching_devices_hint">Đang tìm tín hiệu Bluetooth xung quanh…</string>
+    <string name="air_tag">Thẻ</string>
+    <string name="other_tags">Thẻ khác</string>
+    <string name="bluetooth_devices">Thiết bị Bluetooth</string>
+    <string name="no_device_found">Không tìm thấy thiết bị nào</string>
+    <string name="unknown_device">Không xác định</string>
+    <string name="permission_needed">Cần cấp quyền Bluetooth và vị trí để quét.</string>
+    <string name="scan_failed">Quét thất bại: %1$s</string>
+    <string name="close">Đóng</string>
+    <string name="choose_app_theme">Chọn giao diện</string>
+
+    <string name="device_info">Thông tin thiết bị</string>
+    <string name="label_name">Tên</string>
+    <string name="label_mac">Địa chỉ MAC</string>
+    <string name="label_first_seen">Phát hiện lần đầu</string>
+    <string name="label_rssi">RSSI</string>
+    <string name="label_bonding">Trạng thái ghép nối</string>
+    <string name="label_company">Hãng</string>
+    <string name="label_ignore">Bỏ qua thiết bị</string>
+    <string name="label_scan_record">Lịch sử quét</string>
+    <string name="bonded">Đã ghép nối</string>
+    <string name="unbonded">Chưa ghép nối</string>
+    <string name="unknown_company">Hãng không xác định</string>
+    <string name="rssi_value">%1$d</string>
+    <string name="distance_placeholder">--\nmét</string>
+    <string name="level_far">Xa</string>
+    <string name="level_near">Gần</string>
+    <string name="level_very_near">Rất gần</string>
+    <string name="see_more"><u>Xem thêm</u></string>
+    <string name="see_less">Thu gọn</string>
+    <string name="no_location">Chưa có vị trí nào được ghi. Bật Vị trí và tiếp tục quét.</string>
+    <string name="distance_helper">Khoảng cách chỉ là ước tính. Bản đồ hiển thị vị trí điện thoại khi phát hiện thiết bị này.</string>
+    <string name="open_map_failed">Không tìm thấy ứng dụng bản đồ.</string>
+    <string name="sighting_line">%1$s  •  %2$d dBm  •  ~%3$s</string>
+
+    <string name="settings">Cài đặt</string>
+    <string name="background_tracking">Theo dõi nền</string>
+    <string name="background_tracking_desc">Cho phép ứng dụng chạy nền để phát hiện thiết bị theo dõi.</string>
+    <string name="toggle_on">Bật</string>
+    <string name="toggle_off">Tắt</string>
+    <string name="use_metric_units">Dùng đơn vị mét</string>
+    <string name="unit_desc">Đơn vị đo khoảng cách.</string>
+    <string name="scan_duration">Thời gian quét</string>
+    <string name="scan_duration_desc">Đặt thời gian tự động dừng sau khi bắt đầu quét</string>
+    <string name="remove_ads">Xóa quảng cáo</string>
+    <string name="customer_support">Hỗ trợ khách hàng</string>
+    <string name="rate_us">Đánh giá</string>
+    <string name="share">Chia sẻ</string>
+    <string name="privacy_policy">Chính sách bảo mật</string>
+    <string name="terms_of_service">Điều khoản dịch vụ</string>
+    <string name="instructions_dialog_title">Hướng dẫn</string>
+    <string name="tracking_permission_needed">Cần quyền Bluetooth, vị trí và thông báo để theo dõi nền.</string>
+    <string name="share_text">Tìm thiết bị theo dõi Bluetooth ẩn với Trình theo dõi Bluetooth: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="share_chooser">Chia sẻ qua</string>
+    <string name="link_failed">Không thể mở liên kết.</string>
+
+    <string-array name="unit_labels">
+        <item>Mét</item>
+        <item>Feet (ft)</item>
+    </string-array>
+    <string-array name="duration_labels">
+        <item>25 giây</item>
+        <item>45 giây</item>
+        <item>2 phút</item>
+        <item>5 phút</item>
+    </string-array>
+
+    <string name="rate_title">Bạn thích\nTrình theo dõi Bluetooth?</string>
+    <string name="rate_body">Chúng tôi luôn nỗ lực cải thiện trải nghiệm.\nRất mong nhận được đánh giá của bạn</string>
+    <string name="rate_best">Đánh giá cao nhất</string>
+    <string name="rate_button">Đánh giá</string>
+    <string name="send_feedback">Gửi phản hồi</string>
+
+    <string name="support_hint">Mô tả sự cố (tối thiểu 20 ký tự)</string>
+    <string name="support_subject">Hỗ trợ Trình theo dõi Bluetooth</string>
+    <string name="support_no_email_app">Không tìm thấy ứng dụng email.</string>
+    <string name="send">Gửi</string>
+    <string name="back">Quay lại</string>
+
+    <string name="start_like_a_pro">TRẢI NGHIỆM PRO</string>
+    <string name="unlock_all_features">Mở khóa tất cả</string>
+    <string name="col_premium">CAO CẤP</string>
+    <string name="col_basic">CƠ BẢN</string>
+    <string name="feature_find_air_tags">Tìm thẻ</string>
+    <string name="feature_detect_bluetooth">Phát hiện thiết bị Bluetooth</string>
+    <string name="feature_info_distance">Thông tin &amp; Khoảng cách</string>
+    <string name="feature_vip_support">Hỗ trợ VIP</string>
+    <string name="feature_remove_ads">Không quảng cáo</string>
+    <string name="price_line_trial">%1$s/%2$s sau %3$d ngày dùng thử</string>
+    <string name="price_line">%1$s/%2$s</string>
+    <string name="price_loading">Đang tải giá…</string>
+    <string name="start_free_trial">DÙNG THỬ MIỄN PHÍ</string>
+    <string name="premium_active">BẠN ĐANG DÙNG PREMIUM</string>
+    <string name="billing_disclaimer">Gói đăng ký tự động gia hạn sau khi hết hạn dùng thử. Hủy trước đó để tránh bị tính phí.</string>
+    <string name="billing_unavailable">Gói đăng ký hiện không khả dụng.</string>
+    <string name="purchase_failed">Không thể hoàn tất giao dịch.</string>
+    <string name="purchase_success">Chào mừng đến với Premium!</string>
+    <string name="period_week">tuần</string>
+    <string name="period_month">tháng</string>
+    <string name="period_year">năm</string>
+    <string name="period_day">ngày</string>
+    <string name="subscribe_now">Đăng ký ngay</string>
+
+    <string name="instruction">Hướng dẫn</string>
+    <string name="instr_title_how">Ứng dụng hoạt động thế nào?</string>
+    <string name="instr_title_notification">Tôi nhận được thông báo, nên làm gì?</string>
+    <string name="instr_title_disable">Cách tắt thẻ khi tìm thấy?</string>
+    <string name="instr_title_background">Theo dõi nền</string>
+    <string name="tag_label">Thẻ</string>
+    <string name="battery_label">Pin</string>
+    <string name="cover_label">Nắp</string>
+    <string-array name="instr_how">
+        <item>Ứng dụng dùng Bluetooth để quét các thiết bị có thể đang theo dõi bạn.</item>
+        <item>Vị trí giúp phát hiện xem thiết bị có di chuyển cùng bạn qua nhiều nơi hay không.</item>
+        <item>Bạn sẽ nhận được thông báo khi phát hiện thiết bị theo dõi đáng ngờ.</item>
+    </string-array>
+    <string-array name="instr_notification">
+        <item>Tắt thiết bị theo dõi bằng cách tháo pin.</item>
+        <item>Giao nộp thiết bị cho cơ quan công an.</item>
+        <item>Đảm bảo đã tắt thiết bị trước khi di chuyển đến nơi an toàn.</item>
+    </string-array>
+    <string-array name="instr_disable">
+        <item>Ấn và xoay nắp sau ngược chiều kim đồng hồ, mở nắp và tháo pin.</item>
+    </string-array>
+    <string-array name="instr_background">
+        <item>Quét nền tự động sẽ thông báo nếu có thiết bị ở gần bạn hơn 20 phút.</item>
+    </string-array>
+
+    <string name="channel_tracking">Theo dõi nền</string>
+    <string name="channel_alerts">Cảnh báo thiết bị</string>
+    <string name="notif_tracking_title">Trình theo dõi Bluetooth đang bật</string>
+    <string name="notif_tracking_text">Đang tìm thiết bị theo dõi quanh bạn</string>
+    <string name="notif_alert_title">Có thiết bị có thể đang theo dõi bạn</string>
+    <string name="notif_alert_text">%1$s đã ở gần bạn một lúc. Mở ứng dụng để kiểm tra.</string>
+
+    <string name="perm_dialog_title">Cần cấp quyền</string>
+    <string name="perm_dialog_body">Ứng dụng cần quyền Bluetooth và Vị trí để quét thiết bị và hiển thị vị trí trên bản đồ.</string>
+    <string name="perm_allow">Cho phép</string>
+    <string name="perm_deny">Từ chối</string>
+    <string name="exit_dialog_title">Thoát ứng dụng</string>
+    <string name="exit_dialog_message">Bạn có chắc chắn muốn thoát?</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="loading_percent">Đang tải… %1$d%%</string>
+    <string name="tap_to_continue">Chạm để tiếp tục</string>
+    <string name="splash_tagline">Tìm thiết bị gần bạn dễ dàng</string>
+    <string name="splash_footer">THÔNG MINH • ĐƠN GIẢN • KẾT NỐI</string>
+
+    <string name="choose_language">Chọn ngôn ngữ</string>
+    <string name="choose_language_subtitle">Chọn ngôn ngữ ưa thích để tiếp tục</string>
+    <string name="continue_label">Tiếp tục</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="language_desc">Thay đổi ngôn ngữ ứng dụng.</string>
+    <string name="app_theme_title">Giao diện ứng dụng</string>
+    <string name="app_theme_desc">Tùy chỉnh giao diện</string>
+
+    <string name="skip">Bỏ qua</string>
+    <string name="next">Tiếp</string>
+    <string name="get_started">Bắt đầu</string>
+    <string name="onboarding_title_1">Khám phá thiết bị gần bạn</string>
+    <string name="onboarding_desc_1">Quét các thiết bị Bluetooth gần đó và xem thông tin có sẵn.</string>
+    <string name="onboarding_title_2">Xem chi tiết thiết bị</string>
+    <string name="onboarding_desc_2">Xem thông tin thiết bị, cường độ tín hiệu và khoảng cách ước tính.</string>
+    <string name="onboarding_title_3">Theo dõi lịch sử quét</string>
+    <string name="onboarding_desc_3">Xem lại lịch sử phát hiện và vị trí điện thoại trên bản đồ khi có quyền vị trí.</string>
+    <string name="onboarding_sample_device">Thiết bị không dây</string>
+    <string name="onboarding_sample_distance">~2.4 m</string>
+
+    <string name="perm_screen_title">Quyền cần thiết</string>
+    <string name="perm_screen_subtitle">Để quét thiết bị Bluetooth và lưu vị trí phát hiện, ứng dụng cần các quyền sau:</string>
+    <string name="perm_bt_title">Bluetooth &amp; thiết bị gần đây</string>
+    <string name="perm_bt_desc">Cần thiết để quét thiết bị và thẻ Bluetooth gần đây.</string>
+    <string name="perm_loc_title">Quyền truy cập vị trí</string>
+    <string name="perm_loc_desc">Android yêu cầu để thực hiện quét Bluetooth.</string>
+    <string name="perm_history_title">Vị trí lịch sử quét</string>
+    <string name="perm_history_desc">Ghi lại vị trí điện thoại khi phát hiện để hiển thị trên bản đồ.</string>
+    <string name="allow_permissions">Cho phép</string>
+    <string name="not_now">Để sau</string>
+    <string name="open_settings">Mở cài đặt</string>
+    <string name="record_title">Lịch sử</string>
+    <string name="no_history_records">Chưa có vị trí nào được ghi.\nQuét thiết bị gần đó để tạo lịch sử.</string>
+    <string name="location_not_recorded">Chưa ghi vị trí</string>
+    <string name="detected_date">Phát hiện %1$s</string>
+    <string name="cancel">Hủy</string>
+    <string name="label_last_seen">Phát hiện lần cuối</string>
+    <string name="label_classification">Phân loại</string>
+    <string name="label_encounters">Số lần gặp &amp; Mẫu</string>
+    <string name="class_supported_tag">Find My / Thẻ theo dõi được hỗ trợ</string>
+    <string name="class_bluetooth_device">Thiết bị Bluetooth</string>
+    <string name="rssi_disclaimer">Khoảng cách được ước tính từ cường độ tín hiệu Bluetooth (RSSI) và không chính xác như GPS.</string>
+    <string name="map_phone_location_disclaimer">Bản đồ hiển thị nơi điện thoại của bạn phát hiện tín hiệu, không phải vị trí vật lý chính xác của thiết bị.</string>
+    <string name="encounter_summary_format">%1$d lần quan sát • %2$d vị trí</string>
+    <string name="warning_nearby">Phát hiện thiết bị gần đây</string>
+    <string name="warning_repeated">Quan sát thấy xuất hiện lặp lại</string>
+    <string name="warning_suspicious">Mẫu có khả năng theo dõi ngoài ý muốn</string>
+    <string name="ignore_device_action">Bỏ qua thiết bị</string>
+    <string name="notif_alert_reason">Đã phát hiện %1$s lặp lại tại %2$d vị trí. Điều này không khẳng định mục đích xấu.</string>
+    <string name="open_in_maps">Mở trong bản đồ</string>
+    <string name="theme_blue">Xanh dương</string>
+    <string name="company_device_format">Thiết bị %1$s</string>
+    <string name="recorded_scan_location">Vị trí quét đã ghi</string>
+    <string name="onboarding_estimated_proximity">KHOẢNG CÁCH ƯỚC TÍNH</string>
+    <string name="theme_green">Xanh lá</string>
+    <string name="theme_orange">Cam</string>
+    <string name="phone_location">Vị trí điện thoại</string>
+    <string name="onboarding_sample_location">Vị trí điện thoại mẫu</string>
+    <string name="onboarding_sample_rssi">RSSI: -69 dBm</string>
+    <string name="theme_black">Đen</string>
+    <string name="onboarding_scan_recorded">Đã ghi lại lần quét</string>
+    <string name="ignore_device_state">Bỏ qua thiết bị, %1$s</string>
+    <string name="retry">Thử lại</string>
+    <string name="purchase_pending">Giao dịch đang chờ xác nhận. Premium sẽ mở khóa sau khi thanh toán hoàn tất.</string>
+    <string name="purchase_pending_button">Đang chờ xác nhận</string>
+</resources>
