@@ -10,7 +10,7 @@
 ![Kotlin](https://img.shields.io/badge/Kotlin-Android-7F52FF)
 ![Bluetooth LE](https://img.shields.io/badge/Bluetooth-Low%20Energy-0069D9)
 
-[Features](#features) · [Screenshots](#screenshots) · [Build](#build) · [Privacy](https://malikawaisabbas7.github.io/Bluetooth-Tracker-App/privacy-policy.html)
+[Features](#features) · [Screenshots](#screenshots) · [Build](#build) · [Privacy](https://github.com/malikawaisabbas7/Bluetooth-Tracker-App/blob/main/docs/privacy-policy.html)
 
 </div>
 
@@ -77,7 +77,7 @@ See [Google Play’s subscription API](https://developers.google.com/android-pub
 
 BLE sightings and their associated phone locations stay on the device. When using maps, the app requests tiles from OpenStreetMap. Paid subscriptions send the purchase token to the verification service, which checks it with Google Play.
 
-[Privacy policy](https://malikawaisabbas7.github.io/Bluetooth-Tracker-App/privacy-policy.html) · [Report an issue](https://github.com/malikawaisabbas7/Bluetooth-Tracker-App/issues)
+[Privacy policy](https://github.com/malikawaisabbas7/Bluetooth-Tracker-App/blob/main/docs/privacy-policy.html) · [Report an issue](https://github.com/malikawaisabbas7/Bluetooth-Tracker-App/issues)
 
 GitHub issues are public. Leave out purchase tokens, personal details, Bluetooth addresses, and location history.
 
